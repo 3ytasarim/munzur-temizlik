@@ -260,18 +260,21 @@ function Home() {
             </h2>
 
             <div className="relative mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {advantages.map((a, i) => {
-                const Icon = advantageIcons[i] ?? ShieldCheck;
-                return (
-                  <div key={a.title} className="rounded-[24px] bg-pale p-7 text-foreground">
-                    <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-background">
-                      <Icon className="h-6 w-6 text-primary" />
-                    </span>
-                    <h3 className="mt-6 text-xl leading-snug">{a.title}</h3>
-                    <p className="mt-3 text-[0.95rem] leading-relaxed">{a.text}</p>
-                  </div>
-                );
-              })}
+              {advantages.map((a, i) => (
+                <div key={a.title} className="rounded-[24px] bg-pale p-7 text-foreground">
+                  <span className="inline-flex h-16 w-16 items-center justify-center">
+                    <img
+                      src={advantageIcons[i] ?? advantageIcons[0]}
+                      alt=""
+                      aria-hidden="true"
+                      className="h-14 w-14"
+                    />
+                  </span>
+                  <h3 className="mt-6 text-xl leading-snug">{a.title}</h3>
+                  <p className="mt-3 text-[0.95rem] leading-relaxed">{a.text}</p>
+                </div>
+              ))}
+
             </div>
 
             <div className="relative mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
