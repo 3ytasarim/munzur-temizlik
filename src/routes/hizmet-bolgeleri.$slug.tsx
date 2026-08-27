@@ -1,9 +1,10 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { DetailPage } from "@/components/DetailTemplate";
+import { DistrictPage } from "@/components/DistrictTemplate";
 import { getDistrict } from "@/data/content";
-import { images, site } from "@/data/site";
+import { site } from "@/data/site";
+
 
 export const Route = createFileRoute("/hizmet-bolgeleri/$slug")({
   loader: ({ params }) => {
@@ -50,15 +51,9 @@ function DistrictDetail() {
   return (
     <>
       <Header />
-      <DetailPage
-        eyebrow="Hizmet Bölgeleri"
-        title={district.name}
-        subtitle={`${district.name} ve çevresinde profesyonel temizlik hizmetleri için bize ulaşın.`}
-        blocks={district.blocks ?? []}
-        image={images.aboutTeam}
-        hasForm
-      />
+      <DistrictPage district={district} />
       <Footer />
     </>
   );
 }
+
