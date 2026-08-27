@@ -192,7 +192,7 @@ function AboutPage() {
           </div>
 
           <div className="container-site relative mt-14 text-center">
-            <Link to="/iletisim" className="btn-primary">
+            <Link to="/iletisim" className="btn-yellow">
               Bize Ulaşın
             </Link>
           </div>
