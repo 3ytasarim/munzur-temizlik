@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
 import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
+import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
 import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
 
 const IndexRoute = IndexRouteImport.update({
@@ -29,6 +30,12 @@ const HakkimizdaIndexRoute = HakkimizdaIndexRouteImport.update({
   path: '/hakkimizda/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HakkimizdaSikcaSorulanSorularRoute =
+  HakkimizdaSikcaSorulanSorularRouteImport.update({
+    id: '/hakkimizda/sikca-sorulan-sorular',
+    path: '/hakkimizda/sikca-sorulan-sorular',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const HakkimizdaTemizlikSureciRoute =
   HakkimizdaTemizlikSureciRouteImport.update({
     id: '/hakkimizda/temizlik-sureci',
@@ -39,12 +46,14 @@ const HakkimizdaTemizlikSureciRoute =
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
 }
@@ -52,19 +61,30 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/teklif-formu' | '/hakkimizda/temizlik-sureci' | '/hakkimizda/'
+    | '/'
+    | '/teklif-formu'
+    | '/hakkimizda/sikca-sorulan-sorular'
+    | '/hakkimizda/temizlik-sureci'
+    | '/hakkimizda/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/teklif-formu' | '/hakkimizda/temizlik-sureci' | '/hakkimizda'
+  to:
+    | '/'
+    | '/teklif-formu'
+    | '/hakkimizda/sikca-sorulan-sorular'
+    | '/hakkimizda/temizlik-sureci'
+    | '/hakkimizda'
   id:
     | '__root__'
     | '/'
     | '/teklif-formu'
+    | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
     | '/hakkimizda/'
   fileRoutesById: FileRoutesById
@@ -72,6 +92,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   TeklifFormuRoute: typeof TeklifFormuRoute
+  HakkimizdaSikcaSorulanSorularRoute: typeof HakkimizdaSikcaSorulanSorularRoute
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
 }
@@ -99,6 +120,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HakkimizdaIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hakkimizda/sikca-sorulan-sorular': {
+      id: '/hakkimizda/sikca-sorulan-sorular'
+      path: '/hakkimizda/sikca-sorulan-sorular'
+      fullPath: '/hakkimizda/sikca-sorulan-sorular'
+      preLoaderRoute: typeof HakkimizdaSikcaSorulanSorularRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/hakkimizda/temizlik-sureci': {
       id: '/hakkimizda/temizlik-sureci'
       path: '/hakkimizda/temizlik-sureci'
@@ -112,6 +140,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   TeklifFormuRoute: TeklifFormuRoute,
+  HakkimizdaSikcaSorulanSorularRoute: HakkimizdaSikcaSorulanSorularRoute,
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
 }
