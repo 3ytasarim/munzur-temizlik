@@ -19,10 +19,11 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/95 backdrop-blur">
-      <div className="container-nav flex h-20 items-center justify-between gap-4">
+      <div className="container-nav flex h-16 items-center justify-between gap-3 md:h-20 md:gap-4">
         <Link to="/" className="flex shrink-0 items-center" aria-label="Munzur Temizlik ana sayfa">
-          <img src={images.logo} alt="Munzur Temizlik logo" className="h-11 w-auto" />
+          <img src={images.logo} alt="Munzur Temizlik logo" className="h-8 w-auto md:h-11" />
         </Link>
+
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Ana menü">
           <NavLink to="/">Anasayfa</NavLink>
@@ -85,7 +86,7 @@ export function Header() {
           <NavLink to="/blog">Blog</NavLink>
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 md:gap-3">
           <a
             href={site.phoneHref}
             className="hidden items-center gap-2.5 rounded-full border border-border bg-background py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:border-secondary xl:flex"
@@ -98,10 +99,17 @@ export function Header() {
           <button
             type="button"
             aria-label="Ara"
-            className="hidden h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent lg:inline-flex"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent xl:h-10 xl:w-10"
           >
             <Search className="h-4 w-4" />
           </button>
+          <a
+            href={site.phoneHref}
+            aria-label="Bizi arayın"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent xl:hidden"
+          >
+            <Phone className="h-4 w-4" />
+          </a>
           <button
             type="button"
             onClick={openQuoteModal}
@@ -112,13 +120,14 @@ export function Header() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-border lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border md:h-11 md:w-11 lg:hidden"
             aria-label="Menüyü aç/kapat"
             aria-expanded={open}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
+
       </div>
 
       {open && (

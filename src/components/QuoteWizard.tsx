@@ -15,6 +15,8 @@ import {
 import { quoteServices, site } from "@/data/site";
 import { provinces, getDistricts, getNeighborhoods } from "@/data/locations";
 import { closeQuoteModal, useQuoteModalOpen } from "@/lib/quote-modal";
+import { submitQuote } from "@/lib/quote.functions";
+
 
 const extraServices = [
   "Buzdolabı ve derin dondurucu iç temizliği (boş veya dolu)",
@@ -178,6 +180,8 @@ function Progress({ step }: { step: number }) {
 export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   const [step, setStep] = useState(1);
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
   const [f, setF] = useState({
     service: "",
     extras: [] as string[],
@@ -247,11 +251,23 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   return (
     <form
       className="flex min-h-full flex-col lg:flex-row"
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setSent(true);
+        if (sending) return;
+        setError("");
+        setSending(true);
+        try {
+          const res = await submitQuote({ data: f });
+          if (res.ok) setSent(true);
+          else setError(res.error);
+        } catch {
+          setError("Bağlantı hatası. Lütfen tekrar deneyin.");
+        } finally {
+          setSending(false);
+        }
       }}
     >
+
       {/* Aside */}
       <aside className="relative shrink-0 overflow-hidden bg-primary px-7 py-8 text-primary-foreground lg:w-[300px] lg:px-8 lg:py-10">
         <div className="pointer-events-none absolute -right-14 -top-14 h-40 w-40 rounded-full bg-primary-foreground/10" />
@@ -508,6 +524,12 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
           )}
         </div>
 
+        {error && (
+          <div className="mx-5 mb-2 rounded-2xl bg-destructive/10 px-4 py-3 text-[0.85rem] text-destructive md:mx-8">
+            {error}
+          </div>
+        )}
+
         {/* Footer actions */}
         <div className="sticky bottom-0 flex items-center justify-between gap-3 border-t border-border/60 bg-background/95 px-5 py-4 backdrop-blur md:px-8">
           {step > 1 ? (
@@ -528,11 +550,12 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
               Devam <ArrowRight className="h-4 w-4" />
             </button>
           ) : (
-            <button type="submit" className="btn-yellow">
-              Formu Gönder <Send className="h-4 w-4" />
+            <button type="submit" className="btn-yellow disabled:opacity-60" disabled={sending}>
+              {sending ? "Gönderiliyor..." : "Formu Gönder"} <Send className="h-4 w-4" />
             </button>
           )}
         </div>
+
       </div>
     </form>
   );

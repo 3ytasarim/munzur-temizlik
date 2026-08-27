@@ -98,20 +98,21 @@ function Home() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="container-site pt-4 md:pt-6">
+        <section className="container-site pt-3 md:pt-6">
           <div
-            className="relative flex min-h-[520px] items-center overflow-hidden rounded-[37px] bg-cover bg-center bg-no-repeat px-5 py-10 md:min-h-[740px] md:px-[7%] md:py-[7%]"
+            className="relative flex min-h-[560px] items-end overflow-hidden rounded-[28px] bg-cover bg-center bg-no-repeat px-3 pb-3 pt-[240px] sm:pt-[300px] md:min-h-[740px] md:items-center md:rounded-[37px] md:px-[7%] md:py-[7%]"
             style={{ backgroundImage: `url(${images.heroImg})` }}
           >
-            <div className="w-full max-w-[640px] rounded-[30px] bg-soft p-8 md:p-12">
-              <h1 className="text-[2rem] leading-[1.15] md:text-[2.6rem]">
+            <div className="w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
+              <h1 className="text-[1.6rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
-              <p className="mt-5 text-[1.02rem] leading-relaxed">
+              <p className="mt-4 text-[0.95rem] leading-relaxed md:mt-5 md:text-[1.02rem]">
                 Avrupa Yakası&apos;ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz.
                 Deneyimli kadromuz ve zamanında hizmet anlayışımızla İstanbul’un en güvenilir
                 temizlik firmaları arasındayız.
               </p>
+
               <div className="mt-7 flex flex-wrap gap-3">
                 <Link to="/teklif-formu" className="btn-yellow">
                   Ücretsiz Teklif
@@ -552,7 +553,7 @@ function HomeQuoteSection() {
               src={images.leaf1}
               alt=""
               aria-hidden="true"
-              className="pointer-events-none absolute -bottom-6 -right-6 w-40 opacity-80"
+              className="pointer-events-none absolute -bottom-6 -right-6 hidden w-40 opacity-80 sm:block"
             />
             <div className="relative flex items-start gap-4">
               <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
