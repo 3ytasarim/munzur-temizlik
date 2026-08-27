@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
 import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
+import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,34 +29,50 @@ const HakkimizdaIndexRoute = HakkimizdaIndexRouteImport.update({
   path: '/hakkimizda/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HakkimizdaTemizlikSureciRoute =
+  HakkimizdaTemizlikSureciRouteImport.update({
+    id: '/hakkimizda/temizlik-sureci',
+    path: '/hakkimizda/temizlik-sureci',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/teklif-formu' | '/hakkimizda/'
+  fullPaths:
+    '/' | '/teklif-formu' | '/hakkimizda/temizlik-sureci' | '/hakkimizda/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/teklif-formu' | '/hakkimizda'
-  id: '__root__' | '/' | '/teklif-formu' | '/hakkimizda/'
+  to: '/' | '/teklif-formu' | '/hakkimizda/temizlik-sureci' | '/hakkimizda'
+  id:
+    | '__root__'
+    | '/'
+    | '/teklif-formu'
+    | '/hakkimizda/temizlik-sureci'
+    | '/hakkimizda/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   TeklifFormuRoute: typeof TeklifFormuRoute
+  HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
 }
 
@@ -82,12 +99,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HakkimizdaIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hakkimizda/temizlik-sureci': {
+      id: '/hakkimizda/temizlik-sureci'
+      path: '/hakkimizda/temizlik-sureci'
+      fullPath: '/hakkimizda/temizlik-sureci'
+      preLoaderRoute: typeof HakkimizdaTemizlikSureciRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   TeklifFormuRoute: TeklifFormuRoute,
+  HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
 }
 export const routeTree = rootRouteImport
