@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
+import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const TeklifFormuRoute = TeklifFormuRouteImport.update({
   path: '/teklif-formu',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HakkimizdaIndexRoute = HakkimizdaIndexRouteImport.update({
+  id: '/hakkimizda/',
+  path: '/hakkimizda/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/': typeof HakkimizdaIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda': typeof HakkimizdaIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/': typeof HakkimizdaIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/teklif-formu'
+  fullPaths: '/' | '/teklif-formu' | '/hakkimizda/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/teklif-formu'
-  id: '__root__' | '/' | '/teklif-formu'
+  to: '/' | '/teklif-formu' | '/hakkimizda'
+  id: '__root__' | '/' | '/teklif-formu' | '/hakkimizda/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   TeklifFormuRoute: typeof TeklifFormuRoute
+  HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TeklifFormuRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hakkimizda/': {
+      id: '/hakkimizda/'
+      path: '/hakkimizda'
+      fullPath: '/hakkimizda/'
+      preLoaderRoute: typeof HakkimizdaIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   TeklifFormuRoute: TeklifFormuRoute,
+  HakkimizdaIndexRoute: HakkimizdaIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
