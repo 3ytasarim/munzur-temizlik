@@ -1,5 +1,5 @@
-import logo from "@/assets/images/cropped-Munzur-Temizlik-Logo-3.png";
-import logoAlt from "@/assets/images/Munzur_Temizlik.png";
+import logo from "@/assets/images/Munzur_Temizlik.png";
+import logoAlt from "@/assets/images/cropped-Munzur-Temizlik-Logo-3.png";
 import heroImg from "@/assets/images/gettyimages-1417833200-edit-scaled.jpg";
 import aboutTeam from "@/assets/images/professional-cleaning-service-people-working-together-office.jpg";
 import aboutBanner from "@/assets/images/Hakkinda_Banner.jpg";
