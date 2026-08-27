@@ -545,12 +545,18 @@ function HomeQuoteSection() {
                   Gizlilik Politikamıza uygun olarak işlenmesini kabul etmiş olursunuz.
                 </label>
               </div>
+              {error && (
+                <div className="md:col-span-2 rounded-2xl bg-red-50 px-4 py-3 text-sm text-red-700">
+                  {error}
+                </div>
+              )}
               <div className="md:col-span-2">
                 <button
                   type="submit"
-                  className="inline-flex items-center justify-center rounded-full bg-foreground px-8 py-3 font-display text-sm font-medium text-white transition-colors hover:bg-foreground/90"
+                  disabled={sending}
+                  className="inline-flex items-center justify-center rounded-full bg-foreground px-8 py-3 font-display text-sm font-medium text-white transition-colors hover:bg-foreground/90 disabled:opacity-60"
                 >
-                  Formu Gönder
+                  {sending ? "Gönderiliyor…" : "Formu Gönder"}
                 </button>
               </div>
             </form>
