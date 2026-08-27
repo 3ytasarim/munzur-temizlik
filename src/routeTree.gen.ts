@@ -10,33 +10,43 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TeklifFormuRoute = TeklifFormuRouteImport.update({
+  id: '/teklif-formu',
+  path: '/teklif-formu',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/teklif-formu': typeof TeklifFormuRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/teklif-formu': typeof TeklifFormuRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/teklif-formu': typeof TeklifFormuRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/teklif-formu'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/teklif-formu'
+  id: '__root__' | '/' | '/teklif-formu'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  TeklifFormuRoute: typeof TeklifFormuRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +58,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/teklif-formu': {
+      id: '/teklif-formu'
+      path: '/teklif-formu'
+      fullPath: '/teklif-formu'
+      preLoaderRoute: typeof TeklifFormuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  TeklifFormuRoute: TeklifFormuRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
