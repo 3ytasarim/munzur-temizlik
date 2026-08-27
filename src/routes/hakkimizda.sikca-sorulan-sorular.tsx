@@ -140,13 +140,13 @@ function FaqPage() {
               src={images.leaf1}
               alt=""
               aria-hidden="true"
-              className="pointer-events-none absolute right-6 top-8 w-16 -rotate-12 md:left-[26%] md:right-auto md:top-6 md:w-24"
+              className="pointer-events-none absolute -right-2 top-4 w-14 -rotate-12 md:left-[26%] md:right-auto md:top-2 md:w-24"
             />
             <img
               src={images.leaf2}
               alt=""
               aria-hidden="true"
-              className="pointer-events-none absolute right-2 top-24 w-12 md:left-[30%] md:right-auto md:top-24 md:w-20"
+              className="pointer-events-none absolute -right-4 top-16 w-11 md:left-[30%] md:right-auto md:top-20 md:w-20"
             />
             <h2 className="max-w-md text-[1.85rem] leading-tight md:text-[2.6rem]">
               Her Temizlikte Sizi Etkilemeyi Hedefliyoruz
