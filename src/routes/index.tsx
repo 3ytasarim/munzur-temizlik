@@ -283,3 +283,154 @@ function Home() {
     </>
   );
 }
+
+function HomeQuoteSection() {
+  const [sent, setSent] = useState(false);
+
+  return (
+    <section className="container-site py-14 md:py-20">
+      <div className="grid items-stretch gap-6 lg:grid-cols-2">
+        {/* Form card */}
+        <div
+          className="rounded-[2.5rem] p-8 md:p-10"
+          style={{
+            background:
+              "linear-gradient(135deg, rgba(242,215,1,0.95) 0%, rgba(232,245,211,0.95) 60%, rgba(232,245,211,0.95) 100%)",
+          }}
+        >
+          <p className="eyebrow mb-3 text-[0.75rem]">Ücretsiz Fiyat Teklifi Alın</p>
+          <h2 className="max-w-md text-2xl leading-snug md:text-3xl">
+            Temizlik hizmetiniz için hemen fiyat alın, süreci başlatın.
+          </h2>
+
+          {sent ? (
+            <div className="mt-8 rounded-3xl bg-white/80 p-8 text-center">
+              <CheckCircle2 className="mx-auto h-12 w-12 text-primary" />
+              <h3 className="mt-4 text-xl">Talebiniz alındı</h3>
+              <p className="mt-2 text-sm">
+                En kısa sürede sizinle iletişime geçeceğiz.
+              </p>
+            </div>
+          ) : (
+            <form
+              className="mt-8 grid gap-4 md:grid-cols-2"
+              onSubmit={(e) => {
+                e.preventDefault();
+                setSent(true);
+              }}
+            >
+              <QuoteField label="Adınız Soyadınız" name="hq-name" />
+              <QuoteField label="Email Adresiniz" name="hq-email" type="email" />
+              <QuoteField label="Telefon" name="hq-phone" type="tel" />
+              <QuoteField label="Toplam metrekare" name="hq-size" />
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="hq-service"
+                  className="mb-2 block font-display text-sm font-medium text-foreground"
+                >
+                  Bir hizmet seçin
+                </label>
+                <select
+                  id="hq-service"
+                  name="hq-service"
+                  defaultValue=""
+                  className="w-full rounded-2xl border-0 bg-white px-4 py-3 font-display text-sm outline-none focus:ring-2 focus:ring-primary"
+                >
+                  <option value="" disabled>
+                    Seç
+                  </option>
+                  {quoteServices.map((s) => (
+                    <option key={s} value={s}>
+                      {s}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="md:col-span-2 flex items-start gap-3">
+                <input
+                  id="hq-kvkk"
+                  name="hq-kvkk"
+                  type="checkbox"
+                  required
+                  className="mt-1 h-4 w-4 rounded border-0 text-primary focus:ring-primary"
+                />
+                <label htmlFor="hq-kvkk" className="text-xs leading-relaxed text-foreground/80">
+                  Bu formu göndererek, kişisel verilerinizin Genel Veri Koruma Yönetmeliği ve
+                  Gizlilik Politikamıza uygun olarak işlenmesini kabul etmiş olursunuz.
+                </label>
+              </div>
+              <div className="md:col-span-2">
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center rounded-full bg-foreground px-8 py-3 font-display text-sm font-medium text-white transition-colors hover:bg-foreground/90"
+                >
+                  Formu Gönder
+                </button>
+              </div>
+            </form>
+          )}
+        </div>
+
+        {/* Image + satisfaction card */}
+        <div className="flex flex-col gap-6">
+          <div className="relative overflow-hidden rounded-[2.5rem] bg-soft">
+            <img
+              src={images.aboutTeam}
+              alt="Profesyonel temizlik ekibi"
+              loading="lazy"
+              className="h-80 w-full object-cover md:h-[420px]"
+            />
+          </div>
+          <div className="relative overflow-hidden rounded-[2.5rem] bg-soft p-8 md:p-10">
+            <img
+              src={images.leaf1}
+              alt=""
+              aria-hidden="true"
+              className="pointer-events-none absolute -bottom-6 -right-6 w-40 opacity-80"
+            />
+            <div className="relative flex items-start gap-4">
+              <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                <Check className="h-4 w-4" />
+              </span>
+              <div>
+                <h3 className="text-lg">%100 Memnuniyet Odaklı Hizmet</h3>
+                <p className="mt-2 text-sm leading-relaxed">
+                  Sizin memnuniyetiniz bizim için en büyük önceliktir.{" "}
+                  <strong className="text-foreground">Munzur Temizlik</strong> olarak tüm
+                  hizmetlerimizde yüksek kalite ve müşteri mutluluğu için titizlikle çalışıyoruz.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function QuoteField({
+  label,
+  name,
+  type = "text",
+}: {
+  label: string;
+  name: string;
+  type?: string;
+}) {
+  return (
+    <div>
+      <label
+        htmlFor={name}
+        className="mb-2 block font-display text-sm font-medium text-foreground"
+      >
+        {label}
+      </label>
+      <input
+        id={name}
+        name={name}
+        type={type}
+        className="w-full rounded-2xl border-0 bg-white px-4 py-3 font-display text-sm outline-none focus:ring-2 focus:ring-primary"
+      />
+    </div>
+  );
+}
