@@ -4,11 +4,12 @@ import { Footer } from "@/components/Footer";
 import { Blocks, type Block } from "@/components/Blocks";
 import { CtaBand, PageHero, Testimonials } from "@/components/Sections";
 import { images, site, stats } from "@/data/site";
-import pages from "@/data/pages.json";
+import { getPage } from "@/data/content";
+import pagesUnused from "@/data/pages.json";
+void pagesUnused;
 
-const page = (pages as Record<string, { title: string; description: string; blocks: Block[] }>)[
-  "hakkimizda"
-];
+const page = getPage("hakkimizda");
+
 
 export const Route = createFileRoute("/hakkimizda/")({
   head: () => ({
