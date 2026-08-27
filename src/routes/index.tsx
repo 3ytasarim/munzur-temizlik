@@ -1,5 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
+import { submitQuote } from "@/lib/quote.functions";
 import {
   Check,
   CheckCircle2,
@@ -100,7 +102,7 @@ function Home() {
         {/* Hero */}
         <section className="container-site pt-3 md:pt-6">
           <div
-            className="relative flex min-h-[560px] items-end overflow-hidden rounded-[28px] bg-cover bg-center bg-no-repeat px-3 pb-3 pt-[240px] sm:pt-[300px] md:min-h-[740px] md:items-center md:rounded-[37px] md:px-[7%] md:py-[7%]"
+            className="relative flex min-h-[560px] items-end overflow-hidden rounded-[28px] bg-cover bg-[position:center_top] bg-no-repeat px-3 pb-3 pt-[280px] sm:pt-[320px] md:min-h-[740px] md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
             style={{ backgroundImage: `url(${images.heroImg})` }}
           >
             <div className="w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
@@ -453,6 +455,29 @@ function Home() {
 
 function HomeQuoteSection() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const submit = useServerFn(submitQuote);
+
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError(null);
+    setSending(true);
+    const fd = new FormData(e.currentTarget);
+    const result = await submit({
+      data: {
+        name: String(fd.get("hq-name") ?? ""),
+        email: String(fd.get("hq-email") ?? ""),
+        phone: String(fd.get("hq-phone") ?? ""),
+        size: String(fd.get("hq-size") ?? ""),
+        service: String(fd.get("hq-service") ?? ""),
+        note: "Kaynak: Anasayfa hızlı teklif formu",
+      },
+    });
+    setSending(false);
+    if (result.ok) setSent(true);
+    else setError(result.error ?? "Bir hata oluştu. Lütfen tekrar deneyin.");
+  }
 
   return (
     <section className="container-site py-14 md:py-20">
@@ -479,16 +504,10 @@ function HomeQuoteSection() {
               </p>
             </div>
           ) : (
-            <form
-              className="mt-8 grid gap-4 md:grid-cols-2"
-              onSubmit={(e) => {
-                e.preventDefault();
-                setSent(true);
-              }}
-            >
-              <QuoteField label="Adınız Soyadınız" name="hq-name" />
+            <form className="mt-8 grid gap-4 md:grid-cols-2" onSubmit={onSubmit}>
+              <QuoteField label="Adınız Soyadınız" name="hq-name" required />
               <QuoteField label="Email Adresiniz" name="hq-email" type="email" />
-              <QuoteField label="Telefon" name="hq-phone" type="tel" />
+              <QuoteField label="Telefon" name="hq-phone" type="tel" required />
               <QuoteField label="Toplam metrekare" name="hq-size" />
               <div className="md:col-span-2">
                 <label
@@ -526,12 +545,18 @@ function HomeQuoteSection() {
                   Gizlilik Politikamıza uygun olarak işlenmesini kabul etmiş olursunuz.
                 </label>
               </div>
+              {error && (
+                <div className="md:col-span-2 rounded-2xl bg-red-50 px-4 py-3 text-sm text-red-700">
+                  {error}
+                </div>
+              )}
               <div className="md:col-span-2">
                 <button
                   type="submit"
-                  className="inline-flex items-center justify-center rounded-full bg-foreground px-8 py-3 font-display text-sm font-medium text-white transition-colors hover:bg-foreground/90"
+                  disabled={sending}
+                  className="inline-flex items-center justify-center rounded-full bg-foreground px-8 py-3 font-display text-sm font-medium text-white transition-colors hover:bg-foreground/90 disabled:opacity-60"
                 >
-                  Formu Gönder
+                  {sending ? "Gönderiliyor…" : "Formu Gönder"}
                 </button>
               </div>
             </form>
@@ -579,10 +604,12 @@ function QuoteField({
   label,
   name,
   type = "text",
+  required = false,
 }: {
   label: string;
   name: string;
   type?: string;
+  required?: boolean;
 }) {
   return (
     <div>
@@ -596,6 +623,7 @@ function QuoteField({
         id={name}
         name={name}
         type={type}
+        required={required}
         className="w-full rounded-2xl border-0 bg-white px-4 py-3 font-display text-sm outline-none focus:ring-2 focus:ring-primary"
       />
     </div>
