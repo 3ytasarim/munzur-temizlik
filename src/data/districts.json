@@ -18,7 +18,87 @@
    "Kaşık Adası (ikamet olmayan bölge)"
   ],
   "h2b": "Adalar’da Temizlikte Fark Yaratıyoruz",
-  "outro": "Adalar’da temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz."
+  "outro": "Adalar’da temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Adalar"
+   },
+   {
+    "t": "h2",
+    "v": "Adalar’da Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong>İstanbul</strong>’un en özel bölgelerinden biri olan Adalar’da, ev ve ofisleriniz için profesyonel temizlik hizmeti sunuyoruz. <strong>Munzur Temizlik</strong> olarak, hijyen ve müşteri memnuniyetini ön planda tutarak, cam silmeden detaylı yüzey temizliğine kadar her alanda titiz çalışıyoruz."
+   },
+   {
+    "t": "p",
+    "v": "<strong>Adalar</strong>’da temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Adalar’da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Büyükada Maden",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Büyükada Nizam",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Heybeliada"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Burgazada",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kınalıada",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sedef Adası"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kaşık Adası (ikamet olmayan bölge)"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Adalar’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un en özel bölgelerinden biri olan Adalar’da; Büyükada’dan Kınalıada’ya, Heybeliada’dan Burgazada’ya kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz. Deniz havasının tazelediği, doğayla iç içe bu eşsiz bölgelerde, ev ve ofislerinizi aynı doğallıkla ve özenle temizliyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "arnavutkoy",
@@ -68,7 +148,121 @@
    "Yunus Emre"
   ],
   "h2b": "Arnavutköy’de Temizlikte Fark Yaratan Hizmet",
-  "outro": "Çevreye duyarlı, insan sağlığına zararsız temizlik ürünleriyle, hem sağlığınızı hem doğayı koruyoruz. Arnavutköy’ün her mahallesine ulaşan hizmet ağımızla ister rutin ev temizliği, ister derinlemesine temizlik taleplerinizde hızlı ve kaliteli hizmet için yanınızdayız."
+  "outro": "Çevreye duyarlı, insan sağlığına zararsız temizlik ürünleriyle, hem sağlığınızı hem doğayı koruyoruz. Arnavutköy’ün her mahallesine ulaşan hizmet ağımızla ister rutin ev temizliği, ister derinlemesine temizlik taleplerinizde hızlı ve kaliteli hizmet için yanınızdayız.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Arnavutköy"
+   },
+   {
+    "t": "h2",
+    "v": "Arnavutköy’de Profesyonel Temizlik Hizmetleri"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ilçelerinden Arnavutköy’de, ev, ofis ve inşaat sonrası temizlik ihtiyaçlarınız için güvenilir çözümler sunuyoruz. Munzur Temizlik olarak, modern ekipmanlarımız ve eğitimli personelimizle yaşam alanlarınızı detaylı bir şekilde temizliyor, hijyen ve ferahlığı bir araya getiriyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Çevreye duyarlı, insan sağlığına zararsız temizlik ürünleriyle, hem sağlığınızı hem doğayı koruyoruz. Arnavutköy’ün her mahallesine ulaşan hizmet ağımızla ister rutin ev temizliği, ister derinlemesine temizlik taleplerinizde hızlı ve kaliteli hizmet için yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Arnavutköy'de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Adnan Menderes",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Anadolu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Durusu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hadımköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karaburun",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karlıbayır",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Taşoluk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Balaban",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Baklalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Boyalık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hacımaşlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Haraççı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mavigöl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif Ersoy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tayakadın",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeniköy"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Boğazköy İstiklal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Boğazköy Yeniköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bolluca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hastane",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hicret",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mustafa Kemal Paşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nenehatun",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Terkos",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilbayır"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çilingir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Deliklikaya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dursunköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İmrahor",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İslambey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ömerli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sazlıbosna",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yassıören",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yunus Emre"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Arnavutköy’de Temizlikte Fark Yaratan Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen bölgelerinden biri olan Arnavutköy’de; Hadımköy’den Bolluca’ya, Karaburun’dan Taşoluk’a kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Ev, ofis, inşaat sonrası ve periyodik temizliklerde kaliteyi ve hijyeni ön planda tutuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "atasehir",
@@ -96,7 +290,95 @@
    "Yeni Çamlıca"
   ],
   "h2b": "Ataşehir’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un yükselen yaşam ve iş merkezlerinden biri olan Ataşehir’de; Barbaros’tan İçerenköy’e, Atatürk Mahallesi’nden Küçükbakkalköy’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Modern yapıların ve yoğun temponun içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Ataşehir’de temizlikte fark yaratıyoruz!"
+  "outro": "İstanbul’un yükselen yaşam ve iş merkezlerinden biri olan Ataşehir’de; Barbaros’tan İçerenköy’e, Atatürk Mahallesi’nden Küçükbakkalköy’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Modern yapıların ve yoğun temponun içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Ataşehir’de temizlikte fark yaratıyoruz!",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Ataşehir"
+   },
+   {
+    "t": "h2",
+    "v": "Ataşehir’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un en planlı ve modern ilçelerinden biri olan Ataşehir’de, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Finans merkezinden site yaşamına, iş yerlerinden rezidanslara kadar her alanda profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Ataşehir’in hızına ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Ataşehir’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aşık Veysel",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barbaros",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeni Sahra"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esatpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fetih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İçerenköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Örnek"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kayışdağı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küçükbakkalköy"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mevlana",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mustafa Kemal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeni Çamlıca"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Ataşehir’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un yükselen yaşam ve iş merkezlerinden biri olan Ataşehir’de; Barbaros’tan İçerenköy’e, Atatürk Mahallesi’nden Küçükbakkalköy’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Modern yapıların ve yoğun temponun içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Ataşehir’de temizlikte fark yaratıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "avcilar",
@@ -119,7 +401,85 @@
    "Yeşilkent"
   ],
   "h2b": "Avcılar’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hızla gelişen bölgelerinden biri olan Avcılar’da; Ambarlı’dan Firuzköy’e, Cihangir’den Mustafa Kemal Paşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un hızla gelişen bölgelerinden biri olan Avcılar’da; Ambarlı’dan Firuzköy’e, Cihangir’den Mustafa Kemal Paşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Avcılar"
+   },
+   {
+    "t": "h2",
+    "v": "Avcılar’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ilçelerinden biri olan Avcılar’da; Üniversite Mahallesi’nden Ambarlı’ya, Gümüşpala’dan Denizköşkler’e kadar uzanan geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz. Hem ev hem ofis temizliğinde, güvenilir ve titiz çalışma prensibimizle her zaman yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Avcılar’da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ambarlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cihangir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Denizköşkler"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Firuzköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mustafa Kemal Paşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tahtakale",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Üniversite",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilkent"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Avcılar’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen bölgelerinden biri olan Avcılar’da; Ambarlı’dan Firuzköy’e, Cihangir’den Mustafa Kemal Paşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "bahcelievler",
@@ -143,7 +503,91 @@
    "Zafer"
   ],
   "h2b": "Bahçelievler’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un yoğun yaşam temposuna sahip ilçelerinden biri olan Bahçelievler’de; Cumhuriyet’ten Zafer’e, Şirinevler’den Siyavuşpaşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un yoğun yaşam temposuna sahip ilçelerinden biri olan Bahçelievler’de; Cumhuriyet’ten Zafer’e, Şirinevler’den Siyavuşpaşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Bahçelievler"
+   },
+   {
+    "t": "h2",
+    "v": "Bahçelievler’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"300\" data-start=\"103\">İstanbul’un merkezi konumunda yer alan Bahçelievler’de; Siyavuşpaşa’dan Yenibosna’ya, Soğanlı’dan Zafer Mahallesi’ne kadar uzanan bölgelerde kaliteli ve güvenilir temizlik hizmetleri sunuyoruz.</strong><br data-end=\"303\" data-start=\"300\"/>Evlerinizden ofislerinize, mağazalardan iş yerlerine kadar her alanı profesyonelce temizliyor, hijyen ve müşteri memnuniyetini en üst seviyede tutuyoruz. Bahçelievler’in her köşesinde aynı özenle, aynı titizlikle yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Bahçelievler’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çobançeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kocasinan Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Siyavuşpaşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Soğanlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şirinevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenibosna Merkez"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zafer"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Bahçelievler’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un yoğun yaşam temposuna sahip ilçelerinden biri olan Bahçelievler’de; Cumhuriyet’ten Zafer’e, Şirinevler’den Siyavuşpaşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "bakirkoy",
@@ -171,7 +615,95 @@
    "Zuhuratbaba"
   ],
   "h2b": "Bakırköy'de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un denize açılan pencerelerinden biri olan Bakırköy’de; Ataköy’den Yeşilköy’e, Zuhuratbaba’dan Osmaniye’ye kadar uzanan geniş hizmet ağımızla, ev ve iş yerlerinize profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un denize açılan pencerelerinden biri olan Bakırköy’de; Ataköy’den Yeşilköy’e, Zuhuratbaba’dan Osmaniye’ye kadar uzanan geniş hizmet ağımızla, ev ve iş yerlerinize profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Bakırköy"
+   },
+   {
+    "t": "h2",
+    "v": "Bakırköy’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un köklü ve prestijli ilçelerinden biri olan Bakırköy’de; Ataköy’den Zuhuratbaba’ya, Yeşilköy’den Osmaniye’ye kadar uzanan bölgelerde profesyonel temizlik hizmeti sunuyoruz. Modern yaşamın yoğun temposuna ayak uyduran, hijyenin ve detayın ön planda olduğu temizlik çözümlerimizle fark yaratıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Bakırköy’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ataköy 1. Kısım",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ataköy 2-5-6. Kısım",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ataköy 3-4-11. Kısım",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ataköy 7-8-9-10. Kısım"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Basınköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cevizlik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kartaltepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Osmaniye"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sakızağacı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şenlikköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilyurt"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zeytinlik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zuhuratbaba"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Bakırköy'de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un denize açılan pencerelerinden biri olan Bakırköy’de; Ataköy’den Yeşilköy’e, Zuhuratbaba’dan Osmaniye’ye kadar uzanan geniş hizmet ağımızla, ev ve iş yerlerinize profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "bayrampasa",
@@ -195,7 +727,91 @@
    "Yıldırım"
   ],
   "h2b": "Bayrampaşa’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un köklü ve merkezi ilçelerinden biri olan Bayrampaşa’da; Muratpaşa’dan Kartaltepe’ye, Terazidere’den Yıldırım Mahallesi’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un köklü ve merkezi ilçelerinden biri olan Bayrampaşa’da; Muratpaşa’dan Kartaltepe’ye, Terazidere’den Yıldırım Mahallesi’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Bayrampaşa"
+   },
+   {
+    "t": "h2",
+    "v": "Bayrampaşa’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un merkez ilçelerinden biri olan Bayrampaşa’da; Kartaltepe’den Yıldırım’a, Muratpaşa’dan Terazidere’ye kadar uzanan bölgelerde güvenilir ve profesyonel temizlik hizmeti sunuyoruz.<br data-end=\"343\" data-start=\"340\"/><br/>"
+   },
+   {
+    "t": "h3",
+    "v": "Bayrampaşa’da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Altıntepsi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cevatpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İsmetpaşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kartaltepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kocatepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muratpaşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orta",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Terazidere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Vatan"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yıldırım"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Bayrampaşa’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un köklü ve merkezi ilçelerinden biri olan Bayrampaşa’da; Muratpaşa’dan Kartaltepe’ye, Terazidere’den Yıldırım Mahallesi’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "bagcilar",
@@ -231,7 +847,103 @@
    "Yüzyıl"
   ],
   "h2b": "Bağcılar’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un yoğun yaşam temposuna sahip ilçelerinden biri olan Bağcılar’da; Güneşli’den Mahmutbey’e, Kirazlı’dan Yüzyıl Mahallesi’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un yoğun yaşam temposuna sahip ilçelerinden biri olan Bağcılar’da; Güneşli’den Mahmutbey’e, Kirazlı’dan Yüzyıl Mahallesi’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Bağcılar"
+   },
+   {
+    "t": "h2",
+    "v": "Bağcılar’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un dinamik yapısıyla öne çıkan ilçelerinden Bağcılar’da; Göztepe’den Mahmutbey’e, Yüzyıl’dan Kirazlı’ya kadar uzanan bölgelerde profesyonel temizlik hizmeti sunuyoruz.<br data-end=\"377\" data-start=\"374\"/>Ev, ofis veya iş yerleriniz için ihtiyaç duyduğunuz temizlik hizmetlerinde; hijyen, güven ve titizlik ilkesiyle her zaman yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Bağcılar’da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> 100. Yıl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bağlar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barbaros",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Demirkapı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Evren",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Göztepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güneşli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kazım Karabekir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kemalpaşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kirazlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mahmutbey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sancaktepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenigün",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenimahalle",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yıldıztepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yüzyıl"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Bağcılar’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un yoğun yaşam temposuna sahip ilçelerinden biri olan Bağcılar’da; Güneşli’den Mahmutbey’e, Kirazlı’dan Yüzyıl Mahallesi’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "basaksehir",
@@ -254,7 +966,85 @@
    "Ziya Gökalp"
   ],
   "h2b": "Başakşehir’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un modern yaşam alanlarından biri olan Başakşehir’de; Bahçeşehir’den Kayabaşı’na, Altınşehir’den Güvercintepe’ye kadar uzanan mahallelerde profesyonel temizlik çözümlerimizle hizmetinizdeyiz."
+  "outro": "İstanbul’un modern yaşam alanlarından biri olan Başakşehir’de; Bahçeşehir’den Kayabaşı’na, Altınşehir’den Güvercintepe’ye kadar uzanan mahallelerde profesyonel temizlik çözümlerimizle hizmetinizdeyiz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Başakşehir"
+   },
+   {
+    "t": "h2",
+    "v": "Başakşehir’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un modern yüzlerinden biri olan Başakşehir’de; Bahçeşehir’den Kayabaşı’na, Başak Mahallesi’nden Güvercintepe’ye kadar genişleyen hizmet ağımızla, ev ve iş yerlerinize hijyen dolu çözümler sunuyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Başakşehir’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Altınşehir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçeşehir 1. Kısım",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçeşehir 2. Kısım"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Başak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güvercintepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İkitelli Osb"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kayabaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şahintepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ziya Gökalp"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Başakşehir’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un modern yaşam alanlarından biri olan Başakşehir’de; Bahçeşehir’den Kayabaşı’na, Altınşehir’den Güvercintepe’ye kadar uzanan mahallelerde profesyonel temizlik çözümlerimizle hizmetinizdeyiz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "beykoz",
@@ -307,7 +1097,120 @@
    "Zerzavatçı"
   ],
   "h2b": "Beykoz’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hem doğal güzellikleriyle hem de huzurlu atmosferiyle öne çıkan ilçelerinden biri olan Beykoz’da; Kavacık’tan Paşabahçe’ye, Çubuklu’dan Anadolu Kavağı’na kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz. Doğa ile iç içe olan bu eşsiz bölgelerde, temizlikte kalite ve güveni bir arada sunuyoruz."
+  "outro": "İstanbul’un hem doğal güzellikleriyle hem de huzurlu atmosferiyle öne çıkan ilçelerinden biri olan Beykoz’da; Kavacık’tan Paşabahçe’ye, Çubuklu’dan Anadolu Kavağı’na kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz. Doğa ile iç içe olan bu eşsiz bölgelerde, temizlikte kalite ve güveni bir arada sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Beykoz"
+   },
+   {
+    "t": "h2",
+    "v": "Beykoz’da Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"217\" data-start=\"205\">İstanbul</strong>’un doğayla iç içe kalan eşsiz bölgelerinden biri olan <strong data-end=\"282\" data-start=\"272\">Beykoz</strong>’da, ev ve ofisleriniz için profesyonel temizlik hizmeti sunuyoruz. <strong data-end=\"368\" data-start=\"350\">Munzur Temizlik</strong> olarak, müşteri memnuniyetini ve hijyeni önceliğimiz kabul ederek, cam silmeden detaylı yüzey temizliğine kadar her alanda titiz çalışıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Beykoz’da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Acarlar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akbaba",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Alibahadır",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Anadolu Feneri",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Anadolu Kavağı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Anadoluhisarı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Baklacı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bozhane",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çamlıbahçe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çengeldere"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çiftlik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çiğdem",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çubuklu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dereseki",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Elmalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Göllü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Görele",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gümüşsuyu"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gündoğan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İncirköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İshaklı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kanlıca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kavacık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kaynarca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mahmutşevketpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Örnekköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Paşamandıra",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Polonez"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Poyrazköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Riva",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rüzgarlıbahçe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Soğuksu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tokatköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yalıköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenimahalle",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zerzavatçı"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Beykoz’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hem doğal güzellikleriyle hem de huzurlu atmosferiyle öne çıkan ilçelerinden biri olan <strong data-end=\"273\" data-start=\"263\">Beykoz</strong>’da; Kavacık’tan Paşabahçe’ye, Çubuklu’dan Anadolu Kavağı’na kadar uzanan hizmet ağımızla <strong data-end=\"395\" data-start=\"363\">profesyonel temizlik hizmeti</strong> sunuyoruz. Doğa ile iç içe olan bu eşsiz bölgelerde, temizlikte kalite ve güveni bir arada sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "beylikduzu",
@@ -331,7 +1234,91 @@
    "Yakuplu"
   ],
   "h2b": "Beylikdüzü’nde Temizlikte Fark Yaratan Hizmet",
-  "outro": "İstanbul’un modern yaşam alanlarından biri olan Beylikdüzü’nde; Adnan Kahveci’den Gürpınar’a, Yakuplu’dan Marmara Mahallesi’ne kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un modern yaşam alanlarından biri olan Beylikdüzü’nde; Adnan Kahveci’den Gürpınar’a, Yakuplu’dan Marmara Mahallesi’ne kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Beylikdüzü"
+   },
+   {
+    "t": "h2",
+    "v": "Beylikdüzü’nde Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"290\" data-start=\"224\">İstanbul’un modern yaşam alanlarından biri olan Beylikdüzü’nde</strong>, ev, ofis ve iş yerlerinizin tüm temizlik ihtiyaçlarına özel çözümler sunuyoruz. Munzur Temizlik olarak; tecrübeli kadromuz ve çevre dostu temizlik ürünlerimizle yaşam alanlarınızı hijyenik ve ferah hale getiriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Beylikdüzü'nde Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Adnan Kahveci",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barış",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Büyükşehir"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dereağzı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gürpınar"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kavaklı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Marmara",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sahil"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yakuplu"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Beylikdüzü’nde Temizlikte Fark Yaratan Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un modern yaşam alanlarından biri olan Beylikdüzü’nde; Adnan Kahveci’den Gürpınar’a, Yakuplu’dan Marmara Mahallesi’ne kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "beyoglu",
@@ -379,7 +1366,110 @@
    "Örnektepe"
   ],
   "h2b": "Beyoğlu’nda Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un tarihi dokusu ve kültürel çeşitliliğiyle öne çıkan ilçelerinden biri olan Beyoğlu’nda; Cihangir’den Karaköy’e, Piri Paşa’dan Tophane’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Hem yaşam alanlarınızı hem de iş yerlerinizi hijyenik, ferah ve düzenli hale getirmek için titizlikle çalışıyoruz."
+  "outro": "İstanbul’un tarihi dokusu ve kültürel çeşitliliğiyle öne çıkan ilçelerinden biri olan Beyoğlu’nda; Cihangir’den Karaköy’e, Piri Paşa’dan Tophane’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Hem yaşam alanlarınızı hem de iş yerlerinizi hijyenik, ferah ve düzenli hale getirmek için titizlikle çalışıyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Beyoğlu"
+   },
+   {
+    "t": "h2",
+    "v": "Beyoğlu’nda Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi dokusuyla iç içe olan ilçelerinden Beyoğlu’nda; Taksim’den Cihangir’e, Galata’dan Kasımpaşa’ya kadar uzanan geniş hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz.<br data-end=\"316\" data-start=\"313\"/>Hem ev hem ofis temizliklerinde, güvenilir ve titiz çalışma prensibimizle her zaman yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Beyoğlu'nda Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Asmalımescit",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bedrettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bereketzade",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bostan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bülbül",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Camiikebir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cihangir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çatma Mescit",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Evliya Çelebi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Firuzağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gümüşsuyu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hacımimi"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hacıahmet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hasköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hüseyinağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstiklal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kadımehmet Efendi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kamer Hatun",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karaköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kaptanpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Katip Mustafa Çelebi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Keçecipiri",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kocatepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kulaksız"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küçük Piyale",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Müeyyedzade",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ömer Avni",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Piri Paşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şahkulu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şehit Muhtar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tomtom",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yahya Kahya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenişehir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Örnektepe"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Beyoğlu’nda Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi dokusu ve kültürel çeşitliliğiyle öne çıkan ilçelerinden biri olan Beyoğlu’nda; Cihangir’den Karaköy’e, Piri Paşa’dan Tophane’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Hem yaşam alanlarınızı hem de iş yerlerinizi hijyenik, ferah ve düzenli hale getirmek için titizlikle çalışıyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "besiktas",
@@ -414,7 +1504,102 @@
    "Yıldız"
   ],
   "h2b": "Beşiktaş’ta Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un merkezi ve en prestijli bölgelerinden biri olan Beşiktaş’ta; Arnavutköy’den Etiler’e, Ortaköy’den Levent’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Sahil havasının tazeliğiyle birleşen bu seçkin bölgelerde, ev ve ofislerinizi aynı özenle ve doğallıkla temizliyoruz."
+  "outro": "İstanbul’un merkezi ve en prestijli bölgelerinden biri olan Beşiktaş’ta; Arnavutköy’den Etiler’e, Ortaköy’den Levent’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Sahil havasının tazeliğiyle birleşen bu seçkin bölgelerde, ev ve ofislerinizi aynı özenle ve doğallıkla temizliyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Beşiktaş"
+   },
+   {
+    "t": "h2",
+    "v": "Beşiktaş’ta Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"217\" data-start=\"205\">İstanbul</strong>’un tarihi dokusu ve modern yaşantısıyla öne çıkan ilçelerinden biri olan <strong data-end=\"306\" data-start=\"291\">Beşiktaş’ta</strong>, ev, ofis ve iş yerleriniz için profesyonel temizlik hizmetleri sunuyoruz. <strong data-end=\"400\" data-start=\"382\">Munzur Temizlik</strong> olarak, müşteri memnuniyetini ve hijyeni en üst düzeyde tutuyor; cam silmeden detaylı yüzey temizliğine kadar her alanda titizlikle çalışıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Beşiktaş'ta Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Abbasağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Arnavutköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Balmumcu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bebek",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cihannüma"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dikilitaş",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Etiler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gayrettepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Konaklar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kültür"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Levazım",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Levent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mecidiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muradiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nisbetiye"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ortaköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sinanpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Türkali",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ulus",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Vişnezade",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yıldız"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Beşiktaş’ta Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un merkezi ve en prestijli bölgelerinden biri olan Beşiktaş’ta; Arnavutköy’den Etiler’e, Ortaköy’den Levent’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Sahil havasının tazeliğiyle birleşen bu seçkin bölgelerde, ev ve ofislerinizi aynı özenle ve doğallıkla temizliyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "buyukcekmece",
@@ -452,7 +1637,105 @@
    "Yeni Turgut Özal"
   ],
   "h2b": "Büyükçekmece’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un sahil şeridiyle göz kamaştıran ilçelerinden biri olan Büyükçekmece’de; Mimaroba’dan Kumburgaz’a, Dizdariye’den Tepecik’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un sahil şeridiyle göz kamaştıran ilçelerinden biri olan Büyükçekmece’de; Mimaroba’dan Kumburgaz’a, Dizdariye’den Tepecik’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Büyükçekmece"
+   },
+   {
+    "t": "h2",
+    "v": "Büyükçekmece’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un sahil şeridi boyunca uzanan ve huzurlu yapısıyla öne çıkan ilçelerinden Büyükçekmece’de; Dizdariye’den Kumburgaz’a, Mimarsinan’dan Celaliye’ye kadar uzanan bölgelerde profesyonel temizlik çözümleri sunuyoruz. Günlük temizlikten ofis temizliğine, inşaat sonrası temizlikten detaylı ev temizliğine kadar her alanda uzman kadromuzla yanınızdayız. Büyükçekmece’nin sakin yaşamına yakışan hijyen standartlarını sizin için sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Büyükçekmece’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> 19 Mayıs",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Alkent 2000",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçelievler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Celaliye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dizdariye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ekinoba",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güzelce",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karaağaç"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kumburgaz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimaroba",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimarsinan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muratçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Pınartepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sinanoba"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tepecik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Türkoba",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ulus",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Sultan Selim",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenimahalle",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeni Turgut Özal"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Büyükçekmece’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un sahil şeridiyle göz kamaştıran ilçelerinden biri olan Büyükçekmece’de; <strong data-end=\"283\" data-start=\"230\">Mimaroba’dan Kumburgaz’a, Dizdariye’den Tepecik’e</strong> kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "darica",
@@ -480,7 +1763,99 @@
    "Zincirlikuyu"
   ],
   "h2b": "Darıca’da Temizlikte Fark Yaratıyoruz",
-  "outro": "Kocaeli’nin sahil güzellikleriyle öne çıkan ilçesi Darıca’da; Nenehatun’dan Osmangazi’ye, Abdi İpekçi’den Cami Mahallesi’ne kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz."
+  "outro": "Kocaeli’nin sahil güzellikleriyle öne çıkan ilçesi Darıca’da; Nenehatun’dan Osmangazi’ye, Abdi İpekçi’den Cami Mahallesi’ne kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Darıca"
+   },
+   {
+    "t": "h2",
+    "v": "Darıca’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"225\" data-start=\"161\">Kocaeli’nin sahil güzellikleriyle öne çıkan ilçesi Darıca’da</strong>, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Farabi Eğitim ve Araştırma Hastanesi’nden Bayramoğlu sahiline, Nenehatun’dan Piri Reis Mahallesi’ne kadar her noktaya ulaşan hizmet ağımızla, evinizin ve iş yerinizin hijyen ihtiyacına profesyonel çözümler getiriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Darıca'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Abdi İpekçi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bağlarbaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cami",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emek"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kazım Karabekir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nenehatun",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Osmangazi"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Piri Reis",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sakarya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sırasöğütler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şehit Murat Tevlim"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zincirlikuyu"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Darıca’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "Kocaeli’nin sahil güzellikleriyle öne çıkan ilçesi Darıca’da; Nenehatun’dan Osmangazi’ye, Abdi İpekçi’den Cami Mahallesi’ne kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Modern yaşam alanlarınız, iş yerleriniz ve apartmanlarınız için hijyen artık lüks değil, bir ihtiyaç! Deneyimli ekibimizle birlikte ev temizliği, ofis temizliği, inşaat sonrası temizlik ve detaylı hijyen çözümlerini titizlikle gerçekleştiriyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "esenler",
@@ -510,7 +1885,101 @@
    "Yavuz Selim"
   ],
   "h2b": "Esenler’de Temizlikte Fark Yaratan Hizmet",
-  "outro": "Çevreye duyarlı, insan sağlığına zararsız temizlik ürünleriyle hem sağlığınızı hem doğayı koruyoruz. Esenler’in her mahallesine ulaşan hizmet ağımızla ister rutin ev temizliği, ister derinlemesine temizlik taleplerinizde hızlı ve kaliteli hizmet için yanınızdayız."
+  "outro": "Çevreye duyarlı, insan sağlığına zararsız temizlik ürünleriyle hem sağlığınızı hem doğayı koruyoruz. Esenler’in her mahallesine ulaşan hizmet ağımızla ister rutin ev temizliği, ister derinlemesine temizlik taleplerinizde hızlı ve kaliteli hizmet için yanınızdayız.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Esenler"
+   },
+   {
+    "t": "h2",
+    "v": "Esenler’de Profesyonel Temizlik Hizmetleri"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ilçelerinden biri olan <strong data-end=\"399\" data-start=\"385\">Esenler’de</strong>, ev, ofis ve inşaat sonrası temizlik ihtiyaçlarınız için güvenilir çözümler sunuyoruz. <strong data-end=\"505\" data-start=\"487\">Munzur Temizlik</strong> olarak, modern ekipmanlarımız ve eğitimli personelimizle yaşam alanlarınızı detaylı bir şekilde temizliyor; hijyen ve ferahlığı bir araya getiriyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Çevreye duyarlı, insan sağlığına zararsız temizlik ürünleriyle hem sağlığınızı hem doğayı koruyoruz. <strong data-end=\"789\" data-start=\"759\">Esenler’in her mahallesine</strong> ulaşan hizmet ağımızla ister rutin ev temizliği, ister derinlemesine temizlik taleplerinizde hızlı ve kaliteli hizmet için yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Esenler'de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Birlik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çiftehavuzlar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Davutpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Havaalanı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kazım Karabekir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kemer"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Menderes",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimarsinan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Namık Kemal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nine Hatun"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Oruçreis",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tuna",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Turgut Reis",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Esenler’de Temizlikte Fark Yaratan Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un merkezi konumunda yer alan ve yoğun yaşam temposuyla dikkat çeken Esenler’de; <strong data-end=\"258\" data-start=\"207\">Menderes’ten Tuna’ya, Birlik’ten Fevzi Çakmak’a</strong> kadar uzanan geniş mahalle yelpazemizde profesyonel temizlik hizmetleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "esenyurt",
@@ -554,7 +2023,111 @@
    "Zafer"
   ],
   "h2b": "Esenyurt’ta Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hızla büyüyen ilçelerinden biri olan Esenyurt’ta; Cumhuriyet’ten Saadetdere’ye, Bağlarçeşme’den Mehterçeşme’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Modern yapılar ve yoğun nüfusun kesiştiği bu dinamik ilçede, ev ve ofisleriniz için hijyen, güven ve titizlikle hizmet veriyoruz."
+  "outro": "İstanbul’un hızla büyüyen ilçelerinden biri olan Esenyurt’ta; Cumhuriyet’ten Saadetdere’ye, Bağlarçeşme’den Mehterçeşme’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Modern yapılar ve yoğun nüfusun kesiştiği bu dinamik ilçede, ev ve ofisleriniz için hijyen, güven ve titizlikle hizmet veriyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Esenyurt"
+   },
+   {
+    "t": "h2",
+    "v": "Esenyurt’ta Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un en hızlı gelişen ve en yoğun nüfuslu ilçelerinden biri olan Esenyurt’ta, temizlik hizmetlerimizi kalite ve güvenle sunuyoruz. <strong data-end=\"370\" data-start=\"336\">Bağlarçeşme’den Mehterçeşme’ye</strong>, <strong data-end=\"410\" data-start=\"372\">Zafer Mahallesi’nden Namık Kemal’e</strong> kadar her mahalleye ulaşan hizmet ağımızla; ofislerden rezidanslara, evlerden sitelere kadar tüm yaşam alanlarını hijyenle buluşturuyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Esenyurt’ta Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akçaburgaz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ardıçlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aşık Veysel",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Balıkyolu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barbaros Hayrettin Paşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bağlarçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Battalgazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenkent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gökevler"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İncirtepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstiklal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehterçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mevlana",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Namık Kemal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orhan Gazi"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Pınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Saadetdere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Selahaddin Eyyubi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Talatpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Turgut Özal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Üçevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenikent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilkent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zafer"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Esenyurt’ta Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla büyüyen ilçelerinden biri olan Esenyurt’ta; <strong data-end=\"311\" data-start=\"247\">Cumhuriyet’ten Saadetdere’ye, Bağlarçeşme’den Mehterçeşme’ye</strong> kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Modern yapılar ve yoğun nüfusun kesiştiği bu dinamik ilçede, <strong data-end=\"504\" data-start=\"450\">ev ve ofisleriniz için hijyen, güven ve titizlikle</strong> hizmet veriyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "eyup-sultan",
@@ -589,7 +2162,102 @@
    "Yeşilpınar"
   ],
   "h2b": "Eyüp Sultan’da Temizlikte Fark Yaratıyoruz",
-  "outro": "Tarihi dokusu ve modern yaşamı bir arada barındıran Eyüp Sultan’da; Alibeyköy’den Göktürk’e, Rami’den İslambey Mahallesi’ne kadar genişleyen hizmet ağımızla, profesyonel temizlik hizmetleri sunuyoruz."
+  "outro": "Tarihi dokusu ve modern yaşamı bir arada barındıran Eyüp Sultan’da; Alibeyköy’den Göktürk’e, Rami’den İslambey Mahallesi’ne kadar genişleyen hizmet ağımızla, profesyonel temizlik hizmetleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Eyüp Sultan"
+   },
+   {
+    "t": "h2",
+    "v": "Eyüp Sultan’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi dokusu ve modern yaşam alanlarını bir arada sunan ilçelerinden biri olan Eyüp Sultan’da; temizlik hizmetlerimizi yüksek kalite standartlarıyla sunuyoruz. Tarihi merkezlerinden yeni yerleşim alanlarına kadar uzanan geniş hizmet ağımızla, profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi ihtiyaçlarınıza yönelik hizmet yelpazemizle Eyüp Sultan’ın yaşam ritmine ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Eyüp Sultan'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akşemsettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Alibeyköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çırçır",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Defterdar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Düğmeciler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emniyettepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esentepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Göktürk Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Göktürk Kemerburgaz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güzeltepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İslambey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karadolap"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karadeniz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mithatpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nişanca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rami Cuma",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rami Yeni",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sakarya"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Silahtarağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Topçular",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilpınar"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Eyüp Sultan’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "Tarihi dokusu ve modern yaşamı bir arada barındıran <strong data-end=\"223\" data-start=\"208\">Eyüp Sultan</strong>’da; <strong data-end=\"287\" data-start=\"228\">Alibeyköy’den Göktürk’e, Rami’den İslambey Mahallesi’ne</strong> kadar genişleyen hizmet ağımızla, profesyonel temizlik hizmetleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "fatih",
@@ -637,7 +2305,119 @@
    "Zeyrek"
   ],
   "h2b": "Fatih’te Temizlikte Fark Yaratıyoruz",
-  "outro": "Fatih’te temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz."
+  "outro": "Fatih’te temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Fatih"
+   },
+   {
+    "t": "h2",
+    "v": "Fatih’te Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"200\" data-start=\"188\">İstanbul</strong>’un tarihî dokusu ve canlı sokaklarıyla öne çıkan ilçelerinden biri olan Fatih’te, ev ve ofisleriniz için profesyonel temizlik hizmeti sunuyoruz. <strong data-end=\"364\" data-start=\"346\">Munzur Temizlik</strong> olarak, hijyen ve müşteri memnuniyetini ön planda tutarak, cam silmeden detaylı yüzey temizliğine kadar her alanda titiz çalışıyoruz."
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"509\" data-start=\"500\">Fatih</strong>’te temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Fatih’te Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akşemsettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ali Kuşçu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atikali",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ayvansaray",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Balabanağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Balat",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Beyazıt",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Binbirdirek",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cankurtaran"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cerrahpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dervişali",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emin Sinan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Haseki Sultan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hırka-i Şerif",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hoca Gıyasettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hoca Paşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İskenderpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Katip Kasım"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kocamustafapaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küçük Ayasofya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimar Hayrettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimar Kemalettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mollagürani",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muhsine Hatun",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nişanca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Seyyid Ömer",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Silivrikapı"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sultanahmet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Süleymaniye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şehremini",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şehsuvarbey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Sinan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Sultan Selim",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zeyrek"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Fatih’te Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi ve merkezi ilçelerinden biri olan Fatih’te; Balat’tan Aksaray’a, Fener’den Cerrahpaşa’ya kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz. Tarihin izlerini taşıyan sokaklarda, ev ve ofislerinizi hijyenle buluşturuyor, titizlik ve özenle temizlik sağlıyoruz. Geniş kadromuzla Fatih’te temizlikte fark yaratıyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "gaziosmanpasa",
@@ -666,7 +2446,96 @@
    "Şemsipaşa"
   ],
   "h2b": "Gaziosmanpaşa’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un dinamik ve hızla gelişen bölgelerinden biri olan Gaziosmanpaşa’da; Fevzi Çakmak’tan Merkez Mahallesi’ne, Karadeniz’den Sarıgöl’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz."
+  "outro": "İstanbul’un dinamik ve hızla gelişen bölgelerinden biri olan Gaziosmanpaşa’da; Fevzi Çakmak’tan Merkez Mahallesi’ne, Karadeniz’den Sarıgöl’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Gaziosmanpaşa"
+   },
+   {
+    "t": "h2",
+    "v": "Gaziosmanpaşa’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ve dönüşüm geçiren ilçelerinden biri olan Gaziosmanpaşa’da, temizlik hizmetlerimizi yüksek kalite standartlarında sunuyoruz. Karayolları’ndan Merkez Mahallesi’ne, Mevlana’dan Sarıgöl’e kadar geniş bir alanda profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi kapsamlı hizmet seçeneklerimizle Gaziosmanpaşa’nın hızına biz de ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Gaziosmanpaşa'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bağlarbaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barbaros Hayrettin Paşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yıldıztabya"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karadeniz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karlıtepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeni"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kazım Karabekir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mevlana",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenidoğan"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Pazariçi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sarıgöl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şemsipaşa"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Gaziosmanpaşa’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un dinamik ve hızla gelişen bölgelerinden biri olan Gaziosmanpaşa’da; Fevzi Çakmak’tan Merkez Mahallesi’ne, Karadeniz’den Sarıgöl’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "gebze",
@@ -709,7 +2578,110 @@
    "Yavuz Selim"
   ],
   "h2b": "Gebze’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’a komşu olan ve sanayiyle iç içe gelişen Kocaeli’nin gözde ilçesi Gebze’de; Barış Mahallesi’nden Beylikbağı’na, Güzeller’den Kirazpınar’a kadar uzanan geniş bir hizmet ağıyla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’a komşu olan ve sanayiyle iç içe gelişen Kocaeli’nin gözde ilçesi Gebze’de; Barış Mahallesi’nden Beylikbağı’na, Güzeller’den Kirazpınar’a kadar uzanan geniş bir hizmet ağıyla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Gebze"
+   },
+   {
+    "t": "h2",
+    "v": "Gebze’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "Kocaeli’nin sanayi ve yaşam bakımından en dinamik ilçelerinden biri olan <strong data-end=\"278\" data-start=\"266\">Gebze’de</strong>, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. <strong data-end=\"419\" data-start=\"335\">Organize Sanayi Bölgesi’nden Tatlıkuyu’ya, Beylikbağı’ndan Güzeller Mahallesi’ne</strong> kadar geniş bir alanda profesyonel temizlik çözümleri sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Gebze’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Adem Yavuz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Arapçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barış",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Beylikbağı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Denizliköyü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Duraklı"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Elbizli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Eskihisar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gaziler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güzeller",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hacıhalil",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstasyon"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kadıllı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kirazpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Köseler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mevlana",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mollafenari",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mudarlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muallimköy"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ovacık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Pelitli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sultan Orhan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tatlıkuyu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ulus",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yağcılar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenikent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Gebze’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’a komşu olan ve sanayiyle iç içe gelişen Kocaeli’nin gözde ilçesi <strong data-end=\"242\" data-start=\"233\">Gebze</strong>’de; <strong data-end=\"312\" data-start=\"247\">Barış Mahallesi’nden Beylikbağı’na, Güzeller’den Kirazpınar’a</strong> kadar uzanan geniş bir hizmet ağıyla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "gungoren",
@@ -735,7 +2707,97 @@
    "Turgut Reis"
   ],
   "h2b": "Güngören’de Temizlikte Fark Yaratıyoruz",
-  "outro": "Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Güngören’in temposuna ayak uyduruyoruz."
+  "outro": "Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Güngören’in temposuna ayak uyduruyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Güngören"
+   },
+   {
+    "t": "h2",
+    "v": "Güngören’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un planlı ve merkezi ilçelerinden biri olan Güngören’de, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz.<br data-end=\"288\" data-start=\"285\"/>Sanayi bölgelerinden konut alanlarına, iş merkezlerinden sitelere kadar her noktada profesyonel temizlik çözümleri sağlıyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Güngören’in temposuna ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Güngören’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akıncılar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Genç Osman",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güneştepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güven",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Haznedar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mareşal Çakmak"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sanayi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tozkoparan"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Abdurrahman Nafiz Gürman",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Nesih Özmen",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Turgut Reis"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Güngören’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un merkezi konumda yer alan ilçelerinden biri olan Güngören’de; Akıncılar’dan Tozkoparan’a, Mareşal Çakmak’tan Güneştepe’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "kadikoy",
@@ -769,7 +2831,105 @@
    "Zühtüpaşa"
   ],
   "h2b": "Kadıköy’de Temizlikte Fark Yaratıyoruz",
-  "outro": "Kadıköy’de temizlik hizmetine ihtiyaç duyduğunuzda, çevreye duyarlı temizlik ürünleriyle çalışan deneyimli ekibimizle yanınızdayız."
+  "outro": "Kadıköy’de temizlik hizmetine ihtiyaç duyduğunuzda, çevreye duyarlı temizlik ürünleriyle çalışan deneyimli ekibimizle yanınızdayız.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Kadiköy"
+   },
+   {
+    "t": "h2",
+    "v": "Kadıköy’de Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"313\" data-start=\"301\">İstanbul</strong>’un en nezih ve hareketli ilçelerinden biri olan Kadıköy’de, ev ve ofisleriniz için profesyonel temizlik hizmeti sunuyoruz.<br data-end=\"439\" data-start=\"436\"/><strong data-end=\"457\" data-start=\"439\">Munzur Temizlik</strong> olarak, hijyen ve müşteri memnuniyetini ön planda tutarak, cam silmeden detaylı yüzey temizliğine kadar her alanda titiz çalışıyoruz."
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"604\" data-start=\"593\">Kadıköy</strong>’de temizlik hizmetine ihtiyaç duyduğunuzda, çevreye duyarlı temizlik ürünleriyle çalışan deneyimli ekibimizle yanınızdayız."
+   },
+   {
+    "t": "h3",
+    "v": "Kadiköy’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Acıbadem",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bostancı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Caddebostan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Caferağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dumlupınar"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Eğitim",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Erenköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fenerbahçe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Feneryolu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Göztepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hasanpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Koşuyolu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kozyatağı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merdivenköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ondokuz Mayıs"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Osmanağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rasimpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sahrayıcedit",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Suadiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zühtüpaşa"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Kadıköy’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un en özel ve yaşanılası bölgelerinden biri olan Kadıköy’de; Moda’dan Fenerbahçe’ye, Göztepe’den Suadiye’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Denizin esintisiyle nefes alan bu renkli ve modern ilçede, ev ve ofislerinizi aynı özenle, hijyen ve doğallıkla temizliyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "kartal",
@@ -804,7 +2964,102 @@
    "Yüksel"
   ],
   "h2b": "Kartal’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un sahil şeridinde yer alan ve hızla gelişen ilçelerinden biri olan Kartal’da; Atalar’dan Soğanlık’a, Yakacık’tan Petroliş’e kadar uzanan geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Geniş caddeler, modern yapılar ve kalabalık iş merkezleri içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Kartal’da temizlikte fark yaratıyoruz!"
+  "outro": "İstanbul’un sahil şeridinde yer alan ve hızla gelişen ilçelerinden biri olan Kartal’da; Atalar’dan Soğanlık’a, Yakacık’tan Petroliş’e kadar uzanan geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Geniş caddeler, modern yapılar ve kalabalık iş merkezleri içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Kartal’da temizlikte fark yaratıyoruz!",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Kartal"
+   },
+   {
+    "t": "h2",
+    "v": "Kartal’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un gelişen ve sahil şeridinin en gözde ilçelerinden biri olan Kartal’da, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Yakacık’tan Soğanlık’a, Petroliş’ten Esentepe’ye uzanan geniş hizmet ağımızla hem yaşam alanlarında hem de iş yerlerinde rezidanslardan sitelere kadar profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Kartal’ın hijyenine değer katıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Kartal’da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atalar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cevizli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çarşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çavuşoğlu"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esentepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gümüşpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karlıktepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kordonboyu"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orhantepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orta",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Petroliş",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Soğanlık Yeni",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Soğanlık Orta"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Topselvi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Uğur Mumcu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yakacık Yeni",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yakacık Çarşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yüksel"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Kartal’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un sahil şeridinde yer alan ve hızla gelişen ilçelerinden biri olan Kartal’da; Atalar’dan Soğanlık’a, Yakacık’tan Petroliş’e kadar uzanan geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Geniş caddeler, modern yapılar ve kalabalık iş merkezleri içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Kartal’da temizlikte fark yaratıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "kagithane",
@@ -834,7 +3089,101 @@
    "Yeşilce"
   ],
   "h2b": "Kağıthane’de Temizlikte Fark Yaratıyoruz",
-  "outro": "Kağıthane’de temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz."
+  "outro": "Kağıthane’de temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Kağıthane"
+   },
+   {
+    "t": "h2",
+    "v": "Kağıthane’de Profesyonel ve Güvenilir Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"216\" data-start=\"204\">İstanbul</strong>’un gelişen ve merkezi ilçelerinden biri olan Kağıthane’de, ev ve ofisleriniz için profesyonel temizlik hizmeti sunuyoruz. <strong data-end=\"357\" data-start=\"339\">Munzur Temizlik</strong> olarak, hijyen ve müşteri memnuniyetini ön planda tutarak, cam silmeden detaylı yüzey temizliğine kadar her alanda titizlikle çalışıyoruz."
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"511\" data-start=\"498\">Kağıthane</strong>’de temizlik hizmetine ihtiyaç duyduğunuzda, çevre dostu ürünlerle çalışan deneyimli ekibimizle yanınızdayız. İster sezonluk ister düzenli temizlik taleplerinizde, güvenilir ve planlı çözümlerle yaşam alanlarınızı ferah ve hijyenik hale getiriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Kağıthane'de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çağlayan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çeliktepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emniyet Evleri",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gültepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gürsel",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Harmantepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hürriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif Ersoy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nurtepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ortabayır",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Seyrantepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Talatpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Telsizler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yahya Kemal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilce"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Kağıthane’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla dönüşen ve gelişen bölgelerinden biri olan Kağıthane’de; Çağlayan’dan Seyrantepe’ye, Gürsel’den Nurtepe’ye kadar uzanan hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Modern yaşam alanlarının yoğun temposunda, ev ve ofislerinizi hijyenle buluşturuyor; deneyimli ekibimizle titizlikle temizliyoruz. Kağıthane’de temizliğe değer katıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "kucukcekmece",
@@ -868,7 +3217,101 @@
    "Yeşilova"
   ],
   "h2b": "Küçükçekmece’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un gelişen ve dönüşen bölgelerinden biri olan Küçükçekmece’de; Halkalı’dan Cennet Mahallesi’ne, Atakent’ten İstasyon Mahallesi’ne kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Modern yaşam alanları ve kalabalık temposu içinde, ev ve iş yerlerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Küçükçekmece’de temizlikte fark yaratıyoruz!"
+  "outro": "İstanbul’un gelişen ve dönüşen bölgelerinden biri olan Küçükçekmece’de; Halkalı’dan Cennet Mahallesi’ne, Atakent’ten İstasyon Mahallesi’ne kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Modern yaşam alanları ve kalabalık temposu içinde, ev ve iş yerlerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Küçükçekmece’de temizlikte fark yaratıyoruz!",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Küçükçekmece"
+   },
+   {
+    "t": "h2",
+    "v": "Küçükçekmece’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un planlı ve modern ilçelerinden biri olan Küçükçekmece’de, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Sefaköy’den Halkalı’ya, Cennet Mahallesi’nden Kanarya’ya kadar geniş hizmet alanımızla profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Küçükçekmece’nin hızına ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Küçükçekmece'de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atakent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Beşyol",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cennet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gültepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Halkalı Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstasyon",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kanarya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kartaltepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kemalpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Söğütlüçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sultan Murat",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tevfikbey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yarımburgaz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilova"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Küçükçekmece’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un gelişen ve dönüşen bölgelerinden biri olan Küçükçekmece’de; Halkalı’dan Cennet Mahallesi’ne, Atakent’ten İstasyon Mahallesi’ne kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Modern yaşam alanları ve kalabalık temposu içinde, ev ve iş yerlerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Küçükçekmece’de temizlikte fark yaratıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "maltepe",
@@ -897,7 +3340,96 @@
    "Zümrütevler"
   ],
   "h2b": "Maltepe’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un yükselen yaşam ve iş merkezlerinden biri olan Maltepe’de;Altayçeşme’den İdealtepe’ye, Bağlarbaşı’ndan Zümrütevler’e kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz."
+  "outro": "İstanbul’un yükselen yaşam ve iş merkezlerinden biri olan Maltepe’de;Altayçeşme’den İdealtepe’ye, Bağlarbaşı’ndan Zümrütevler’e kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Maltepe"
+   },
+   {
+    "t": "h2",
+    "v": "Maltepe’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un planlı yapısı ve sahil şeridiyle dikkat çeken ilçelerinden biri olan Maltepe’de, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Fındıklı Mahallesi’nden Altayçeşme’ye, iş yerlerinden rezidanslara kadar her alanda profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Maltepe’nin dinamizmine ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Maltepe’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Altayçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bağlarbaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Başıbüyük"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cevizli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenkent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Feyzullah"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fındıklı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gülensu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gülsuyu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İdealtepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küçükyalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zümrütevler"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Maltepe’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un yükselen yaşam ve iş merkezlerinden biri olan Maltepe’de;<br data-end=\"282\" data-start=\"279\"/>Altayçeşme’den İdealtepe’ye, Bağlarbaşı’ndan Zümrütevler’e kadar uzanan hizmet ağımızla profesyonel temizlik hizmeti sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "pendik",
@@ -943,7 +3475,117 @@
    "Yeşilbağlar"
   ],
   "h2b": "Pendik’te Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hızla gelişen ve denize kıyısı olan ilçelerinden biri olan Pendik’te; Kurtköy’den Güzelyalı’ya, Kaynarca’dan Esenyalı’ya kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz."
+  "outro": "İstanbul’un hızla gelişen ve denize kıyısı olan ilçelerinden biri olan Pendik’te; Kurtköy’den Güzelyalı’ya, Kaynarca’dan Esenyalı’ya kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Pendik"
+   },
+   {
+    "t": "h2",
+    "v": "Pendik’te Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un en planlı ve modern ilçelerinden biri olan Pendik’te, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz.<br data-end=\"301\" data-start=\"298\"/>Sahil şeridinden Yenişehir’e, Güzelyalı’dan Kurtköy’e, rezidanslardan iş yerlerine kadar her alanda profesyonel temizlik çözümleri sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Pendik'te Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ahmet Yesevi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçelievler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ballıca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Batı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çamçeşme",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çamlık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çınardere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Doğu"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dumlupınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ertuğrul Gazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenyalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fevzi Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güllübağlar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güzelyalı"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Harmandere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kavakpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kaynarca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kurtdoğmuş",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kurtköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orhangazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orta",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ramazanoğlu"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sanayi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sapanbağları",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sülüntepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şeyhli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Velibaba",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yayalar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenişehir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilbağlar"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Pendik’te Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ve denize kıyısı olan ilçelerinden biri olan <strong data-end=\"268\" data-start=\"255\">Pendik’te</strong>; Kurtköy’den Güzelyalı’ya, Kaynarca’dan Esenyalı’ya kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Modern yaşam alanlarıyla birlikte gelen yoğun tempo içinde, ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "sancaktepe",
@@ -975,7 +3617,103 @@
    "Yunus Emre"
   ],
   "h2b": "Sancaktepe’de Temizlikte Fark Yaratıyoruz",
-  "outro": "Sitelerden iş merkezlerine, dairelerden villalara kadar her alanda profesyonel temizlik çözümleri sağlıyoruz."
+  "outro": "Sitelerden iş merkezlerine, dairelerden villalara kadar her alanda profesyonel temizlik çözümleri sağlıyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Sancaktepe"
+   },
+   {
+    "t": "h2",
+    "v": "Sancaktepe’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un planlı gelişen ve hızla büyüyen ilçelerinden biri olan <strong data-end=\"291\" data-start=\"274\">Sancaktepe’de</strong>, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Sitelerden iş merkezlerine, dairelerden villalara kadar her alanda profesyonel temizlik çözümleri sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Sancaktepe’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Abdurrahmangazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emek",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Eyüpsultan"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hilal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kemal Türkler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Meclis"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merve",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Osmangazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Paşaköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Safa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sarıgazi"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Veysel Karani",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenidoğan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yunus Emre"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Sancaktepe’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen yerleşim bölgelerinden biri olan Sancaktepe’de; Abdurrahmangazi’den Veysel Karani’ye, Sarıgazi’den Yenidoğan’a kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz. Site yaşamı, modern apartmanlar ve iş merkezlerinin yoğun temposuna ayak uydurarak, ev ve ofislerinizi hijyenle buluşturuyoruz. Deneyimli kadromuzla titizlikle çalışıyor, Sancaktepe’de temizlikte fark yaratıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "sariyer",
@@ -1019,7 +3757,111 @@
    "Zekeriyaköy"
   ],
   "h2b": "Sarıyer’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un boğaz kıyısındaki incisi Sarıyer’de; Emirgan’dan Zekeriyaköy’e, İstinye’den Kilyos’a kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Doğayla iç içe, sahil havasının tazelendiği bu eşsiz bölgelerde ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Sarıyer’de temizlikte fark yaratıyoruz!"
+  "outro": "İstanbul’un boğaz kıyısındaki incisi Sarıyer’de; Emirgan’dan Zekeriyaköy’e, İstinye’den Kilyos’a kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Doğayla iç içe, sahil havasının tazelendiği bu eşsiz bölgelerde ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Sarıyer’de temizlikte fark yaratıyoruz!",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Sarıyer"
+   },
+   {
+    "t": "h2",
+    "v": "Sarıyer’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un doğayla iç içe, boğaz manzaralı en nezih ilçelerinden biri olan Sarıyer’de, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Emirgan’dan Tarabya’ya, Maslak’tan Zekeriyaköy’e kadar uzanan geniş hizmet ağımızla evlerden ofislere, rezidanslardan sitelere kadar her alanda profesyonel çözümler sağlıyoruz. Günlük temizlik, detaylı ev temizliği, ofis temizliği ve inşaat sonrası temizlik gibi zengin hizmet yelpazemizle Sarıyer’in yaşam kalitesine katkı sunuyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Sarıyer’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ayazağa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçeköy Kemer",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçeköy Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Baltalimanı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Büyükdere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Darüşşafaka",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Demirciköy"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emirgan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ferahevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih Sultan Mehmet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Garipçe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Huzur",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstinye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kireçburnu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kilyos (Kumköy)"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Maden",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Maslak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Poligon",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> PTT Evleri",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Reşitpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rumeli Hisarı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rumeli Kavağı"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Rumelikavağı Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tarabya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Uskumruköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeni Mahalle",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeniköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zekeriyaköy"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Sarıyer’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un boğaz kıyısındaki incisi Sarıyer’de; Emirgan’dan Zekeriyaköy’e, İstinye’den Kilyos’a kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Doğayla iç içe, sahil havasının tazelendiği bu eşsiz bölgelerde ev ve ofislerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz. Sarıyer’de temizlikte fark yaratıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "sultanbeyli",
@@ -1047,7 +3889,95 @@
    "Mehmet Akif"
   ],
   "h2b": "Sultanbeyli’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hızla gelişen bölgelerinden biri olan Sultanbeyli’de; Battalgazi’den Mecidiye’ye, Abdurrahmangazi’den Turgut Reis’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Doğayla iç içe yapıları ve yoğun kent yaşamı içinde, ev ve iş yerlerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz."
+  "outro": "İstanbul’un hızla gelişen bölgelerinden biri olan Sultanbeyli’de; Battalgazi’den Mecidiye’ye, Abdurrahmangazi’den Turgut Reis’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Doğayla iç içe yapıları ve yoğun kent yaşamı içinde, ev ve iş yerlerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Sultanbeyli"
+   },
+   {
+    "t": "h2",
+    "v": "Sultanbeyli’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un yükselen ve gelişen ilçelerinden biri olan Sultanbeyli’de, temizlik hizmetlerimizi üst düzey kalite ve profesyonellikle sunuyoruz.<br data-end=\"334\" data-start=\"331\"/>Sakin yaşam alanlarından yoğun iş merkezlerine, rezidanslardan sitelere kadar her noktada titiz çözümlerle hizmet veriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Sultanbeyli’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Abdurrahmangazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Adil",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akşemsettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ahmet Yesevi"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Battalgazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hamidiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hasanpaşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mecidiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimar Sinan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orhangazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Turgut Reis"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Sultanbeyli’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen bölgelerinden biri olan Sultanbeyli’de; <strong data-end=\"339\" data-start=\"274\">Battalgazi’den Mecidiye’ye, Abdurrahmangazi’den Turgut Reis’e</strong> kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Doğayla iç içe yapıları ve yoğun kent yaşamı içinde, ev ve iş yerlerinizi hijyenle buluşturuyor, deneyimli ekibimizle titizlikle temizliyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "sultangazi",
@@ -1076,7 +4006,96 @@
    "Zübeyde Hanım"
   ],
   "h2b": "Sultangazi’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un gelişen bölgelerinden biri olan Sultangazi’de; 75. Yıl, Cebeci, Esentepe, Habibler, Uğur Mumcu ve Zübeyde Hanım Mahalleleri’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un gelişen bölgelerinden biri olan Sultangazi’de; 75. Yıl, Cebeci, Esentepe, Habibler, Uğur Mumcu ve Zübeyde Hanım Mahalleleri’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Sultangazi"
+   },
+   {
+    "t": "h2",
+    "v": "Sultangazi’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla büyüyen ve gelişen ilçelerinden biri olan Sultangazi’de, temizlik hizmetlerimizi en üst düzey kaliteyle sunuyoruz. <strong data-end=\"379\" data-start=\"317\">Uğur Mumcu’dan Cebeci’ye, Sultançiftliği’nden İsmetpaşa’ya</strong> kadar her mahallede site yaşamından iş yerlerine, rezidanslardan ofislere kadar her alanda profesyonel temizlik çözümleri sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Sultangazi'de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> 50. Yıl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> 75. Yıl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cebeci",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esentepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Eski Habipler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Habibler"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İsmetpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Malkoçoğlu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sultançiftliği",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Uğur Mumcu"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yayla",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yunusemre",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zübeyde Hanım"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Sultangazi’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un gelişen bölgelerinden biri olan Sultangazi’de; 75. Yıl, Cebeci, Esentepe, Habibler, Uğur Mumcu ve Zübeyde Hanım Mahalleleri’ne kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "tuzla",
@@ -1106,7 +4125,97 @@
    "Akfırat"
   ],
   "h2b": "Tuzla’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hızla gelişen ve denizle iç içe yaşam alanlarından biri olan Tuzla’da; Aydınlı’dan Şifa Mahallesi’ne, Postane’den İçmeler’e kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz. Sanayi alanlarının dinamizmi ile konut bölgelerinin huzurunu buluşturan Tuzla’da, her yapının ihtiyacına uygun hijyen çözümleri sunuyoruz."
+  "outro": "İstanbul’un hızla gelişen ve denizle iç içe yaşam alanlarından biri olan Tuzla’da; Aydınlı’dan Şifa Mahallesi’ne, Postane’den İçmeler’e kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz. Sanayi alanlarının dinamizmi ile konut bölgelerinin huzurunu buluşturan Tuzla’da, her yapının ihtiyacına uygun hijyen çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Tuzla"
+   },
+   {
+    "t": "h2",
+    "v": "Tuzla’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un denizle iç içe, modern ve hızla gelişen ilçelerinden biri olan <strong data-end=\"312\" data-start=\"300\">Tuzla’da</strong>, temizlik hizmetlerimizi üst düzey kalite ve profesyonellikle sunuyoruz. Sanayi bölgelerinden konut alanlarına, sitelerden iş yerlerine kadar geniş bir yelpazede, hijyen çözümlerimizle fark yaratıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Tuzla'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydıntepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cami",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Evliya Çelebi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İçmeler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstasyon",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimar Sinan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Orhanlı"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Postane",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şifa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tepeören",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yayla"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeni",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Anadolu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akfırat"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Tuzla’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ve denizle iç içe yaşam alanlarından biri olan <strong data-end=\"255\" data-start=\"243\">Tuzla’da</strong>; Aydınlı’dan Şifa Mahallesi’ne, Postane’den İçmeler’e kadar geniş bir bölgede profesyonel temizlik hizmeti sunuyoruz. Sanayi alanlarının dinamizmi ile konut bölgelerinin huzurunu buluşturan Tuzla’da, her yapının ihtiyacına uygun hijyen çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "zeytinburnu",
@@ -1133,7 +4242,98 @@
    "Yenidoğan"
   ],
   "h2b": "Zeytinburnu’nda Temizlikte Fark Yaratıyoruz",
-  "outro": "Sanayi alanlarından rezidanslara, müstakil evlerden iş merkezlerine kadar farklı yapılarda uzmanlaşmış ekibimizle, günlük temizlik, inşaat sonrası temizlik ve ofis t"
+  "outro": "Sanayi alanlarından rezidanslara, müstakil evlerden iş merkezlerine kadar farklı yapılarda uzmanlaşmış ekibimizle, günlük temizlik, inşaat sonrası temizlik ve ofis t",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Zeytinburnu"
+   },
+   {
+    "t": "h2",
+    "v": "Zeytinburnu’nda Temizlikte Yeni Bir Soluk: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un denizle iç içe, tarihiyle özdeşleşmiş ilçelerinden biri olan <strong data-end=\"292\" data-start=\"273\">Zeytinburnu’nda</strong>; Sahil Yolu’ndan Merkezefendi’ye, Sümer Mahallesi’nden Telsiz’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Sanayi alanlarından rezidanslara, müstakil evlerden iş merkezlerine kadar farklı yapılarda uzmanlaşmış ekibimizle, günlük temizlik, inşaat sonrası temizlik ve ofis t"
+   },
+   {
+    "t": "h3",
+    "v": "Zeytinburnu’nda Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Beştelsiz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çırpıcı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gökalp",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kazlıçeşme"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Maltepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkezefendi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nuripaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Seyitnizam"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sümer",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Telsiz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Veliefendi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşiltepe"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenidoğan"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Zeytinburnu’nda Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi dokusunu modern yaşamla birleştiren Zeytinburnu’nda; Beştelsiz’den Merkezefendi’ye, Sümer’den Veliefendi’ye kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Konutlardan ofislere, iş merkezlerinden rezidanslara kadar her yapıda titizlikle çalışıyor, hijyen standartlarını en üst düzeye çıkarıyoruz. Deneyimli ekibimizle, yoğun temponuzun içinde size tertemiz bir nefes alanı sunmak için buradayız."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "catalca",
@@ -1183,7 +4383,117 @@
    "Yukarıkalaköy"
   ],
   "h2b": "Çatalca’da Temizlikte Fark Yaratan Hizmet",
-  "outro": "İstanbul’un doğal güzellikleriyle öne çıkan ilçelerinden biri olan Çatalca’da; Kaleiçi’nden Gökçeali’ye, Kabakça’dan Subaşı’na kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.Ev, ofis, inşaat sonrası ve periyodik temizliklerde çevreye duyarlı yaklaşımımızla kaliteyi ve hijyeni ön planda tutuyoruz."
+  "outro": "İstanbul’un doğal güzellikleriyle öne çıkan ilçelerinden biri olan Çatalca’da; Kaleiçi’nden Gökçeali’ye, Kabakça’dan Subaşı’na kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.Ev, ofis, inşaat sonrası ve periyodik temizliklerde çevreye duyarlı yaklaşımımızla kaliteyi ve hijyeni ön planda tutuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Çatalca"
+   },
+   {
+    "t": "h2",
+    "v": "Çatalca’da Profesyonel Temizlik Hizmetleri"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un doğal güzellikleriyle öne çıkan ilçelerinden Çatalca’da; <strong data-end=\"322\" data-start=\"259\">İnceğiz’den Ferhatpaşa’ya, Kaleiçi’nden Subaşı Mahallesi’ne</strong> kadar uzanan geniş hizmet ağımızla profesyonel temizlik hizmetleri sunuyoruz.<br data-end=\"403\" data-start=\"400\"/>Doğayla iç içe yapılarınızda, villa ve müstakil evlerden ofislere kadar her alanda hijyen ve ferahlığı buluşturuyoruz.<br data-end=\"524\" data-start=\"521\"/>Modern ekipmanlarımız ve çevre dostu temizlik ürünlerimizle, Çatalca’da sağlığınızı ve yaşam alanlarınızı titizlikle koruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Çatalca'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınlar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahşayış",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Başak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Belgrat",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Celepköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çakıl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çanakça",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yazlık"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dağyenice",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Elbasan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fatih",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ferhatpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gökçeali",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gümüşpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hallaçlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hisarbeyli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuz Selim"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnceğiz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İzzettin",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kabakça",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kaleiçi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karacaköy Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karamandere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kestanelik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muratbey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yayla"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nakkaş",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Oklalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ormanlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Örcünlü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ovayenice",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Subaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yalıköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yaylacık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yukarıkalaköy"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Çatalca’da Temizlikte Fark Yaratan Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un doğal güzellikleriyle öne çıkan ilçelerinden biri olan Çatalca’da; Kaleiçi’nden Gökçeali’ye, Kabakça’dan Subaşı’na kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.<br data-end=\"369\" data-start=\"366\"/>Ev, ofis, inşaat sonrası ve periyodik temizliklerde çevreye duyarlı yaklaşımımızla kaliteyi ve hijyeni ön planda tutuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "cayirova",
@@ -1205,7 +4515,89 @@
    "Yenimahalle"
   ],
   "h2b": "Çayırova’da Temizlikte Fark Yaratan Hizmet",
-  "outro": "İstanbul’a komşu, modern yapısıyla dikkat çeken Kocaeli’nin en hızlı gelişen ilçelerinden Çayırova’da, profesyonel temizlik çözümlerimizle fark yaratıyoruz. Akse’den Şekerpınar’a, Cumhuriyet’ten İnönü Mahallesi’ne kadar uzanan geniş hizmet ağımızla, yaşam alanlarınızı hijyenle buluşturuyoruz."
+  "outro": "İstanbul’a komşu, modern yapısıyla dikkat çeken Kocaeli’nin en hızlı gelişen ilçelerinden Çayırova’da, profesyonel temizlik çözümlerimizle fark yaratıyoruz. Akse’den Şekerpınar’a, Cumhuriyet’ten İnönü Mahallesi’ne kadar uzanan geniş hizmet ağımızla, yaşam alanlarınızı hijyenle buluşturuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Çayırova"
+   },
+   {
+    "t": "h2",
+    "v": "Çayırova’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "Kocaeli’nin yükselen yaşam ve sanayi bölgelerinden biri olan <strong data-end=\"268\" data-start=\"253\">Çayırova’da</strong>; İnönü’den Özgürlük Mahallesi’ne, Emek’ten Akse’ye kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.Site yaşam alanlarından fabrika ofislerine, ticaret merkezlerinden daire temizliğine kadar tüm ihtiyaçlar için detaylı, planlı ve hijyenik çözümler sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Çayırova'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Akse",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Emek"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Özgürlük"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şekerpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yenimahalle"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Çayırova’da Temizlikte Fark Yaratan Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’a komşu, modern yapısıyla dikkat çeken Kocaeli’nin en hızlı gelişen ilçelerinden <strong data-end=\"311\" data-start=\"296\">Çayırova’da</strong>, profesyonel temizlik çözümlerimizle fark yaratıyoruz. <strong data-end=\"427\" data-start=\"367\">Akse’den Şekerpınar’a, Cumhuriyet’ten İnönü Mahallesi’ne</strong> kadar uzanan geniş hizmet ağımızla, yaşam alanlarınızı hijyenle buluşturuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "cekmekoy",
@@ -1239,7 +4631,101 @@
    "Tepeüstü"
   ],
   "h2b": "Çekmeköy’de Temizlikte Fark Yaratan Hizmet",
-  "outro": "İstanbul’un hızla gelişen ve doğal yapısını koruyan ilçelerinden biri olan Çekmeköy’de; Merkez Mahallesi’nden Alemdağ’a, Taşdelen’den Hamidiye’ye kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un hızla gelişen ve doğal yapısını koruyan ilçelerinden biri olan Çekmeköy’de; Merkez Mahallesi’nden Alemdağ’a, Taşdelen’den Hamidiye’ye kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Çekmeköy"
+   },
+   {
+    "t": "h2",
+    "v": "Çekmeköy’de Profesyonel Temizlik Hizmetleri"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un doğal yapısıyla öne çıkan ilçelerinden Çekmeköy’de; ev, ofis ve inşaat sonrası temizlik ihtiyaçlarınız için güvenilir çözümler sunuyoruz. Munzur Temizlik olarak, modern ekipmanlarımız ve eğitimli personelimizle yaşam alanlarınızı detaylı bir şekilde temizliyor, hijyen ve ferahlığı bir araya getiriyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Çekmeköy'de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınlar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çamlık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çatalmeşe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ekşioğlu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güngören",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hamidiye"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hüseyinli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kirazlıdere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Koçullu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mimarsinan"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Nişantepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ömerli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Reşadiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sırapınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Soğukpınar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sultançiftliği"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Taşdelen",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tepeüstü"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Çekmeköy’de Temizlikte Fark Yaratan Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ve doğal yapısını koruyan ilçelerinden biri olan Çekmeköy’de; Merkez Mahallesi’nden Alemdağ’a, Taşdelen’den Hamidiye’ye kadar geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "umraniye",
@@ -1279,7 +4765,107 @@
    "Yukarı Dudullu"
   ],
   "h2b": "Ümraniye’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un hızla gelişen yaşam ve iş bölgelerinden biri olan Ümraniye’de; Yukarı Dudullu’dan Çakmak’a, İnkılap Mahallesi’nden Atakent’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Yoğun iş temposunun ve kalabalık yaşamın hüküm sürdüğü bu bölgede, ev ve ofislerinizi uzman ekibimizle hijyenle buluşturuyoruz."
+  "outro": "İstanbul’un hızla gelişen yaşam ve iş bölgelerinden biri olan Ümraniye’de; Yukarı Dudullu’dan Çakmak’a, İnkılap Mahallesi’nden Atakent’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Yoğun iş temposunun ve kalabalık yaşamın hüküm sürdüğü bu bölgede, ev ve ofislerinizi uzman ekibimizle hijyenle buluşturuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Ümraniye"
+   },
+   {
+    "t": "h2",
+    "v": "Ümraniye’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen ve yaşam kalitesiyle öne çıkan ilçelerinden biri olan <strong data-end=\"280\" data-start=\"265\">Ümraniye’de</strong>, temizlik hizmetlerimizi en yüksek standartlarla sunuyoruz. Site yaşamından iş merkezlerine, rezidanslardan butik ofislere kadar her alanda profesyonel çözümler sağlıyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Ümraniye’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Adem Yavuz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aşağı Dudullu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atakent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Atatürk",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cemil Meriç",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çakmak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Dumlupınar"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Elmalıkent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenkent",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hekimbaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Huzur",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnkılap",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İstiklal"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kazım Karabekir",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Namık Kemal",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Necip Fazıl",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Parseller",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Saray",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Site"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tantavi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tepeüstü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Topağacı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yamanevler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yukarı Dudullu"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Ümraniye’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un hızla gelişen yaşam ve iş bölgelerinden biri olan Ümraniye’de; Yukarı Dudullu’dan Çakmak’a, İnkılap Mahallesi’nden Atakent’e kadar geniş bir alanda profesyonel temizlik hizmeti sunuyoruz. Yoğun iş temposunun ve kalabalık yaşamın hüküm sürdüğü bu bölgede, ev ve ofislerinizi uzman ekibimizle hijyenle buluşturuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "uskudar",
@@ -1323,7 +4909,111 @@
    "Yavuztürk"
   ],
   "h2b": "Üsküdar’da Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un tarihi dokusu ve eşsiz manzaralarıyla öne çıkan Üsküdar’da; Salacak’tan Beylerbeyi’ne, Altunizade’den Çengelköy’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+  "outro": "İstanbul’un tarihi dokusu ve eşsiz manzaralarıyla öne çıkan Üsküdar’da; Salacak’tan Beylerbeyi’ne, Altunizade’den Çengelköy’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz.",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Üsküdar"
+   },
+   {
+    "t": "h2",
+    "v": "Üsküdar’da Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi dokusunu modern yaşamla harmanlayan Üsküdar’da; ev, ofis ve iş yerleriniz için üst düzey temizlik hizmeti sunuyoruz. Munzur Temizlik olarak, Salacak’tan Altunizade’ye, Acıbadem’den Çengelköy’e kadar her mahallede hijyenin standardını yükseltiyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Üsküdar'da Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Acıbadem",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ahmediye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Altunizade",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aziz Mahmut Hüdayi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bahçelievler",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Barbaros",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Beylerbeyi"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bulgurlu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Burhaniye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çengelköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ferah",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Güzeltepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İcadiye"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kandilli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kısıklı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kirazlıtepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küçük Çamlıca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küçüksu",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Küplüce",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mehmet Akif Ersoy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zeynep Kamil"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Muratreis",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Salacak",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Selamiali",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Selimiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sultantepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ünalan",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Validei Atik",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yavuztürk"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Üsküdar’da Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un tarihi dokusu ve eşsiz manzaralarıyla öne çıkan Üsküdar’da; Salacak’tan Beylerbeyi’ne, Altunizade’den Çengelköy’e kadar uzanan geniş hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "sile",
@@ -1381,7 +5071,125 @@
    "Yazımanayır"
   ],
   "h2b": "Şile’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un doğayla iç içe, huzur dolu bölgelerinden biri olan Şile’de; Ağva’dan Kabakoz’a, Kervansaray’dan Ulupelit’e kadar uzanan hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Doğanın kalbinde, deniz esintisiyle can bulan bu güzel ilçede ev ve ofislerinizi doğallıkla buluşturuyor, çevre dostu ürünlerimiz ve deneyimli ekibimizle titizlikle temizliyoruz. Şile’de hijyenin adresi olarak fark yaratıyoruz!"
+  "outro": "İstanbul’un doğayla iç içe, huzur dolu bölgelerinden biri olan Şile’de; Ağva’dan Kabakoz’a, Kervansaray’dan Ulupelit’e kadar uzanan hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Doğanın kalbinde, deniz esintisiyle can bulan bu güzel ilçede ev ve ofislerinizi doğallıkla buluşturuyor, çevre dostu ürünlerimiz ve deneyimli ekibimizle titizlikle temizliyoruz. Şile’de hijyenin adresi olarak fark yaratıyoruz!",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Şile"
+   },
+   {
+    "t": "h2",
+    "v": "Şile’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un doğayla iç içe, huzurlu sahil ilçesi Şile’de; temizlik hizmetlerimizi üstün kaliteyle sunuyoruz. Köy yaşamından yazlık sitelere, butik otellerden kamp alanlarına kadar her alanda profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, detaylı ev temizliği ve sezonluk bakım gibi geniş hizmet yelpazemizle Şile’nin doğal yapısına uygun çözümler üretiyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Şile’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ağva Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ahmetli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Alacalı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Avcıkoru",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Balibey",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bıçkıdere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bozkoca",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bucaklı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çayırbaşı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çelebi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çengilli"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Değirmençayırı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Darlık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Doğancılı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esenceli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Geredeli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Göçe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gökmaslı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hacıköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Hasanlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İmrendere",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İsaköy"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kabakoz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kadıköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kalemköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karabeyli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karacaköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Karakiraz",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kervansaray",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kızılcaköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Korucuköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kömürlük",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Meşrutiyet"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ovacık",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sahilköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Satmazlı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Sofular",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Şuayipli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Teke",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ulupelit",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Üvezli",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeniköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yeşilvadi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yazımanayır"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Şile’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un doğayla iç içe, huzur dolu bölgelerinden biri olan Şile’de; Ağva’dan Kabakoz’a, Kervansaray’dan Ulupelit’e kadar uzanan hizmet ağımızla profesyonel temizlik çözümleri sunuyoruz. Doğanın kalbinde, deniz esintisiyle can bulan bu güzel ilçede ev ve ofislerinizi doğallıkla buluşturuyor, çevre dostu ürünlerimiz ve deneyimli ekibimizle titizlikle temizliyoruz. Şile’de hijyenin adresi olarak fark yaratıyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  },
  {
   "slug": "sisli",
@@ -1415,6 +5223,100 @@
    "Yayla"
   ],
   "h2b": "Şişli’de Temizlikte Fark Yaratıyoruz",
-  "outro": "İstanbul’un kalbi sayılan, iş ve yaşamın 7/24 devam ettiği Şişli’de; Mecidiyeköy’den Nişantaşı’na, Okmeydanı’ndan Teşvikiye’ye kadar geniş bir bölgede profesyonel temizlik hizmetleri sunuyoruz. Plazaların gölgesinden tarihi apartmanlara, butik otellerden rezidanslara kadar her yapıya özel temizlik çözümlerimizle Şişli’nin temposuna ayak uyduruyoruz. Deneyimli kadromuz, çevre dostu ürünlerimiz ve detay odaklı yaklaşımımızla, Şişli’de hijyenin ve kalitenin yeni adı oluyoruz!"
+  "outro": "İstanbul’un kalbi sayılan, iş ve yaşamın 7/24 devam ettiği Şişli’de; Mecidiyeköy’den Nişantaşı’na, Okmeydanı’ndan Teşvikiye’ye kadar geniş bir bölgede profesyonel temizlik hizmetleri sunuyoruz. Plazaların gölgesinden tarihi apartmanlara, butik otellerden rezidanslara kadar her yapıya özel temizlik çözümlerimizle Şişli’nin temposuna ayak uyduruyoruz. Deneyimli kadromuz, çevre dostu ürünlerimiz ve detay odaklı yaklaşımımızla, Şişli’de hijyenin ve kalitenin yeni adı oluyoruz!",
+  "blocks": [
+   {
+    "t": "h6",
+    "v": "Şişli"
+   },
+   {
+    "t": "h2",
+    "v": "Şişli’de Hijyenin Yeni Adı: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un en merkezi ve hareketli ilçelerinden biri olan Şişli’de, temizlik hizmetlerimizi üst düzey kaliteyle sunuyoruz. Nişantaşı’ndan Bomonti’ye, Halaskargazi’den Mecidiyeköy’e kadar her noktada profesyonel temizlik çözümleri sağlıyoruz. Günlük temizlik, ofis temizliği, detaylı ev temizliği ve inşaat sonrası temizlik gibi geniş hizmet yelpazemizle Şişli’nin dinamik yapısına ayak uyduruyoruz."
+   },
+   {
+    "t": "h3",
+    "v": "Şişli’de Hizmet Verdiğimiz Mahalleler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Bozkurt",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Cumhuriyet",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Duatepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Ergenekon",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Esentepe",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Eskişehir"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Feriköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Fulya",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Gülbahar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Halaskargazi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Halide Edip Adıvar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Harbiye"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> İnönü",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Kaptanpaşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mahmut Şevket Paşa",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mecidiyeköy",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Merkez",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Paşa"
+    ]
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Teşvikiye",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yayla"
+    ]
+   },
+   {
+    "t": "h6",
+    "v": "Biz Sizin için Burayayız"
+   },
+   {
+    "t": "h2",
+    "v": "Şişli’de Temizlikte Fark Yaratıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "İstanbul’un kalbi sayılan, iş ve yaşamın 7/24 devam ettiği Şişli’de; Mecidiyeköy’den Nişantaşı’na, Okmeydanı’ndan Teşvikiye’ye kadar geniş bir bölgede profesyonel temizlik hizmetleri sunuyoruz. Plazaların gölgesinden tarihi apartmanlara, butik otellerden rezidanslara kadar her yapıya özel temizlik çözümlerimizle Şişli’nin temposuna ayak uyduruyoruz. Deneyimli kadromuz, çevre dostu ürünlerimiz ve detay odaklı yaklaşımımızla, Şişli’de hijyenin ve kalitenin yeni adı oluyoruz!"
+   },
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   }
+  ]
  }
 ]

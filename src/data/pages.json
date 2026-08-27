@@ -4,10 +4,6 @@
   "description": "",
   "blocks": [
    {
-    "t": "h1",
-    "v": "Hakkımızda"
-   },
-   {
     "t": "h2",
     "v": "Misyonumuz"
    },
@@ -48,6 +44,10 @@
     "v": "Her işin sonunda sizin memnuniyetiniz bizim başarımızdır. Munzur Temizlik, güler yüzlü hizmet ve titiz işçiliği ile yanınızda."
    },
    {
+    "t": "h6",
+    "v": "Neden Munzur Temizlik?"
+   },
+   {
     "t": "h2",
     "v": "Temizlikte Şeffaflık ve Güven"
    },
@@ -82,10 +82,6 @@
    {
     "t": "p",
     "v": "Ekolojik temizlik ürünleriyle çevreyi koruyor, karbon ayak izimizi azaltıyoruz. Munzur Temizlik sadece bugün değil, yarın için de temizlik yapar."
-   },
-   {
-    "t": "h2",
-    "v": "Inactive"
    }
   ]
  },
@@ -95,7 +91,11 @@
   "blocks": [
    {
     "t": "p",
-    "v": "Munzur Temizlik olarak, hayatınız ne kadar yoğun olursa olsun temiz ve huzurlu bir eve dönmenizi sağlıyoruz.Bizimle temizlik, artık bir yük değil; konforun ta kendisi."
+    "v": "<strong>Munzur Temizlik</strong> olarak, hayatınız ne kadar yoğun olursa olsun temiz ve huzurlu bir eve dönmenizi sağlıyoruz.<br data-end=\"443\" data-start=\"440\"/>Bizimle temizlik, artık bir yük değil; konforun ta kendisi."
+   },
+   {
+    "t": "h6",
+    "v": "Oda Oda Temizlik Süreci"
    },
    {
     "t": "h2",
@@ -107,23 +107,16 @@
    },
    {
     "t": "p",
-    "v": "Munzur Temizlik olarak banyonuzu baştan aşağıya detaylı şekilde temizliyoruz.Köşe bucak temizlikten, zeminlerin silinmesine ve tozların alınmasına kadar her adımda hijyen önceliğimizdir.Lavabo, klozet, duşakabin gibi bakteri barındırabilecek alanlarda özel ürünler kullanılır. Havluluklar, pencere pervazları, dolap kapakları, ışıklar ve priz kenarları dâhil tüm yüzeyler temizlenir ve dezenfekte edilir."
+    "v": "<strong data-end=\"274\" data-start=\"194\">Munzur Temizlik olarak banyonuzu baştan aşağıya detaylı şekilde temizliyoruz.</strong><br data-end=\"277\" data-start=\"274\"/>Köşe bucak temizlikten, zeminlerin silinmesine ve tozların alınmasına kadar her adımda hijyen önceliğimizdir.<br data-end=\"389\" data-start=\"386\"/>Lavabo, klozet, duşakabin gibi bakteri barındırabilecek alanlarda özel ürünler kullanılır. Havluluklar, pencere pervazları, dolap kapakları, ışıklar ve priz kenarları dâhil tüm yüzeyler temizlenir ve dezenfekte edilir."
    },
    {
-    "t": "li",
-    "v": "Lavabo ve duşların fırçalanması, durulanması"
-   },
-   {
-    "t": "li",
-    "v": "Birikmiş sabun kalıntılarının temizlenmesi"
-   },
-   {
-    "t": "li",
-    "v": "Klozetin iç ve dış yüzeylerinin dezenfekte edilmesi"
-   },
-   {
-    "t": "li",
-    "v": "Aydınlatma üniteleri ve armatürlerin temizliği"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Lavabo ve duşların fırçalanması, durulanması",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Birikmiş sabun kalıntılarının temizlenmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Klozetin iç ve dış yüzeylerinin dezenfekte edilmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınlatma üniteleri ve armatürlerin temizliği"
+    ]
    },
    {
     "t": "h4",
@@ -131,27 +124,17 @@
    },
    {
     "t": "p",
-    "v": "Yatak odaları dinlenme alanlarımızdır, bu nedenle hijyen ve ferahlık burada büyük önem taşır.Munzur Temizlik olarak yatak odalarınızı detaylı şekilde temizleyerek toz, alerjen ve kir birikimlerini ortadan kaldırıyoruz.Mobilyaların çevresi ve altı, dolap yüzeyleri, priz ve kenar köşelere kadar ulaşarak eksiksiz temizlik sağlıyoruz."
+    "v": "<strong data-end=\"293\" data-start=\"196\">Yatak odaları dinlenme alanlarımızdır, bu nedenle hijyen ve ferahlık burada büyük önem taşır.</strong><br data-end=\"296\" data-start=\"293\"/>Munzur Temizlik olarak yatak odalarınızı detaylı şekilde temizleyerek toz, alerjen ve kir birikimlerini ortadan kaldırıyoruz.<br data-end=\"423\" data-start=\"420\"/>Mobilyaların çevresi ve altı, dolap yüzeyleri, priz ve kenar köşelere kadar ulaşarak eksiksiz temizlik sağlıyoruz."
    },
    {
-    "t": "li",
-    "v": "Yatakların toplanması ve yatak başlıklarının silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Komodin, dolap ve şifonyer yüzeylerinin tozunun alınması"
-   },
-   {
-    "t": "li",
-    "v": "Yerlerin süpürülmesi ve silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Perdelerin, pencere pervazlarının ve priz kenarlarının temizliği"
-   },
-   {
-    "t": "li",
-    "v": "Aydınlatma armatürleri ve lambaların tozunun alınması"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yatakların toplanması ve yatak başlıklarının silinmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Komodin, dolap ve şifonyer yüzeylerinin tozunun alınması",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yerlerin süpürülmesi ve silinmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Perdelerin, pencere pervazlarının ve priz kenarlarının temizliği",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınlatma armatürleri ve lambaların tozunun alınması"
+    ]
    },
    {
     "t": "h4",
@@ -159,31 +142,18 @@
    },
    {
     "t": "p",
-    "v": "Mutfaklar sadece yemek yapılan alanlar değil, aynı zamanda hijyenin en önemli olduğu yerlerdir.Munzur Temizlik olarak mutfağınızda yağ, leke ve bakterilere karşı kapsamlı bir temizlik sağlıyoruz. Tezgâhlardan dolaplara, ocaktan beyaz eşyalara kadar her alan titizlikle temizlenir. Gıda güvenliği açısından kullanılan temizlik ürünlerimiz insan sağlığına uygun ve çevre dostudur."
+    "v": "<strong data-end=\"285\" data-start=\"186\">Mutfaklar sadece yemek yapılan alanlar değil, aynı zamanda hijyenin en önemli olduğu yerlerdir.</strong><br data-end=\"288\" data-start=\"285\"/>Munzur Temizlik olarak mutfağınızda yağ, leke ve bakterilere karşı kapsamlı bir temizlik sağlıyoruz. Tezgâhlardan dolaplara, ocaktan beyaz eşyalara kadar her alan titizlikle temizlenir. Gıda güvenliği açısından kullanılan temizlik ürünlerimiz insan sağlığına uygun ve çevre dostudur."
    },
    {
-    "t": "li",
-    "v": "Tezgâh, ocak ve lavabo yüzeylerinin silinmesi ve dezenfekte edilmesi"
-   },
-   {
-    "t": "li",
-    "v": "Mutfak dolaplarının dış yüzeylerinin temizliği"
-   },
-   {
-    "t": "li",
-    "v": "Mikrodalga, fırın dışı ve buzdolabı dış yüzeylerinin silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Zeminlerin süpürülüp silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Çöp kutusunun temizliği ve çöpün atılması"
-   },
-   {
-    "t": "li",
-    "v": "Lamba, priz kenarı ve fayans üstü tozlarının alınması"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Tezgâh, ocak ve lavabo yüzeylerinin silinmesi ve dezenfekte edilmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mutfak dolaplarının dış yüzeylerinin temizliği",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Mikrodalga, fırın dışı ve buzdolabı dış yüzeylerinin silinmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zeminlerin süpürülüp silinmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Çöp kutusunun temizliği ve çöpün atılması",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Lamba, priz kenarı ve fayans üstü tozlarının alınması"
+    ]
    },
    {
     "t": "h4",
@@ -191,31 +161,22 @@
    },
    {
     "t": "p",
-    "v": "Ailenizle vakit geçirdiğiniz, misafirlerinizi ağırladığınız salonlarınız da en az mutfağınız kadar hijyenik olmalı.Munzur Temizlik olarak salon ve oturma odalarında biriken toz, kir ve evcil hayvan tüylerine karşı etkili ve detaylı bir temizlik uyguluyoruz.Mobilyaların altı, dekoratif yüzeyler ve ulaşılması zor alanlar dâhil olmak üzere tüm detaylara önem veriyoruz."
+    "v": "<strong data-end=\"306\" data-start=\"187\">Ailenizle vakit geçirdiğiniz, misafirlerinizi ağırladığınız salonlarınız da en az mutfağınız kadar hijyenik olmalı.</strong><br data-end=\"309\" data-start=\"306\"/>Munzur Temizlik olarak salon ve oturma odalarında biriken toz, kir ve evcil hayvan tüylerine karşı etkili ve detaylı bir temizlik uyguluyoruz.<br data-end=\"453\" data-start=\"450\"/>Mobilyaların altı, dekoratif yüzeyler ve ulaşılması zor alanlar dâhil olmak üzere tüm detaylara önem veriyoruz."
    },
    {
-    "t": "li",
-    "v": "Koltuk, masa, TV ünitesi gibi yüzeylerin tozunun alınması"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Koltuk, masa, TV ünitesi gibi yüzeylerin tozunun alınması",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Elektronik eşyaların yüzey temizliği (televizyon, uzaktan kumanda, vb.)",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Zeminlerin süpürülmesi ve silinmesi",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Halıların süpürülmesi (talebe göre)",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Priz, perde kornişi ve pencere pervazı tozlarının temizliği",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Aydınlatma armatürlerinin silinmesi"
+    ]
    },
    {
-    "t": "li",
-    "v": "Elektronik eşyaların yüzey temizliği (televizyon, uzaktan kumanda, vb.)"
-   },
-   {
-    "t": "li",
-    "v": "Zeminlerin süpürülmesi ve silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Halıların süpürülmesi (talebe göre)"
-   },
-   {
-    "t": "li",
-    "v": "Priz, perde kornişi ve pencere pervazı tozlarının temizliği"
-   },
-   {
-    "t": "li",
-    "v": "Aydınlatma armatürlerinin silinmesi"
+    "t": "h6",
+    "v": "💚 Size Nasıl Yardımcı Oluruz?"
    },
    {
     "t": "h2",
@@ -226,6 +187,10 @@
     "v": "Ev temizliği hizmeti almak, zamanınızı size geri kazandırmanın harika bir yoludur. Günün sonunda temiz, düzenli ve ferah kokan bir eve dönmenin verdiği huzurun yanında; temizlik hizmeti sayesinde diğer önemli işlerinize daha fazla odaklanabilirsiniz. Üstelik bununla da kalmaz – ev temizliğinin pek çok fiziksel ve zihinsel faydası da vardır."
    },
    {
+    "t": "h6",
+    "v": "İPUÇLARI"
+   },
+   {
     "t": "h2",
     "v": "Evinizi Her Zaman En İyi Şekilde Korumanın Yolları"
    },
@@ -234,28 +199,34 @@
     "v": "Munzur Temizlik Öneriyor: Haftalık Temizlik"
    },
    {
-    "t": "li",
-    "v": "Yemek masanızı sürekli kurulu tutun. Böylece anahtar, mektup veya evrak gibi eşyaların burada birikmesini önlersiniz."
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yemek masanızı sürekli kurulu tutun. Böylece anahtar, mektup veya evrak gibi eşyaların burada birikmesini önlersiniz."
+    ]
    },
    {
-    "t": "li",
-    "v": "Yoğun kullanılan alanlarda paspas ya da kilim kullanın. Bu sayede dışarıdan gelen kirin evin içine yayılması engellenir."
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Yoğun kullanılan alanlarda paspas ya da kilim kullanın. Bu sayede dışarıdan gelen kirin evin içine yayılması engellenir."
+    ]
    },
    {
-    "t": "li",
-    "v": "Eşyalarınız için belirli alanlar oluşturun. Askılıklar, kutular ve saklama sepetleriyle evinizi organize edin."
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Eşyalarınız için belirli alanlar oluşturun. Askılıklar, kutular ve saklama sepetleriyle evinizi organize edin."
+    ]
    },
    {
-    "t": "li",
-    "v": "Temizlik malzemelerini tek bir yerde tutmak yerine dağıtın. Böylece küçük temizlik işleri daha kolay yapılır."
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Temizlik malzemelerini tek bir yerde tutmak yerine dağıtın. Böylece küçük temizlik işleri daha kolay yapılır."
+    ]
    },
    {
-    "t": "li",
-    "v": "Her gün bir odada küçük bir temizlik yapın. Örneğin bir gün banyodaki aynayı silmek, bir gün mutfak zeminini süpürmek gibi."
-   },
-   {
-    "t": "h2",
-    "v": "Inactive"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-check-round\"></em> Her gün bir odada küçük bir temizlik yapın. Örneğin bir gün banyodaki aynayı silmek, bir gün mutfak zeminini süpürmek gibi."
+    ]
    }
   ]
  },
@@ -293,7 +264,7 @@
    },
    {
     "t": "p",
-    "v": "Evet, ilk temizlik daha kapsamlı olacağı için biraz daha uzun sürebilir."
+    "v": "<strong>Evet</strong>, ilk temizlik daha kapsamlı olacağı için biraz daha uzun sürebilir."
    },
    {
     "t": "p",
@@ -306,10 +277,6 @@
    {
     "t": "p",
     "v": "Nakit veya banka havalesi ödeme seçenekleri sunmaktayız."
-   },
-   {
-    "t": "h2",
-    "v": "Inactive"
    }
   ]
  },
@@ -340,6 +307,10 @@
    {
     "t": "h4",
     "v": "Derinlemesine Temizlik"
+   },
+   {
+    "t": "h6",
+    "v": "Ek hizmetler"
    },
    {
     "t": "h2",
@@ -414,44 +385,28 @@
     "v": "Kıyafet katlama hizmeti"
    },
    {
-    "t": "li",
-    "v": "Elektrik süpürgesinin ulaşamadığı koltuk ve mobilya altları"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Elektrik süpürgesinin ulaşamadığı koltuk ve mobilya altları",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Çamaşır yıkama, çamaşır katlama veya asma işlemleri",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Dış camlar veya duvar yüzeyleri",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Mutfak dolaplarının içi (porselen dolapları dahil)",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Dolap içleri (boşsa süpürülür ve silinir)"
+    ]
    },
    {
-    "t": "li",
-    "v": "Çamaşır yıkama, çamaşır katlama veya asma işlemleri"
+    "t": "ul",
+    "items": [
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Dış mekanlar (yalnızca ön ve arka kapı çevresi temizlenir)",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Ağır mobilyaların altı",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Oyuncak, kitap, ayakkabı gibi küçük eşyalar",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Bulaşıklar (yalnızca bulaşık makinesine yerleştirilir, elde yıkanmaz)",
+     "<em aria-hidden=\"true\" data-x=\"vamtamtheme- vamtam-theme-minus-1\"></em> Kitaplar raflardan alınarak temizlenmez"
+    ]
    },
    {
-    "t": "li",
-    "v": "Dış camlar veya duvar yüzeyleri"
-   },
-   {
-    "t": "li",
-    "v": "Mutfak dolaplarının içi (porselen dolapları dahil)"
-   },
-   {
-    "t": "li",
-    "v": "Dolap içleri (boşsa süpürülür ve silinir)"
-   },
-   {
-    "t": "li",
-    "v": "Dış mekanlar (yalnızca ön ve arka kapı çevresi temizlenir)"
-   },
-   {
-    "t": "li",
-    "v": "Ağır mobilyaların altı"
-   },
-   {
-    "t": "li",
-    "v": "Oyuncak, kitap, ayakkabı gibi küçük eşyalar"
-   },
-   {
-    "t": "li",
-    "v": "Bulaşıklar (yalnızca bulaşık makinesine yerleştirilir, elde yıkanmaz)"
-   },
-   {
-    "t": "li",
-    "v": "Kitaplar raflardan alınarak temizlenmez"
+    "t": "h6",
+    "v": "Munzur TEMİZLİK"
    },
    {
     "t": "h2",
@@ -472,6 +427,10 @@
    {
     "t": "h5",
     "v": "Sigortalı ve Güvenilir Temizlik Uzmanları"
+   },
+   {
+    "t": "h6",
+    "v": "Munzur TEMİZLİK"
    },
    {
     "t": "h2",
@@ -496,10 +455,6 @@
    {
     "t": "p",
     "v": "Evet, talebinize göre temizlik malzemelerini biz getirebiliriz. Bu hizmet ek ücrete tabidir. Dilerseniz kendi temizlik malzemelerinizi de kullanabiliriz. Size en uygun seçeneği randevu sırasında belirtmeniz yeterlidir."
-   },
-   {
-    "t": "h2",
-    "v": "Inactive"
    }
   ]
  },
@@ -507,6 +462,10 @@
   "title": "Hizmet Bölgeleri - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
   "description": "",
   "blocks": [
+   {
+    "t": "h6",
+    "v": "MUNZUR TEMİZLİK HİZMET BÖLGELERİ"
+   },
    {
     "t": "h2",
     "v": "İstanbul’da Temizlik Hizmeti Verdiğimiz İlçeler"
@@ -518,6 +477,10 @@
    {
     "t": "h3",
     "v": "Size En Yakın İstanbul İlçesini Seçin"
+   },
+   {
+    "t": "h6",
+    "v": "Temizlik Hizmetlerinde Yorumlar"
    },
    {
     "t": "h2",
@@ -538,10 +501,6 @@
    {
     "t": "p",
     "v": "Derin temizlik hizmeti aldık, koltuklardan mutfağa kadar harika bir iş çıkardılar. Ekip son derece profesyonel ve titizdi. Munzur Temizlik’e teşekkür ederim."
-   },
-   {
-    "t": "h2",
-    "v": "Inactive"
    }
   ]
  },
@@ -567,19 +526,22 @@
    },
    {
     "t": "p",
-    "v": "Pzt – Cum:Cumartesi:Pazar:"
+    "v": "Pzt – Cum:<br/>Cumartesi:<br/>Pazar:"
    },
    {
     "t": "p",
-    "v": "09.00 – 17.0009.00 – 17.0009.00 – 17.00"
+    "v": "09.00 – 17.00<br/>09.00 – 17.00<br/>09.00 – 17.00"
+   },
+   {
+    "t": "h6",
+    "v": "İletişim Formu"
    },
    {
     "t": "h2",
     "v": "Sorularınız için Bize Ulaşın"
    },
    {
-    "t": "h2",
-    "v": "Inactive"
+    "t": "form"
    }
   ]
  },
@@ -594,6 +556,13 @@
    {
     "t": "h3",
     "v": "Ücretsiz Teklif Alın ve Temizlik Tarihinizi Belirleyin"
+   },
+   {
+    "t": "form"
+   },
+   {
+    "t": "h6",
+    "v": "Neden Munzur Temizlik?"
    },
    {
     "t": "h2",
@@ -613,7 +582,7 @@
    },
    {
     "t": "p",
-    "v": "Temizlik ekipmanı ve malzeme desteği talebinize göre şekillenir. İsterseniz kendi ürünlerinizi kullanabilir, dilerseniz profesyonel temizlik malzemelerini biz temin edebiliriz."
+    "v": "Temizlik ekipmanı ve malzeme desteği talebinize göre şekillenir. İsterseniz kendi ürünlerinizi kullanabilir, dilerseniz profesyonel temizlik malzemelerini biz temin edebiliriz.<br data-end=\"434\" data-start=\"431\"/><br/>"
    },
    {
     "t": "h4",
@@ -633,97 +602,33 @@
    },
    {
     "t": "p",
-    "v": "yıl tecrübe"
+    "v": "<strong data-end=\"936\" data-start=\"925\">yıl</strong> tecrübe"
    },
    {
     "t": "p",
-    "v": "ev sadece geçen yıl temizlendi"
+    "v": "<strong data-end=\"959\" data-start=\"949\">ev</strong> sadece geçen yıl temizlendi"
    },
    {
     "t": "p",
-    "v": "saat müşterilerimizin zamanı bize emanet edildi"
+    "v": "<strong data-end=\"1005\" data-start=\"992\"> saat</strong> müşterilerimizin zamanı bize emanet edildi"
    },
    {
     "t": "p",
     "v": "müşteri tekrar hizmet aldı"
-   },
-   {
-    "t": "h2",
-    "v": "Inactive"
    }
   ]
  },
  "blog": {
-  "title": "Blog - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "title": "503 Service Unavailable",
   "description": "",
   "blocks": [
    {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "🧼 Eksiksiz Daire Temizliği Rehberi: Pırıl Pırıl Bir Yaşam Alanı İçin Adım Adım Kılavuz"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "🛋️ Kötü Kokan Koltuk Nasıl Temizlenir? Etkili ve Kalıcı Çözümler"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "🕒 Bir Daireyi Derinlemesine Temizlemek Ne Kadar Sürer?"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "🌿 Doğa Dostu Halı Temizliği: En Kapsamlı Rehber"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik"
-   },
-   {
-    "t": "h4",
-    "v": "🏡 Temiz ve Sağlıklı Bir Evin Faydaları Nelerdir?"
-   },
-   {
     "t": "h2",
-    "v": "Inactive"
+    "v": "Service Unavailable"
+   },
+   {
+    "t": "p",
+    "v": "The server is temporarily busy, try again later!"
    }
   ]
  },

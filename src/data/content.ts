@@ -17,6 +17,7 @@ export type District = {
   neighborhoods: string[];
   h2b: string;
   outro: string;
+  blocks?: Block[];
 };
 
 export type Service = {
@@ -24,6 +25,7 @@ export type Service = {
   name: string;
   title: string;
   description: string;
+  subtitle?: string;
   blocks: Block[];
 };
 

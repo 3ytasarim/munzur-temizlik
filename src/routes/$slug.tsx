@@ -18,7 +18,7 @@ export const Route = createFileRoute("/$slug")({
     }
     const { post } = loaderData;
     const description =
-      post.description || post.blocks.find((b) => b.t === "p")?.v.slice(0, 155) || post.title;
+      post.description || post.blocks.find((b) => b.t === "p")?.v?.slice(0, 155) || post.title;
     return {
       meta: [
         { title: post.metaTitle || `${post.title} | ${site.name}` },
