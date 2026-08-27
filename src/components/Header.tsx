@@ -88,10 +88,10 @@ export function Header() {
         <div className="flex items-center gap-3">
           <a
             href={site.phoneHref}
-            className="hidden items-center gap-2 font-display text-[0.95rem] font-medium text-foreground xl:flex"
+            className="hidden items-center gap-2.5 rounded-full border border-border bg-background py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:border-secondary xl:flex"
           >
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-              <Phone className="h-3.5 w-3.5" />
+            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
+              <Phone className="h-4 w-4" />
             </span>
             {site.phone}
           </a>

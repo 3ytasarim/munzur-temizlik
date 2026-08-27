@@ -1,5 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { CheckCircle2, X } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  CalendarDays,
+  CheckCircle2,
+  ClipboardList,
+  MapPin,
+  Phone,
+  Send,
+  ShieldCheck,
+  Sparkles,
+  X,
+} from "lucide-react";
 import { quoteServices, site } from "@/data/site";
 import { provinces, getDistricts, getNeighborhoods } from "@/data/locations";
 import { closeQuoteModal, useQuoteModalOpen } from "@/lib/quote-modal";
@@ -19,9 +31,25 @@ const parkOptions = ["Site otoparkı", "Sokak / cadde", "Kapalı otopark", "Park
 const flexOptions = ["Evet, esneğim", "Hayır, belirttiğim tarih", "Kısmen esneğim"];
 const entryOptions = ["Evde olacağım", "Kapıcıdan anahtar", "Komşudan anahtar", "Diğer"];
 
-const labelCls = "mb-2 block font-display text-[0.85rem] font-medium text-foreground/80";
+const stepMeta = [
+  { title: "Rezervasyon", desc: "Hizmet ve ev detayları", icon: ClipboardList },
+  { title: "İletişim", desc: "Size nasıl ulaşalım?", icon: Phone },
+  { title: "Detaylar", desc: "Giriş, park ve notlar", icon: MapPin },
+];
+
+const labelCls =
+  "mb-2 block font-display text-[0.78rem] font-medium uppercase tracking-[0.06em] text-foreground/55";
 const fieldCls =
-  "w-full rounded-xl border border-border bg-background px-4 py-3 text-[0.95rem] outline-none transition-colors focus:border-primary";
+  "w-full rounded-2xl border border-border/70 bg-background px-4 py-3.5 text-[0.95rem] text-foreground shadow-[0_1px_2px_rgba(16,24,40,0.04)] outline-none transition-all placeholder:text-foreground/35 focus:border-primary focus:ring-4 focus:ring-primary/12";
+
+function Field({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <label className={labelCls}>{label}</label>
+      {children}
+    </div>
+  );
+}
 
 function Select({
   label,
@@ -39,22 +67,26 @@ function Select({
   disabled?: boolean;
 }) {
   return (
-    <div>
-      <label className={labelCls}>{label}</label>
-      <select
-        className={`${fieldCls} disabled:opacity-60`}
-        value={value}
-        disabled={disabled}
-        onChange={(e) => onChange(e.target.value)}
-      >
-        <option value="">{placeholder}</option>
-        {options.map((o) => (
-          <option key={o.value} value={o.value}>
-            {o.label}
-          </option>
-        ))}
-      </select>
-    </div>
+    <Field label={label}>
+      <div className="relative">
+        <select
+          className={`${fieldCls} appearance-none pr-10 disabled:cursor-not-allowed disabled:bg-muted/60 disabled:opacity-70`}
+          value={value}
+          disabled={disabled}
+          onChange={(e) => onChange(e.target.value)}
+        >
+          <option value="">{placeholder}</option>
+          {options.map((o) => (
+            <option key={o.value} value={o.value}>
+              {o.label}
+            </option>
+          ))}
+        </select>
+        <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-foreground/40">
+          ▾
+        </span>
+      </div>
+    </Field>
   );
 }
 
@@ -72,8 +104,7 @@ function Input({
   placeholder?: string;
 }) {
   return (
-    <div>
-      <label className={labelCls}>{label}</label>
+    <Field label={label}>
       <input
         className={fieldCls}
         type={type}
@@ -81,34 +112,68 @@ function Input({
         placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
       />
-    </div>
+    </Field>
   );
 }
 
-function Steps({ step }: { step: number }) {
+function PillGroup({
+  label,
+  value,
+  onChange,
+  options,
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  options: string[];
+}) {
   return (
-    <div className="my-7 flex items-center">
-      {[1, 2, 3].map((n) => (
-        <div key={n} className={n === 1 ? "flex items-center" : "flex flex-1 items-center"}>
-          {n > 1 && (
-            <span
-              className={`h-[3px] flex-1 rounded-full ${step >= n ? "bg-[#2f8f00]" : "bg-white/70"}`}
-            />
-          )}
-          <span
-            className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-display text-sm font-semibold ${
-              step >= n ? "bg-[#2f8f00] text-white" : "bg-white text-foreground/50"
-            }`}
-          >
-            {n}
-          </span>
-        </div>
-      ))}
-    </div>
+    <Field label={label}>
+      <div className="flex flex-wrap gap-2">
+        {options.map((o) => {
+          const active = value === o;
+          return (
+            <button
+              key={o}
+              type="button"
+              onClick={() => onChange(active ? "" : o)}
+              className={`rounded-full border px-4 py-2 font-display text-[0.85rem] transition-all ${
+                active
+                  ? "border-primary bg-primary text-primary-foreground shadow-[0_6px_16px_-6px_var(--color-primary)]"
+                  : "border-border/70 bg-background text-foreground/70 hover:border-primary/50 hover:text-foreground"
+              }`}
+            >
+              {o}
+            </button>
+          );
+        })}
+      </div>
+    </Field>
   );
 }
 
-const plain = (v: string) => v;
+function Progress({ step }: { step: number }) {
+  const meta = stepMeta[step - 1] ?? stepMeta[0]!;
+  return (
+    <div>
+      <div className="flex items-end justify-between">
+        <div>
+          <p className="font-display text-[0.78rem] uppercase tracking-[0.14em] text-foreground/45">
+            Adım {step} / 3
+          </p>
+          <h3 className="mt-1 font-display text-lg font-medium">{meta.title}</h3>
+        </div>
+        <p className="hidden text-sm text-foreground/55 sm:block">{meta.desc}</p>
+      </div>
+      <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-muted">
+        <div
+          className="h-full rounded-full bg-primary transition-[width] duration-500 ease-out"
+          style={{ width: `${(step / 3) * 100}%` }}
+        />
+      </div>
+    </div>
+  );
+}
 
 export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   const [step, setStep] = useState(1);
@@ -140,24 +205,33 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) =>
     setF((prev) => ({ ...prev, [k]: v }));
 
+  const toggleExtra = (s: string) =>
+    setF((prev) => ({
+      ...prev,
+      extras: prev.extras.includes(s)
+        ? prev.extras.filter((x) => x !== s)
+        : [...prev.extras, s],
+    }));
+
   const districtOptions = useMemo(
     () => getDistricts(f.province).map((d) => ({ value: d.slug, label: d.name })),
     [f.province],
   );
   const neighborhoodOptions = useMemo(
-    () =>
-      getNeighborhoods(f.province, f.district).map((n) => ({ value: n, label: n })),
+    () => getNeighborhoods(f.province, f.district).map((n) => ({ value: n, label: n })),
     [f.province, f.district],
   );
 
   if (sent) {
     return (
-      <div className="px-6 py-14 text-center md:px-12">
-        <CheckCircle2 className="mx-auto h-14 w-14 text-[#2f8f00]" />
-        <h2 className="mt-4 font-display text-2xl">Talebiniz alındı</h2>
-        <p className="mt-2 text-foreground/70">
-          En kısa sürede sizinle iletişime geçeceğiz. Acil talepleriniz için{" "}
-          <a href={site.phoneHref} className="font-medium text-[#2f8f00]">
+      <div className="px-6 py-16 text-center md:px-12">
+        <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent">
+          <CheckCircle2 className="h-8 w-8 text-primary" />
+        </div>
+        <h2 className="mt-5 font-display text-2xl">Talebiniz alındı</h2>
+        <p className="mx-auto mt-2 max-w-md text-foreground/65">
+          Ekibimiz en kısa sürede sizinle iletişime geçecek. Acil talepleriniz için{" "}
+          <a href={site.phoneHref} className="font-medium text-primary">
             {site.phone}
           </a>
         </p>
@@ -172,218 +246,294 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
 
   return (
     <form
-      className="px-5 py-8 md:px-10 md:py-10"
+      className="flex min-h-full flex-col lg:flex-row"
       onSubmit={(e) => {
         e.preventDefault();
         setSent(true);
       }}
     >
-      <h2 className="font-display text-[1.5rem] leading-tight md:text-[2rem]">
-        Ücretsiz Teklif Alın ve Temizlik Tarihinizi Belirleyin
-      </h2>
-      <Steps step={step} />
+      {/* Aside */}
+      <aside className="relative shrink-0 overflow-hidden bg-primary px-7 py-8 text-primary-foreground lg:w-[300px] lg:px-8 lg:py-10">
+        <div className="pointer-events-none absolute -right-14 -top-14 h-40 w-40 rounded-full bg-primary-foreground/10" />
+        <div className="pointer-events-none absolute -bottom-16 -left-10 h-44 w-44 rounded-full bg-primary-foreground/10" />
+        <div className="relative">
+          <span className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-3 py-1 font-display text-[0.72rem] uppercase tracking-[0.12em]">
+            <Sparkles className="h-3.5 w-3.5" /> Ücretsiz
+          </span>
+          <h2 className="mt-4 font-display text-[1.6rem] leading-[1.15] lg:text-[1.75rem]">
+            Teklifinizi alın, tarihinizi belirleyin
+          </h2>
+          <p className="mt-3 text-[0.92rem] leading-relaxed text-primary-foreground/80">
+            3 kısa adımda ihtiyacınızı anlatın, size özel fiyatı hazırlayalım.
+          </p>
 
-      {step === 1 && (
-        <div className="space-y-5">
-          <h3 className="font-display text-lg font-medium">Rezervasyon Bilgileriniz</h3>
-          <div className="grid gap-5 md:grid-cols-2">
-            <Select
-              label="Hizmetlerimiz"
-              placeholder="Size en uygun hizmeti seçin"
-              value={f.service}
-              onChange={(v) => set("service", v)}
-              options={quoteServices.map((s) => ({ value: s, label: s }))}
-            />
-            <div>
-              <label className={labelCls}>Ekstra Ev İçi Hizmetlerimiz</label>
-              <select
-                multiple
-                size={5}
-                className={`${fieldCls} px-3 py-2`}
-                value={f.extras}
-                onChange={(e) =>
-                  set(
-                    "extras",
-                    Array.from(e.target.selectedOptions).map((o) => plain(o.value)),
-                  )
-                }
-              >
-                {extraServices.map((s) => (
-                  <option key={s} value={s}>
-                    {s}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            <Select
-              label="Oda Sayısı"
-              placeholder="Lütfen Seçiniz"
-              value={f.rooms}
-              onChange={(v) => set("rooms", v)}
-              options={counts.map((c) => ({ value: c, label: c }))}
-            />
-            <Select
-              label="Salon Sayısı"
-              placeholder="Lütfen Seçiniz"
-              value={f.livingRooms}
-              onChange={(v) => set("livingRooms", v)}
-              options={counts.map((c) => ({ value: c, label: c }))}
-            />
-            <Select
-              label="Banyo"
-              placeholder="Lütfen Seçiniz"
-              value={f.bathrooms}
-              onChange={(v) => set("bathrooms", v)}
-              options={counts.map((c) => ({ value: c, label: c }))}
-            />
-            <Select
-              label="Temizlik Sıklığı"
-              placeholder="Seçiniz"
-              value={f.frequency}
-              onChange={(v) => set("frequency", v)}
-              options={frequencies.map((c) => ({ value: c, label: c }))}
-            />
-          </div>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            <Input label="Metrekare" value={f.size} onChange={(v) => set("size", v)} />
-            <Input
-              label="Tarih"
-              type="date"
-              value={f.date}
-              onChange={(v) => set("date", v)}
-            />
-            <Input
-              label="Zaman Seçiniz"
-              type="time"
-              value={f.time}
-              onChange={(v) => set("time", v)}
-            />
-          </div>
-          <div className="pt-2">
-            <button type="button" className="btn-yellow" onClick={() => setStep(2)}>
-              Devam
-            </button>
+          <ol className="mt-8 hidden space-y-4 lg:block">
+            {stepMeta.map((s, i) => {
+              const n = i + 1;
+              const active = step === n;
+              const done = step > n;
+              const Icon = s.icon;
+              return (
+                <li key={s.title} className="flex items-start gap-3">
+                  <span
+                    className={`mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl transition-colors ${
+                      done || active
+                        ? "bg-primary-foreground text-primary"
+                        : "bg-primary-foreground/15 text-primary-foreground/70"
+                    }`}
+                  >
+                    {done ? <CheckCircle2 className="h-4.5 w-4.5" /> : <Icon className="h-4.5 w-4.5" />}
+                  </span>
+                  <span>
+                    <span
+                      className={`block font-display text-[0.95rem] ${active ? "" : "text-primary-foreground/75"}`}
+                    >
+                      {s.title}
+                    </span>
+                    <span className="block text-[0.8rem] text-primary-foreground/60">{s.desc}</span>
+                  </span>
+                </li>
+              );
+            })}
+          </ol>
+
+          <div className="mt-8 hidden items-center gap-2 rounded-2xl bg-primary-foreground/10 p-3 text-[0.82rem] lg:flex">
+            <ShieldCheck className="h-4.5 w-4.5 shrink-0" />
+            Bilgileriniz KVKK kapsamında güvende.
           </div>
         </div>
-      )}
+      </aside>
 
-      {step === 2 && (
-        <div className="space-y-5">
-          <h3 className="font-display text-lg font-medium">İletişim Bilgileriniz</h3>
-          <div className="grid gap-5 md:grid-cols-2">
-            <Input
-              label="Adınız Soyadınız"
-              value={f.name}
-              onChange={(v) => set("name", v)}
-            />
-            <Input label="Telefon" type="tel" value={f.phone} onChange={(v) => set("phone", v)} />
-            <Input
-              label="Email adresi"
-              type="email"
-              value={f.email}
-              onChange={(v) => set("email", v)}
-            />
-            <Input
-              label="Adres Bilgileri"
-              value={f.address}
-              onChange={(v) => set("address", v)}
-            />
-          </div>
-          <div className="grid gap-5 md:grid-cols-3">
-            <Select
-              label="İl"
-              placeholder="İl Seçiniz"
-              value={f.province}
-              onChange={(v) => {
-                set("province", v);
-                set("district", "");
-                set("neighborhood", "");
-              }}
-              options={provinces.map((p) => ({ value: p.slug, label: p.name }))}
-            />
-            <Select
-              label="İlçe"
-              placeholder="İlçe Seçiniz"
-              value={f.district}
-              disabled={!f.province}
-              onChange={(v) => {
-                set("district", v);
-                set("neighborhood", "");
-              }}
-              options={districtOptions}
-            />
-            <Select
-              label="Mahalle"
-              placeholder="Mahalle Seçiniz"
-              value={f.neighborhood}
-              disabled={!f.district}
-              onChange={(v) => set("neighborhood", v)}
-              options={neighborhoodOptions}
-            />
-          </div>
-          <div className="flex flex-wrap gap-3 pt-2">
-            <button type="button" className="btn-outline-dark" onClick={() => setStep(1)}>
-              Geri Dön
-            </button>
-            <button type="button" className="btn-yellow" onClick={() => setStep(3)}>
-              Devam
-            </button>
-          </div>
+      {/* Body */}
+      <div className="flex min-w-0 flex-1 flex-col">
+        <div className="border-b border-border/60 px-5 py-5 md:px-8">
+          <Progress step={step} />
         </div>
-      )}
 
-      {step === 3 && (
-        <div className="space-y-5">
-          <div className="grid gap-5 md:grid-cols-2">
-            <Select
-              label="Temizlik Ekibi Nerede Park Edebilir?"
-              placeholder="Lütfen Seçin"
-              value={f.park}
-              onChange={(v) => set("park", v)}
-              options={parkOptions.map((o) => ({ value: o, label: o }))}
-            />
-            <Select
-              label="Tarih ve saat konusunda esnek misiniz?"
-              placeholder="Lütfen Seçin"
-              value={f.flexible}
-              onChange={(v) => set("flexible", v)}
-              options={flexOptions.map((o) => ({ value: o, label: o }))}
-            />
-            <Select
-              label="Temizlik ekibi eve nasıl girecek?"
-              placeholder="Lütfen Seçin"
-              value={f.entry}
-              onChange={(v) => set("entry", v)}
-              options={entryOptions.map((o) => ({ value: o, label: o }))}
-            />
-            <Input
-              label="Evcil hayvanınız var mı?"
-              value={f.pets}
-              onChange={(v) => set("pets", v)}
-            />
-          </div>
-          <div>
-            <label className={labelCls}>Ek bilgi</label>
-            <textarea
-              rows={4}
-              placeholder="Buraya yazınız..."
-              className={fieldCls}
-              value={f.note}
-              onChange={(e) => set("note", e.target.value)}
-            />
-          </div>
-          <div className="flex flex-wrap gap-3 pt-2">
-            <button type="button" className="btn-outline-dark" onClick={() => setStep(2)}>
-              Geri Dön
+        <div className="flex-1 space-y-6 px-5 py-6 md:px-8">
+          {step === 1 && (
+            <>
+              <Select
+                label="Hizmetlerimiz"
+                placeholder="Size en uygun hizmeti seçin"
+                value={f.service}
+                onChange={(v) => set("service", v)}
+                options={quoteServices.map((s) => ({ value: s, label: s }))}
+              />
+
+              <Field label="Ekstra Ev İçi Hizmetlerimiz">
+                <div className="flex flex-wrap gap-2">
+                  {extraServices.map((s) => {
+                    const active = f.extras.includes(s);
+                    return (
+                      <button
+                        key={s}
+                        type="button"
+                        onClick={() => toggleExtra(s)}
+                        className={`flex items-center gap-2 rounded-2xl border px-3.5 py-2.5 text-left text-[0.85rem] transition-all ${
+                          active
+                            ? "border-primary bg-accent text-foreground"
+                            : "border-border/70 bg-background text-foreground/70 hover:border-primary/50"
+                        }`}
+                      >
+                        <span
+                          className={`flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-md border transition-colors ${
+                            active ? "border-primary bg-primary text-primary-foreground" : "border-border"
+                          }`}
+                        >
+                          {active && <CheckCircle2 className="h-3 w-3" />}
+                        </span>
+                        {s}
+                      </button>
+                    );
+                  })}
+                </div>
+              </Field>
+
+              <div className="grid gap-6 sm:grid-cols-2">
+                <PillGroup
+                  label="Oda Sayısı"
+                  value={f.rooms}
+                  onChange={(v) => set("rooms", v)}
+                  options={counts}
+                />
+                <PillGroup
+                  label="Salon Sayısı"
+                  value={f.livingRooms}
+                  onChange={(v) => set("livingRooms", v)}
+                  options={counts}
+                />
+                <PillGroup
+                  label="Banyo"
+                  value={f.bathrooms}
+                  onChange={(v) => set("bathrooms", v)}
+                  options={counts}
+                />
+                <PillGroup
+                  label="Temizlik Sıklığı"
+                  value={f.frequency}
+                  onChange={(v) => set("frequency", v)}
+                  options={frequencies}
+                />
+              </div>
+
+              <div className="grid gap-5 sm:grid-cols-3">
+                <Input
+                  label="Metrekare"
+                  placeholder="Örn. 120"
+                  value={f.size}
+                  onChange={(v) => set("size", v)}
+                />
+                <Input label="Tarih" type="date" value={f.date} onChange={(v) => set("date", v)} />
+                <Input
+                  label="Saat"
+                  type="time"
+                  value={f.time}
+                  onChange={(v) => set("time", v)}
+                />
+              </div>
+            </>
+          )}
+
+          {step === 2 && (
+            <>
+              <div className="grid gap-5 md:grid-cols-2">
+                <Input
+                  label="Adınız Soyadınız"
+                  placeholder="Ad Soyad"
+                  value={f.name}
+                  onChange={(v) => set("name", v)}
+                />
+                <Input
+                  label="Telefon"
+                  type="tel"
+                  placeholder="05xx xxx xx xx"
+                  value={f.phone}
+                  onChange={(v) => set("phone", v)}
+                />
+                <Input
+                  label="E-posta"
+                  type="email"
+                  placeholder="ornek@mail.com"
+                  value={f.email}
+                  onChange={(v) => set("email", v)}
+                />
+                <Input
+                  label="Adres Bilgileri"
+                  placeholder="Sokak, bina, daire"
+                  value={f.address}
+                  onChange={(v) => set("address", v)}
+                />
+              </div>
+              <div className="grid gap-5 md:grid-cols-3">
+                <Select
+                  label="İl"
+                  placeholder="İl Seçiniz"
+                  value={f.province}
+                  onChange={(v) => {
+                    set("province", v);
+                    set("district", "");
+                    set("neighborhood", "");
+                  }}
+                  options={provinces.map((p) => ({ value: p.slug, label: p.name }))}
+                />
+                <Select
+                  label="İlçe"
+                  placeholder="İlçe Seçiniz"
+                  value={f.district}
+                  disabled={!f.province}
+                  onChange={(v) => {
+                    set("district", v);
+                    set("neighborhood", "");
+                  }}
+                  options={districtOptions}
+                />
+                <Select
+                  label="Mahalle"
+                  placeholder="Mahalle Seçiniz"
+                  value={f.neighborhood}
+                  disabled={!f.district}
+                  onChange={(v) => set("neighborhood", v)}
+                  options={neighborhoodOptions}
+                />
+              </div>
+            </>
+          )}
+
+          {step === 3 && (
+            <>
+              <div className="grid gap-5 md:grid-cols-2">
+                <Select
+                  label="Temizlik Ekibi Nerede Park Edebilir?"
+                  placeholder="Lütfen Seçin"
+                  value={f.park}
+                  onChange={(v) => set("park", v)}
+                  options={parkOptions.map((o) => ({ value: o, label: o }))}
+                />
+                <Select
+                  label="Tarih ve saat konusunda esnek misiniz?"
+                  placeholder="Lütfen Seçin"
+                  value={f.flexible}
+                  onChange={(v) => set("flexible", v)}
+                  options={flexOptions.map((o) => ({ value: o, label: o }))}
+                />
+                <Select
+                  label="Temizlik ekibi eve nasıl girecek?"
+                  placeholder="Lütfen Seçin"
+                  value={f.entry}
+                  onChange={(v) => set("entry", v)}
+                  options={entryOptions.map((o) => ({ value: o, label: o }))}
+                />
+                <Input
+                  label="Evcil hayvanınız var mı?"
+                  placeholder="Örn. 1 kedi"
+                  value={f.pets}
+                  onChange={(v) => set("pets", v)}
+                />
+              </div>
+              <Field label="Ek bilgi">
+                <textarea
+                  rows={4}
+                  placeholder="Eklemek istedikleriniz..."
+                  className={fieldCls}
+                  value={f.note}
+                  onChange={(e) => set("note", e.target.value)}
+                />
+              </Field>
+              <div className="flex items-start gap-2 rounded-2xl bg-accent/60 p-4 text-[0.85rem] text-foreground/70">
+                <CalendarDays className="mt-0.5 h-4.5 w-4.5 shrink-0 text-primary" />
+                Formu gönderdikten sonra ekibimiz uygun tarihleri teyit etmek için sizi arayacak.
+              </div>
+            </>
+          )}
+        </div>
+
+        {/* Footer actions */}
+        <div className="sticky bottom-0 flex items-center justify-between gap-3 border-t border-border/60 bg-background/95 px-5 py-4 backdrop-blur md:px-8">
+          {step > 1 ? (
+            <button
+              type="button"
+              className="inline-flex items-center gap-2 rounded-full px-4 py-2.5 font-display text-[0.9rem] text-foreground/70 transition-colors hover:bg-muted hover:text-foreground"
+              onClick={() => setStep(step - 1)}
+            >
+              <ArrowLeft className="h-4 w-4" /> Geri
             </button>
+          ) : (
+            <span className="hidden text-[0.82rem] text-foreground/50 sm:block">
+              Ortalama süre: 1 dakika
+            </span>
+          )}
+          {step < 3 ? (
+            <button type="button" className="btn-green" onClick={() => setStep(step + 1)}>
+              Devam <ArrowRight className="h-4 w-4" />
+            </button>
+          ) : (
             <button type="submit" className="btn-yellow">
-              Formu Gönder
+              Formu Gönder <Send className="h-4 w-4" />
             </button>
-          </div>
+          )}
         </div>
-      )}
+      </div>
     </form>
   );
 }
@@ -407,23 +557,23 @@ export function QuoteModal() {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-start justify-center overflow-y-auto bg-black/50 p-3 sm:p-6"
+      className="fixed inset-0 z-[100] flex items-start justify-center overflow-y-auto bg-foreground/50 p-0 backdrop-blur-sm sm:p-6"
       onClick={closeQuoteModal}
       role="dialog"
       aria-modal="true"
       aria-label="Ücretsiz teklif formu"
     >
       <div
-        className="relative my-4 w-full max-w-3xl rounded-3xl bg-pale shadow-2xl"
+        className="relative w-full max-w-4xl overflow-hidden bg-background shadow-[0_30px_80px_-20px_rgba(16,24,40,0.45)] sm:my-4 sm:rounded-[28px]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           type="button"
           onClick={closeQuoteModal}
           aria-label="Kapat"
-          className="absolute right-4 top-4 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-background/80 text-foreground transition-colors hover:bg-background"
+          className="absolute right-4 top-4 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full bg-background/85 text-foreground shadow-sm transition-colors hover:bg-muted"
         >
-          <X className="h-5 w-5" />
+          <X className="h-4.5 w-4.5" />
         </button>
         <QuoteWizard onClose={closeQuoteModal} />
       </div>
