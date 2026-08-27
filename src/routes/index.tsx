@@ -1,12 +1,35 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Check, CheckCircle2 } from "lucide-react";
+import {
+  ArrowRight,
+  CalendarDays,
+  Check,
+  CheckCircle2,
+  ChevronRight,
+  HandHeart,
+  Phone,
+  ShieldCheck,
+  Sofa,
+  Sparkles,
+  SprayCan,
+  Star,
+} from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Faq, faqJsonLd } from "@/components/Faq";
-import { CtaBand, Testimonials } from "@/components/Sections";
+import { CtaBand } from "@/components/Sections";
 import { getFaqs, getPage, posts } from "@/data/content";
-import { advantages, howItWorks, images, postImages, quoteServices, serviceMeta, site, stats } from "@/data/site";
+import {
+  advantages,
+  howItWorks,
+  images,
+  postImages,
+  quoteServices,
+  serviceMeta,
+  site,
+  stats,
+  testimonials,
+} from "@/data/site";
 
 const page = getPage("home");
 const faqs = getFaqs("home");
@@ -51,6 +74,24 @@ export const Route = createFileRoute("/")({
 });
 
 const heroBadges = ["Profesyonel", "Samimi", "Hızlı İletişim"];
+const heroLeafs = [images.leaf3, images.leaf1, images.leaf2];
+const heroAvatars = testimonials.slice(0, 3).map((t) => t.avatar);
+const stepIcons = [CalendarDays, SprayCan, Sofa];
+const advantageIcons = [CalendarDays, SprayCan, HandHeart, ShieldCheck];
+
+function GoogleRating() {
+  return (
+    <div className="inline-flex items-center gap-3 rounded-full bg-background px-5 py-3 shadow-sm">
+      <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-soft">
+        <Star className="h-5 w-5 fill-secondary text-secondary" />
+      </span>
+      <span>
+        <span className="block font-display text-lg font-medium text-foreground">4.8</span>
+        <span className="block text-xs">480 Google Puanı</span>
+      </span>
+    </div>
+  );
+}
 
 function Home() {
   return (
@@ -58,40 +99,49 @@ function Home() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative isolate overflow-hidden">
-          <img
-            src={images.heroImg}
-            alt="İstanbul'da profesyonel temizlik hizmeti"
-            className="absolute inset-0 -z-10 h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/70 via-black/45 to-black/10" />
-          <div className="container-site py-24 md:py-36">
-            <div className="max-w-2xl">
-              <h1 className="font-display text-3xl leading-tight text-white md:text-5xl">
+        <section className="container-site pt-4 md:pt-6">
+          <div
+            className="relative overflow-hidden rounded-[37px] bg-cover bg-right bg-no-repeat px-5 py-10 md:px-8 md:py-14"
+            style={{ backgroundImage: `url(${images.heroImg})` }}
+          >
+            <div className="max-w-xl rounded-[30px] bg-soft p-8 md:p-12">
+              <h1 className="text-[2rem] leading-[1.15] md:text-[2.75rem]">
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
-              <p className="mt-5 max-w-xl text-[1.05rem] leading-relaxed text-white/90">
-                Avrupa Yakası’ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz.
+              <p className="mt-5 text-[1.02rem] leading-relaxed">
+                Avrupa Yakası&apos;ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz.
                 Deneyimli kadromuz ve zamanında hizmet anlayışımızla İstanbul’un en güvenilir
-                temizlik çözümünü sunuyoruz.
+                temizlik firmaları arasındayız.
               </p>
-              <ul className="mt-6 flex flex-wrap gap-3">
-                {heroBadges.map((b) => (
-                  <li
-                    key={b}
-                    className="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 font-display text-sm text-white backdrop-blur"
-                  >
-                    <Check className="h-4 w-4" /> {b}
+              <div className="mt-7 flex flex-wrap gap-3">
+                <Link to="/teklif-formu" className="btn-yellow">
+                  Ücretsiz Teklif
+                </Link>
+                <Link to="/hizmetlerimiz" className="btn-outline-dark">
+                  Hizmetlerimiz
+                </Link>
+              </div>
+              <ul className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
+                {heroBadges.map((b, i) => (
+                  <li key={b} className="flex items-center gap-2 font-display text-sm font-medium text-foreground">
+                    <img src={heroLeafs[i]} alt="" aria-hidden="true" className="h-5 w-5 object-contain" />
+                    {b}
                   </li>
                 ))}
               </ul>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Link to="/teklif-formu" className="btn-yellow">
-                  Ücretsiz Teklif Al
-                </Link>
-                <a href={site.phoneHref} className="btn-green">
-                  {site.phone}
-                </a>
+              <div className="mt-8 flex flex-wrap items-center gap-5">
+                <GoogleRating />
+                <div className="flex -space-x-3">
+                  {heroAvatars.map((a) => (
+                    <img
+                      key={a}
+                      src={a}
+                      alt=""
+                      aria-hidden="true"
+                      className="h-11 w-11 rounded-full border-2 border-background object-cover"
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -102,176 +152,272 @@ function Home() {
 
         {/* How it works */}
         <section className="container-site py-16 md:py-24">
-          <p className="eyebrow mb-3 text-center">Süreç</p>
-          <h2 className="text-center text-2xl md:text-4xl">Nasıl Çalışır?</h2>
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
-            {howItWorks.map((s, i) => (
-              <div key={s.title} className="overflow-hidden rounded-4xl bg-soft">
-                <img src={s.image} alt={s.title} loading="lazy" className="h-52 w-full object-cover" />
-                <div className="p-7">
-                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-secondary font-display text-sm font-medium text-secondary-foreground">
-                    {i + 1}
+          <p className="eyebrow mb-3 text-center">Munzur Temizlik</p>
+          <h2 className="text-center text-3xl md:text-[2.5rem]">Nasıl Çalışır?</h2>
+          <div className="mt-14 grid gap-8 md:grid-cols-3">
+            {howItWorks.map((s, i) => {
+              const Icon = stepIcons[i] ?? CalendarDays;
+              return (
+                <div key={s.title} className="relative text-center">
+                  <span className="mx-auto inline-flex h-20 w-20 items-center justify-center rounded-full bg-pale">
+                    <Icon className="h-9 w-9 text-primary" />
                   </span>
-                  <h3 className="mt-4 text-xl">{s.title}</h3>
-                  <p className="mt-3 text-[0.98rem] leading-relaxed">{s.text}</p>
+                  <h3 className="mt-6 text-xl">{s.title}</h3>
+                  <p className="mx-auto mt-3 max-w-xs text-[0.98rem] leading-relaxed">{s.text}</p>
+                  {i < howItWorks.length - 1 && (
+                    <ArrowRight className="absolute -right-4 top-8 hidden h-6 w-6 text-primary/40 md:block" />
+                  )}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
 
         {/* About */}
-        <section className="bg-soft py-16 md:py-24">
-          <div className="container-site grid items-center gap-12 lg:grid-cols-2">
-            <div className="overflow-hidden rounded-4xl">
-              <img
-                src={images.aboutTeam}
-                alt="Munzur Temizlik ekibi"
-                loading="lazy"
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div>
-              <p className="eyebrow mb-3">Hakkımızda</p>
-              <h2 className="text-2xl md:text-4xl">
-                Parlayan Mekanlar İçin En Doğru Tercih: Munzur Temizlik
-              </h2>
-              <p className="mt-4 text-[1.02rem] leading-relaxed">
-                Munzur Temizlik, İstanbul genelinde profesyonel, güvenilir ve ulaşılabilir temizlik
-                hizmeti sunma vizyonuyla yola çıkmıştır. Deneyimli ekibimiz ve yüksek müşteri
-                memnuniyeti anlayışımızla her mekânı yeniden hayata döndürüyoruz.
-              </p>
-              <ul className="mt-6 space-y-3">
-                {[
-                  "Temizlik süreciyle ilgili sizi her adımda bilgilendiriyoruz.",
-                  "Evinizi kendi evimiz gibi özenle temizliyoruz.",
-                ].map((t) => (
-                  <li key={t} className="flex gap-3">
-                    <Check className="mt-1 h-5 w-5 shrink-0 text-primary" />
-                    <span>{t}</span>
-                  </li>
-                ))}
-              </ul>
-              <Link to="/hakkimizda" className="btn-outline-dark mt-8">
-                Daha Fazla Bilgi
-              </Link>
+        <section className="container-site">
+          <div className="rounded-[37px] bg-soft p-8 md:p-16">
+            <div className="grid items-center gap-12 lg:grid-cols-2">
+              <div>
+                <p className="eyebrow mb-3">Biz Kimiz?</p>
+                <h2 className="text-3xl leading-tight md:text-[2.5rem]">
+                  Parlayan Mekanlar İçin En Doğru Tercih: Munzur Temizlik
+                </h2>
+                <p className="mt-6 text-[1.02rem] leading-relaxed">
+                  <strong className="font-medium text-foreground">Munzur Temizlik</strong>, İstanbul
+                  genelinde profesyonel, güvenilir ve ulaşılabilir temizlik hizmeti sunma vizyonuyla
+                  yola çıkmıştır. Deneyimli ekibimiz ve yüksek müşteri memnuniyetimizle, yaşam
+                  alanlarınızı kusursuz bir hijyenle buluşturuyoruz.
+                </p>
+                <hr className="my-7 border-border" />
+                <ul className="space-y-3">
+                  {[
+                    "Temizlik süreciyle ilgili sizi her adımda bilgilendiriyoruz.",
+                    "Evinizi kendi evimiz gibi özenle temizliyoruz.",
+                  ].map((t) => (
+                    <li key={t} className="flex items-start gap-3">
+                      <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 fill-primary text-white" />
+                      <span className="font-display text-sm font-medium text-foreground">{t}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Link to="/hakkimizda" className="btn-yellow mt-8">
+                  Hakkımızda
+                </Link>
+              </div>
+              <div className="overflow-hidden rounded-[30px]">
+                <img
+                  src={images.aboutTeam}
+                  alt="Munzur Temizlik ekibi"
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Advantages */}
-        <section className="container-site py-16 md:py-24">
-          <h2 className="mx-auto max-w-3xl text-center text-2xl md:text-4xl">
-            Uzmanız. Tecrübeliyiz. Size Özel Çözümler Sunuyoruz.
-          </h2>
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {advantages.map((a) => (
-              <div key={a.title} className="rounded-4xl border border-border p-8">
-                <h3 className="text-lg">{a.title}</h3>
-                <p className="mt-3 text-[0.98rem] leading-relaxed">{a.text}</p>
-              </div>
-            ))}
+        {/* Why us */}
+        <section className="container-site -mt-24 pt-24">
+          <div className="relative overflow-hidden rounded-[37px] bg-primary px-6 pb-20 pt-32 text-white md:px-14">
+            <img
+              src={images.leaf1}
+              alt=""
+              aria-hidden="true"
+              className="pointer-events-none absolute left-6 top-24 hidden w-40 opacity-30 md:block"
+            />
+            <img
+              src={images.leaf2}
+              alt=""
+              aria-hidden="true"
+              className="pointer-events-none absolute right-10 top-20 hidden w-24 opacity-30 md:block"
+            />
+            <p className="relative text-center font-display text-sm font-medium uppercase tracking-[0.08em] text-white/80">
+              Neden Munzur Temizlik?
+            </p>
+            <h2 className="relative mx-auto mt-3 max-w-2xl text-center text-3xl text-white md:text-[2.5rem]">
+              Uzmanız. Tecrübeliyiz. Size Özel Çözümler Sunuyoruz.
+            </h2>
+
+            <div className="relative mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {advantages.map((a, i) => {
+                const Icon = advantageIcons[i] ?? ShieldCheck;
+                return (
+                  <div key={a.title} className="rounded-[24px] bg-pale p-7 text-foreground">
+                    <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-background">
+                      <Icon className="h-6 w-6 text-primary" />
+                    </span>
+                    <h3 className="mt-6 text-xl leading-snug">{a.title}</h3>
+                    <p className="mt-3 text-[0.95rem] leading-relaxed">{a.text}</p>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="relative mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              {stats.map((s, i) => {
+                const [value, suffix] = s.value.split(" ");
+                return (
+                  <div
+                    key={s.label}
+                    className={i === 0 ? "px-2" : "px-2 lg:border-l lg:border-white/25"}
+                  >
+                    <p className="font-display text-4xl font-medium text-white md:text-5xl">
+                      {value}
+                      <sup className="ml-1 text-xl">{suffix}</sup>
+                    </p>
+                    <p className="mt-3 text-sm text-white/90">{s.label}</p>
+                  </div>
+                );
+              })}
+            </div>
           </div>
-          <div className="mt-14 grid gap-8 rounded-4xl bg-pale p-10 sm:grid-cols-2 lg:grid-cols-4">
-            {stats.map((s) => (
-              <div key={s.label} className="text-center">
-                <p className="font-display text-3xl font-medium text-foreground md:text-4xl">
-                  {s.value}
-                </p>
-                <p className="mt-2 text-sm">{s.label}</p>
-              </div>
-            ))}
+          <div className="relative z-10 -mt-7 flex justify-center">
+            <Link
+              to="/hakkimizda/temizlik-sureci"
+              className="rounded-full border-2 border-primary bg-background px-8 py-3.5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:bg-pale"
+            >
+              Temizlik Süreci
+            </Link>
           </div>
         </section>
 
         {/* Services */}
-        <section className="bg-soft py-16 md:py-24">
-          <div className="container-site">
-            <p className="eyebrow mb-3 text-center">Hizmetlerimiz</p>
-            <h2 className="mx-auto max-w-3xl text-center text-2xl md:text-4xl">
-              İstanbul’da Güvenilir Temizlik Hizmeti Arayanlara Özel Çözümler
-            </h2>
-            <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-              {serviceMeta.slice(0, 4).map((s) => (
-                <Link
-                  key={s.slug}
-                  to="/hizmetlerimiz/$slug"
-                  params={{ slug: s.slug }}
-                  className="group overflow-hidden rounded-4xl bg-background"
-                >
+        <section className="container-site py-16 md:py-24">
+          <p className="eyebrow mb-3">İstanbul Profesyonel Temizlik Hizmetlerimiz</p>
+          <h2 className="max-w-2xl text-3xl leading-tight md:text-[2.5rem]">
+            İstanbul’da Güvenilir Temizlik Hizmeti Arayanlara Özel Çözümler
+          </h2>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {serviceMeta.slice(0, 4).map((s) => (
+              <div
+                key={s.slug}
+                className="rounded-[28px] p-3"
+                style={{
+                  background: "linear-gradient(180deg, #F2D701 0%, #E8F5D3 45%, #F4F6F0 100%)",
+                }}
+              >
+                <div className="relative overflow-hidden rounded-[22px]">
                   <img
                     src={s.image}
                     alt={s.name}
                     loading="lazy"
-                    className="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="h-52 w-full object-cover"
                   />
-                  <div className="flex items-center justify-between gap-2 p-6">
-                    <h3 className="text-base">{s.shortName}</h3>
-                    <ArrowRight className="h-4 w-4 text-primary" />
-                  </div>
+                  <span className="absolute left-3 top-3 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-background">
+                    <Sparkles className="h-5 w-5 text-primary" />
+                  </span>
+                </div>
+                <h3 className="mt-5 min-h-14 px-2 text-lg leading-snug">{s.shortName}</h3>
+                <Link
+                  to="/hizmetlerimiz/$slug"
+                  params={{ slug: s.slug }}
+                  className="mt-6 flex items-center justify-between gap-3 rounded-full bg-background px-5 py-3 font-display text-sm font-medium text-foreground"
+                >
+                  Daha Fazla
+                  <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-pale">
+                    <ChevronRight className="h-4 w-4 text-primary" />
+                  </span>
                 </Link>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Testimonials */}
+        <section className="container-site pb-16 md:pb-24">
+          <div className="rounded-[37px] bg-soft px-6 py-16 md:px-14">
+            <p className="eyebrow text-center">Temizlik Hizmetlerinde Yorumlar</p>
+            <h2 className="mx-auto mt-3 max-w-2xl text-center text-3xl leading-tight md:text-[2.5rem]">
+              İstanbul’da En Çok Tavsiye Edilen Temizlik Firmalarından Biriyiz
+            </h2>
+            <div className="mt-12 grid gap-6 md:grid-cols-2">
+              {testimonials.slice(0, 2).map((t) => (
+                <figure key={t.name} className="rounded-[24px] bg-background p-9">
+                  <span className="font-display text-4xl leading-none text-foreground">“</span>
+                  <blockquote className="mt-5 text-[1.05rem] leading-relaxed">{t.text}</blockquote>
+                  <figcaption className="mt-8 flex items-center gap-3">
+                    <img
+                      src={t.avatar}
+                      alt={t.name}
+                      loading="lazy"
+                      className="h-12 w-12 rounded-full object-cover"
+                    />
+                    <span>
+                      <span className="block font-display text-sm font-medium uppercase tracking-wide text-foreground">
+                        {t.name}
+                      </span>
+                      <span className="block text-sm">{t.role}</span>
+                    </span>
+                  </figcaption>
+                </figure>
               ))}
             </div>
-            <div className="mt-10 text-center">
-              <Link to="/hizmetlerimiz" className="btn-green">
-                Tüm Hizmetler
-              </Link>
+            <div className="mt-12 flex justify-center">
+              <GoogleRating />
             </div>
           </div>
         </section>
 
-        <Testimonials />
-
         {/* FAQ */}
-        <section className="container-site py-16 md:py-24">
-          <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
+        <section className="container-site pb-16 md:pb-24">
+          <div className="grid gap-12 lg:grid-cols-[1fr_1.3fr]">
             <div>
-              <p className="eyebrow mb-3">S.S.S</p>
-              <h2 className="text-2xl md:text-4xl">Sıkça Sorulan Sorular</h2>
-              <p className="mt-4">
-                İstanbul&apos;da temizlik hizmeti mi arıyorsunuz? Hemen bize ulaşın:
-              </p>
-              <a href={site.phoneHref} className="btn-yellow mt-6">
-                {site.phone}
-              </a>
+              <p className="eyebrow mb-3">Munzur Temizlik</p>
+              <h2 className="text-3xl md:text-[2.5rem]">Sıkça Sorulan Sorular</h2>
+              <div className="mt-10 rounded-[28px] bg-pale p-8">
+                <p className="font-display text-lg font-medium text-foreground">
+                  İstanbul&apos;da temizlik hizmeti mi arıyorsunuz?
+                  <br />
+                  Hemen bize ulaşın:
+                </p>
+                <a
+                  href={site.phoneHref}
+                  className="mt-6 inline-flex items-center gap-3 rounded-full bg-background py-2 pl-2 pr-6 font-display text-[0.95rem] font-medium text-foreground"
+                >
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-secondary">
+                    <Phone className="h-4 w-4" />
+                  </span>
+                  {site.phone}
+                </a>
+              </div>
             </div>
             <Faq items={faqs} />
           </div>
         </section>
 
         {/* Blog */}
-        <section className="bg-soft py-16 md:py-24">
-          <div className="container-site">
-            <p className="eyebrow mb-3 text-center">Blog</p>
-            <h2 className="text-center text-2xl md:text-4xl">
+        <section className="container-site pb-16 md:pb-24">
+          <div className="rounded-[37px] bg-soft px-6 py-16 md:px-14">
+            <p className="eyebrow mb-3">Güncel Yazılar</p>
+            <h2 className="max-w-xl text-3xl leading-tight md:text-[2.5rem]">
               Temizlik Uzmanlarından Pratik İpuçları
             </h2>
             <div className="mt-12 grid gap-8 md:grid-cols-3">
               {posts.slice(0, 3).map((p) => (
-                <Link
-                  key={p.slug}
-                  to="/$slug"
-                  params={{ slug: p.slug }}
-                  className="group overflow-hidden rounded-4xl bg-background"
-                >
+                <Link key={p.slug} to="/$slug" params={{ slug: p.slug }} className="group block">
                   {postImages[p.slug] && (
-                    <img
-                      src={postImages[p.slug]}
-                      alt={p.title}
-                      loading="lazy"
-                      className="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
+                    <div className="overflow-hidden rounded-[22px]">
+                      <img
+                        src={postImages[p.slug]}
+                        alt={p.title}
+                        loading="lazy"
+                        className="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
                   )}
-                  <div className="p-7">
-                    <span className="eyebrow">{p.category}</span>
-                    <h3 className="mt-2 text-base leading-snug">{p.title}</h3>
-                  </div>
+                  <span className="mt-5 block font-display text-xs font-medium uppercase tracking-[0.08em] text-primary">
+                    {p.category}
+                  </span>
+                  <h3 className="mt-2 text-xl leading-snug">{p.title}</h3>
                 </Link>
               ))}
             </div>
-            <div className="mt-10 text-center">
-              <Link to="/blog" className="btn-outline-dark">
-                Tüm Yazılar
+            <div className="mt-12 text-center">
+              <Link
+                to="/blog"
+                className="rounded-full border-2 border-primary bg-background px-8 py-3.5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:bg-pale"
+              >
+                Daha Fazla İpucu
               </Link>
             </div>
           </div>
