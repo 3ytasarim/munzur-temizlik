@@ -14,6 +14,7 @@ import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
 import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
 import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
 import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
+import { Route as HizmetlerimizIndexRouteImport } from './routes/hizmetlerimiz.index'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -42,6 +43,11 @@ const HakkimizdaTemizlikSureciRoute =
     path: '/hakkimizda/temizlik-sureci',
     getParentRoute: () => rootRouteImport,
   } as any)
+const HizmetlerimizIndexRoute = HizmetlerimizIndexRouteImport.update({
+  id: '/hizmetlerimiz/',
+  path: '/hizmetlerimiz/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -49,6 +55,7 @@ export interface FileRoutesByFullPath {
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
+  '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -56,6 +63,7 @@ export interface FileRoutesByTo {
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
+  '/hizmetlerimiz': typeof HizmetlerimizIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -64,6 +72,7 @@ export interface FileRoutesById {
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
+  '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -73,6 +82,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
     | '/hakkimizda/'
+    | '/hizmetlerimiz/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -80,6 +90,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
     | '/hakkimizda'
+    | '/hizmetlerimiz'
   id:
     | '__root__'
     | '/'
@@ -87,6 +98,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
     | '/hakkimizda/'
+    | '/hizmetlerimiz/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -95,6 +107,7 @@ export interface RootRouteChildren {
   HakkimizdaSikcaSorulanSorularRoute: typeof HakkimizdaSikcaSorulanSorularRoute
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
+  HizmetlerimizIndexRoute: typeof HizmetlerimizIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -134,6 +147,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HakkimizdaTemizlikSureciRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hizmetlerimiz/': {
+      id: '/hizmetlerimiz/'
+      path: '/hizmetlerimiz'
+      fullPath: '/hizmetlerimiz/'
+      preLoaderRoute: typeof HizmetlerimizIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -143,6 +163,7 @@ const rootRouteChildren: RootRouteChildren = {
   HakkimizdaSikcaSorulanSorularRoute: HakkimizdaSikcaSorulanSorularRoute,
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
+  HizmetlerimizIndexRoute: HizmetlerimizIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
