@@ -153,6 +153,7 @@ function PillGroup({
 }
 
 function Progress({ step }: { step: number }) {
+  const meta = stepMeta[step - 1] ?? stepMeta[0]!;
   return (
     <div>
       <div className="flex items-end justify-between">
