@@ -504,13 +504,7 @@ function HomeQuoteSection() {
               </p>
             </div>
           ) : (
-            <form
-              className="mt-8 grid gap-4 md:grid-cols-2"
-              onSubmit={(e) => {
-                e.preventDefault();
-                setSent(true);
-              }}
-            >
+            <form className="mt-8 grid gap-4 md:grid-cols-2" onSubmit={onSubmit}>
               <QuoteField label="Adınız Soyadınız" name="hq-name" />
               <QuoteField label="Email Adresiniz" name="hq-email" type="email" />
               <QuoteField label="Telefon" name="hq-phone" type="tel" />
