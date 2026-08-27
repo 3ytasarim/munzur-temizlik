@@ -114,7 +114,7 @@ function Card({
   children: React.ReactNode;
 }) {
   return (
-    <div className="rounded-[1.8rem] bg-pale p-8">
+    <div className="rounded-[1.8rem] bg-[#F6FAF2] p-8">
       <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-primary">
         {icon}
       </span>
