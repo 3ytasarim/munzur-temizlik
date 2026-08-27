@@ -1,12 +1,35 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Check, CheckCircle2 } from "lucide-react";
+import {
+  ArrowRight,
+  CalendarDays,
+  Check,
+  CheckCircle2,
+  ChevronRight,
+  HandHeart,
+  Phone,
+  ShieldCheck,
+  Sofa,
+  Sparkles,
+  SprayCan,
+  Star,
+} from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Faq, faqJsonLd } from "@/components/Faq";
-import { CtaBand, Testimonials } from "@/components/Sections";
+import { CtaBand } from "@/components/Sections";
 import { getFaqs, getPage, posts } from "@/data/content";
-import { advantages, howItWorks, images, postImages, quoteServices, serviceMeta, site, stats } from "@/data/site";
+import {
+  advantages,
+  howItWorks,
+  images,
+  postImages,
+  quoteServices,
+  serviceMeta,
+  site,
+  stats,
+  testimonials,
+} from "@/data/site";
 
 const page = getPage("home");
 const faqs = getFaqs("home");
