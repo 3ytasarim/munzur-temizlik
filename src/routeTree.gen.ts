@@ -15,6 +15,7 @@ import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
 import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
 import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
 import { Route as HizmetlerimizIndexRouteImport } from './routes/hizmetlerimiz.index'
+import { Route as HizmetlerimizSlugRouteImport } from './routes/hizmetlerimiz.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -48,12 +49,18 @@ const HizmetlerimizIndexRoute = HizmetlerimizIndexRouteImport.update({
   path: '/hizmetlerimiz/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HizmetlerimizSlugRoute = HizmetlerimizSlugRouteImport.update({
+  id: '/hizmetlerimiz/$slug',
+  path: '/hizmetlerimiz/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
@@ -62,6 +69,7 @@ export interface FileRoutesByTo {
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
   '/hizmetlerimiz': typeof HizmetlerimizIndexRoute
 }
@@ -71,6 +79,7 @@ export interface FileRoutesById {
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
@@ -81,6 +90,7 @@ export interface FileRouteTypes {
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
+    | '/hizmetlerimiz/$slug'
     | '/hakkimizda/'
     | '/hizmetlerimiz/'
   fileRoutesByTo: FileRoutesByTo
@@ -89,6 +99,7 @@ export interface FileRouteTypes {
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
+    | '/hizmetlerimiz/$slug'
     | '/hakkimizda'
     | '/hizmetlerimiz'
   id:
@@ -97,6 +108,7 @@ export interface FileRouteTypes {
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
+    | '/hizmetlerimiz/$slug'
     | '/hakkimizda/'
     | '/hizmetlerimiz/'
   fileRoutesById: FileRoutesById
@@ -106,6 +118,7 @@ export interface RootRouteChildren {
   TeklifFormuRoute: typeof TeklifFormuRoute
   HakkimizdaSikcaSorulanSorularRoute: typeof HakkimizdaSikcaSorulanSorularRoute
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
+  HizmetlerimizSlugRoute: typeof HizmetlerimizSlugRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
   HizmetlerimizIndexRoute: typeof HizmetlerimizIndexRoute
 }
@@ -154,6 +167,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HizmetlerimizIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hizmetlerimiz/$slug': {
+      id: '/hizmetlerimiz/$slug'
+      path: '/hizmetlerimiz/$slug'
+      fullPath: '/hizmetlerimiz/$slug'
+      preLoaderRoute: typeof HizmetlerimizSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -162,6 +182,7 @@ const rootRouteChildren: RootRouteChildren = {
   TeklifFormuRoute: TeklifFormuRoute,
   HakkimizdaSikcaSorulanSorularRoute: HakkimizdaSikcaSorulanSorularRoute,
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
+  HizmetlerimizSlugRoute: HizmetlerimizSlugRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
   HizmetlerimizIndexRoute: HizmetlerimizIndexRoute,
 }
