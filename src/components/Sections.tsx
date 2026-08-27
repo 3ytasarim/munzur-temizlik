@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { images, site, testimonials } from "@/data/site";
+import { openQuoteModal } from "@/lib/quote-modal";
 
 export function PageHero({
   eyebrow,
@@ -26,9 +27,9 @@ export function PageHero({
           <h1 className="text-3xl leading-tight md:text-5xl">{title}</h1>
           {text && <p className="mt-5 max-w-xl text-[1.05rem] leading-relaxed">{text}</p>}
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link to="/teklif-formu" className="btn-yellow">
+            <button type="button" onClick={openQuoteModal} className="btn-yellow">
               Ücretsiz Teklif Al
-            </Link>
+            </button>
             <a href={site.phoneHref} className="btn-outline-dark">
               {site.phone}
             </a>
@@ -57,9 +58,9 @@ export function CtaBand() {
             İhtiyacınızı bize iletin, size özel temizlik planınızı ve fiyatınızı hemen hazırlayalım.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link to="/teklif-formu" className="btn-green">
+            <button type="button" onClick={openQuoteModal} className="btn-green">
               Teklif Formu
-            </Link>
+            </button>
             <a href={site.whatsapp} className="btn-outline-dark" rel="noopener noreferrer">
               WhatsApp
             </a>
