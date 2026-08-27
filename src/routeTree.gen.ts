@@ -14,6 +14,7 @@ import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
 import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
 import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
 import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
+import { Route as HizmetBolgeleriIndexRouteImport } from './routes/hizmet-bolgeleri.index'
 import { Route as HizmetlerimizIndexRouteImport } from './routes/hizmetlerimiz.index'
 import { Route as HizmetlerimizSlugRouteImport } from './routes/hizmetlerimiz.$slug'
 
@@ -44,6 +45,11 @@ const HakkimizdaTemizlikSureciRoute =
     path: '/hakkimizda/temizlik-sureci',
     getParentRoute: () => rootRouteImport,
   } as any)
+const HizmetBolgeleriIndexRoute = HizmetBolgeleriIndexRouteImport.update({
+  id: '/hizmet-bolgeleri/',
+  path: '/hizmet-bolgeleri/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HizmetlerimizIndexRoute = HizmetlerimizIndexRouteImport.update({
   id: '/hizmetlerimiz/',
   path: '/hizmetlerimiz/',
@@ -62,6 +68,7 @@ export interface FileRoutesByFullPath {
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
+  '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
 export interface FileRoutesByTo {
@@ -71,6 +78,7 @@ export interface FileRoutesByTo {
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
+  '/hizmet-bolgeleri': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz': typeof HizmetlerimizIndexRoute
 }
 export interface FileRoutesById {
@@ -81,6 +89,7 @@ export interface FileRoutesById {
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
+  '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
 export interface FileRouteTypes {
@@ -92,6 +101,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/temizlik-sureci'
     | '/hizmetlerimiz/$slug'
     | '/hakkimizda/'
+    | '/hizmet-bolgeleri/'
     | '/hizmetlerimiz/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -101,6 +111,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/temizlik-sureci'
     | '/hizmetlerimiz/$slug'
     | '/hakkimizda'
+    | '/hizmet-bolgeleri'
     | '/hizmetlerimiz'
   id:
     | '__root__'
@@ -110,6 +121,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/temizlik-sureci'
     | '/hizmetlerimiz/$slug'
     | '/hakkimizda/'
+    | '/hizmet-bolgeleri/'
     | '/hizmetlerimiz/'
   fileRoutesById: FileRoutesById
 }
@@ -120,6 +132,7 @@ export interface RootRouteChildren {
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
   HizmetlerimizSlugRoute: typeof HizmetlerimizSlugRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
+  HizmetBolgeleriIndexRoute: typeof HizmetBolgeleriIndexRoute
   HizmetlerimizIndexRoute: typeof HizmetlerimizIndexRoute
 }
 
@@ -160,6 +173,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HakkimizdaTemizlikSureciRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hizmet-bolgeleri/': {
+      id: '/hizmet-bolgeleri/'
+      path: '/hizmet-bolgeleri'
+      fullPath: '/hizmet-bolgeleri/'
+      preLoaderRoute: typeof HizmetBolgeleriIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/hizmetlerimiz/': {
       id: '/hizmetlerimiz/'
       path: '/hizmetlerimiz'
@@ -184,6 +204,7 @@ const rootRouteChildren: RootRouteChildren = {
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
   HizmetlerimizSlugRoute: HizmetlerimizSlugRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
+  HizmetBolgeleriIndexRoute: HizmetBolgeleriIndexRoute,
   HizmetlerimizIndexRoute: HizmetlerimizIndexRoute,
 }
 export const routeTree = rootRouteImport
