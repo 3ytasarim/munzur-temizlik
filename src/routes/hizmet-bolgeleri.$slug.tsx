@@ -50,15 +50,9 @@ function DistrictDetail() {
   return (
     <>
       <Header />
-      <DetailPage
-        eyebrow="Hizmet Bölgeleri"
-        title={district.name}
-        subtitle={`${district.name} ve çevresinde profesyonel temizlik hizmetleri için bize ulaşın.`}
-        blocks={district.blocks ?? []}
-        image={images.aboutTeam}
-        hasForm
-      />
+      <DistrictPage district={district} />
       <Footer />
     </>
   );
 }
+
