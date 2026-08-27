@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Check } from "lucide-react";
+import { useState } from "react";
+import { ArrowRight, Check, CheckCircle2 } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Faq, faqJsonLd } from "@/components/Faq";
@@ -96,23 +97,8 @@ function Home() {
           </div>
         </section>
 
-        {/* Quote strip */}
-        <section className="bg-pale py-14">
-          <div className="container-site flex flex-col items-center gap-6 text-center lg:flex-row lg:justify-between lg:text-left">
-            <div className="max-w-2xl">
-              <h2 className="text-2xl md:text-3xl">
-                Temizlik hizmetiniz için hemen fiyat alın, süreci başlatın.
-              </h2>
-              <p className="mt-3">
-                Sizin memnuniyetiniz bizim için en büyük önceliktir. Munzur Temizlik olarak tüm
-                hizmetlerimizde yüksek kalite ve müşteri mutluluğu için titizlikle çalışıyoruz.
-              </p>
-            </div>
-            <Link to="/teklif-formu" className="btn-green shrink-0">
-              Fiyat Al
-            </Link>
-          </div>
-        </section>
+        {/* Quote form */}
+        <HomeQuoteSection />
 
         {/* How it works */}
         <section className="container-site py-16 md:py-24">
