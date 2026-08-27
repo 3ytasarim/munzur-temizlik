@@ -1,15 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
-  ArrowRight,
-  CalendarDays,
   Check,
   CheckCircle2,
   ChevronRight,
   Phone,
-  ShieldCheck,
   Sparkles,
-  Star,
 } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -72,21 +68,25 @@ export const Route = createFileRoute("/")({
 
 import {
   advantageIcons,
+  arrowIll,
+  googleG,
   heroAvatars,
   heroBadges,
-  heroLeafs,
+  starSvg,
   stepIcons,
+  stepLeafs,
 } from "@/data/home-ui";
 
 function GoogleRating() {
   return (
-    <div className="inline-flex items-center gap-3 rounded-full bg-background px-5 py-3 shadow-sm">
-      <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-soft">
-        <Star className="h-5 w-5 fill-secondary text-secondary" />
-      </span>
+    <div className="flex items-center gap-2 rounded-2xl bg-background px-3 py-2 shadow-md">
+      <img src={starSvg} alt="" aria-hidden="true" className="h-8 w-8 shrink-0" />
       <span>
-        <span className="block font-display text-lg font-medium text-foreground">4.8</span>
-        <span className="block text-xs">480 Google Puanı</span>
+        <span className="flex items-center gap-1">
+          <span className="font-display text-lg font-medium leading-none text-foreground">4.8</span>
+          <img src={googleG} alt="Google" className="h-4 w-4" />
+        </span>
+        <span className="mt-1 block text-[0.72rem] leading-none">480 Google Puanı</span>
       </span>
     </div>
   );
@@ -105,7 +105,6 @@ function Home() {
           >
             <div className="w-full max-w-[640px] rounded-[30px] bg-soft p-8 md:p-12">
               <h1 className="text-[2rem] leading-[1.15] md:text-[2.6rem]">
-
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
               <p className="mt-5 text-[1.02rem] leading-relaxed">
@@ -121,27 +120,32 @@ function Home() {
                   Hizmetlerimiz
                 </Link>
               </div>
-              <ul className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
-                {heroBadges.map((b, i) => (
-                  <li key={b} className="flex items-center gap-2 font-display text-sm font-medium text-foreground">
-                    <img src={heroLeafs[i]} alt="" aria-hidden="true" className="h-5 w-5 object-contain" />
+              <ul className="mt-7 flex flex-wrap items-center gap-x-8 gap-y-3">
+                {heroBadges.map((b) => (
+                  <li
+                    key={b}
+                    className="flex items-center gap-2 font-display text-sm font-medium text-foreground"
+                  >
+                    <CheckCircle2 className="h-5 w-5 shrink-0 fill-primary text-white" />
                     {b}
                   </li>
                 ))}
               </ul>
-              <div className="mt-8 flex flex-wrap items-center gap-5">
-                <GoogleRating />
-                <div className="flex -space-x-3">
-                  {heroAvatars.map((a) => (
-                    <img
-                      key={a}
-                      src={a}
-                      alt=""
-                      aria-hidden="true"
-                      className="h-11 w-11 rounded-full border-2 border-background object-cover"
-                    />
-                  ))}
-                </div>
+            </div>
+
+            {/* Google rating + avatars, bottom right over the photo */}
+            <div className="absolute bottom-4 right-4 hidden flex-col items-end gap-2 md:flex">
+              <GoogleRating />
+              <div className="flex -space-x-3 rounded-full bg-background p-1 shadow-md">
+                {heroAvatars.map((a) => (
+                  <img
+                    key={a}
+                    src={a}
+                    alt=""
+                    aria-hidden="true"
+                    className="h-10 w-10 rounded-full border-2 border-background object-cover"
+                  />
+                ))}
               </div>
             </div>
           </div>
@@ -154,24 +158,37 @@ function Home() {
         <section className="container-site py-16 md:py-24">
           <p className="eyebrow mb-3 text-center">Munzur Temizlik</p>
           <h2 className="text-center text-3xl md:text-[2.5rem]">Nasıl Çalışır?</h2>
-          <div className="mt-14 grid gap-8 md:grid-cols-3">
-            {howItWorks.map((s, i) => {
-              const Icon = stepIcons[i] ?? CalendarDays;
-              return (
-                <div key={s.title} className="relative text-center">
-                  <span className="mx-auto inline-flex h-20 w-20 items-center justify-center rounded-full bg-pale">
-                    <Icon className="h-9 w-9 text-primary" />
-                  </span>
-                  <h3 className="mt-6 text-xl">{s.title}</h3>
+          <div className="mt-14 flex flex-col items-start gap-10 md:flex-row md:justify-center">
+            {howItWorks.map((s, i) => (
+              <div key={s.title} className="contents">
+                <div className="flex-1 text-center">
+                  <div className="relative mx-auto h-36 w-36">
+                    <span className="absolute inset-0 flex items-center justify-center rounded-full bg-pale">
+                      <img src={stepIcons[i]} alt="" aria-hidden="true" className="h-16 w-16" />
+                    </span>
+                    <img
+                      src={stepLeafs[i]}
+                      alt=""
+                      aria-hidden="true"
+                      className="pointer-events-none absolute -right-4 -top-4 w-20"
+                    />
+                  </div>
+                  <h3 className="mt-8 text-xl">{s.title}</h3>
                   <p className="mx-auto mt-3 max-w-xs text-[0.98rem] leading-relaxed">{s.text}</p>
-                  {i < howItWorks.length - 1 && (
-                    <ArrowRight className="absolute -right-4 top-8 hidden h-6 w-6 text-primary/40 md:block" />
-                  )}
                 </div>
-              );
-            })}
+                {i < howItWorks.length - 1 && (
+                  <img
+                    src={arrowIll}
+                    alt=""
+                    aria-hidden="true"
+                    className="mt-16 hidden w-32 shrink-0 self-start md:block"
+                  />
+                )}
+              </div>
+            ))}
           </div>
         </section>
+
 
         {/* About */}
         <section className="container-site">
@@ -239,18 +256,21 @@ function Home() {
             </h2>
 
             <div className="relative mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {advantages.map((a, i) => {
-                const Icon = advantageIcons[i] ?? ShieldCheck;
-                return (
-                  <div key={a.title} className="rounded-[24px] bg-pale p-7 text-foreground">
-                    <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-background">
-                      <Icon className="h-6 w-6 text-primary" />
-                    </span>
-                    <h3 className="mt-6 text-xl leading-snug">{a.title}</h3>
-                    <p className="mt-3 text-[0.95rem] leading-relaxed">{a.text}</p>
-                  </div>
-                );
-              })}
+              {advantages.map((a, i) => (
+                <div key={a.title} className="rounded-[24px] bg-pale p-7 text-foreground">
+                  <span className="inline-flex h-16 w-16 items-center justify-center">
+                    <img
+                      src={advantageIcons[i] ?? advantageIcons[0]}
+                      alt=""
+                      aria-hidden="true"
+                      className="h-14 w-14"
+                    />
+                  </span>
+                  <h3 className="mt-6 text-xl leading-snug">{a.title}</h3>
+                  <p className="mt-3 text-[0.95rem] leading-relaxed">{a.text}</p>
+                </div>
+              ))}
+
             </div>
 
             <div className="relative mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
