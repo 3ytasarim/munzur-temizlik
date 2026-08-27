@@ -19,10 +19,11 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/95 backdrop-blur">
-      <div className="container-nav flex h-20 items-center justify-between gap-4">
+      <div className="container-nav flex h-16 items-center justify-between gap-3 md:h-20 md:gap-4">
         <Link to="/" className="flex shrink-0 items-center" aria-label="Munzur Temizlik ana sayfa">
-          <img src={images.logo} alt="Munzur Temizlik logo" className="h-11 w-auto" />
+          <img src={images.logo} alt="Munzur Temizlik logo" className="h-8 w-auto md:h-11" />
         </Link>
+
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Ana menü">
           <NavLink to="/">Anasayfa</NavLink>
