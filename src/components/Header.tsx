@@ -86,7 +86,7 @@ export function Header() {
           <NavLink to="/blog">Blog</NavLink>
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 md:gap-3">
           <a
             href={site.phoneHref}
             className="hidden items-center gap-2.5 rounded-full border border-border bg-background py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:border-secondary xl:flex"
@@ -99,10 +99,17 @@ export function Header() {
           <button
             type="button"
             aria-label="Ara"
-            className="hidden h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent lg:inline-flex"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent xl:h-10 xl:w-10"
           >
             <Search className="h-4 w-4" />
           </button>
+          <a
+            href={site.phoneHref}
+            aria-label="Bizi arayın"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent xl:hidden"
+          >
+            <Phone className="h-4 w-4" />
+          </a>
           <button
             type="button"
             onClick={openQuoteModal}
@@ -113,13 +120,14 @@ export function Header() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-border lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border md:h-11 md:w-11 lg:hidden"
             aria-label="Menüyü aç/kapat"
             aria-expanded={open}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
+
       </div>
 
       {open && (
