@@ -7,12 +7,22 @@
   "category": "Temizlik",
   "blocks": [
    {
-    "t": "p",
-    "v": "Ev temizliği söz konusu olduğunda “yüzeysel temizlik” ile “derinlemesine temizlik” arasında ciddi farklar vardır. Özellikle derin temizlik, evin tüm köşelerine, ulaşılması zor alanlara ve genellikle ihmal edilen detaylara odaklanan kapsamlı bir işlemdir. Bu nedenle çoğu kişi doğal olarak şu soruyu sorar:"
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "🕒 Bir Daireyi Derinlemesine Temizlemek Ne Kadar Sürer?"
    },
    {
     "t": "p",
-    "v": "“Bir dairenin derinlemesine temizliği ne kadar sürer?”"
+    "v": "Ev temizliği söz konusu olduğunda “yüzeysel temizlik” ile “derinlemesine temizlik” arasında ciddi farklar vardır. Özellikle <strong data-end=\"433\" data-start=\"415\">derin temizlik</strong>, evin tüm köşelerine, ulaşılması zor alanlara ve genellikle ihmal edilen detaylara odaklanan kapsamlı bir işlemdir. Bu nedenle çoğu kişi doğal olarak şu soruyu sorar:"
+   },
+   {
+    "t": "p",
+    "v": "<strong data-end=\"660\" data-start=\"602\">“Bir dairenin derinlemesine temizliği ne kadar sürer?”</strong>"
    },
    {
     "t": "p",
@@ -27,16 +37,12 @@
     "v": "1. Dairenin Büyüklüğü ve Oda Sayısı"
    },
    {
-    "t": "li",
-    "v": "1+1 veya stüdyo daireler: Ortalama 2–3 saat"
-   },
-   {
-    "t": "li",
-    "v": "2+1 – 3+1 daireler: 4–6 saat arası"
-   },
-   {
-    "t": "li",
-    "v": "4+1 ve üzeri büyük daireler: 6–8 saat veya daha fazla"
+    "t": "ul",
+    "items": [
+     "<strong data-end=\"918\" data-start=\"889\">1+1 veya stüdyo daireler:</strong> Ortalama 2–3 saat",
+     "<strong data-end=\"964\" data-start=\"941\">2+1 – 3+1 daireler:</strong> 4–6 saat arası",
+     "<strong data-end=\"1016\" data-start=\"984\">4+1 ve üzeri büyük daireler:</strong> 6–8 saat veya daha fazla"
+    ]
    },
    {
     "t": "p",
@@ -47,16 +53,12 @@
     "v": "2. Temizlik Yapılacak Alanların Durumu"
    },
    {
-    "t": "li",
-    "v": "Uzun süredir temizlenmeyen, biriken kirlerin bulunduğu evler daha fazla zaman alır."
-   },
-   {
-    "t": "li",
-    "v": "Yeni taşınılacak bir dairede yapılacak ilk temizlik daha detaylıdır (inşaat tozu, kalıntı vs.)."
-   },
-   {
-    "t": "li",
-    "v": "Evcil hayvan varsa, tüy ve koku gibi detaylar işlemi uzatabilir."
+    "t": "ul",
+    "items": [
+     "Uzun süredir temizlenmeyen, biriken kirlerin bulunduğu evler daha fazla zaman alır.",
+     "Yeni taşınılacak bir dairede yapılacak ilk temizlik daha detaylıdır (inşaat tozu, kalıntı vs.).",
+     "Evcil hayvan varsa, tüy ve koku gibi detaylar işlemi uzatabilir."
+    ]
    },
    {
     "t": "h3",
@@ -67,24 +69,14 @@
     "v": "Bazı derin temizlik hizmetleri ekstra zaman gerektirir. Örnekler:"
    },
    {
-    "t": "li",
-    "v": "Fırın, aspiratör ve buzdolabı içi temizliği"
-   },
-   {
-    "t": "li",
-    "v": "Camların iç/dış silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Yatak altı ve koltuk arkası gibi detaylı noktalar"
-   },
-   {
-    "t": "li",
-    "v": "Halı ve koltuk temizliği (buharlı veya vakumlu)"
-   },
-   {
-    "t": "li",
-    "v": "Banyo ve derz aralarının özel kimyasallar ile temizlenmesi"
+    "t": "ul",
+    "items": [
+     "<strong data-end=\"1589\" data-start=\"1542\">Fırın, aspiratör ve buzdolabı içi temizliği</strong>",
+     "<strong data-end=\"1623\" data-start=\"1594\">Camların iç/dış silinmesi</strong>",
+     "<strong data-end=\"1681\" data-start=\"1628\">Yatak altı ve koltuk arkası gibi detaylı noktalar</strong>",
+     "<strong data-end=\"1737\" data-start=\"1686\">Halı ve koltuk temizliği (buharlı veya vakumlu)</strong>",
+     "<strong data-end=\"1804\" data-start=\"1742\">Banyo ve derz aralarının özel kimyasallar ile temizlenmesi</strong>"
+    ]
    },
    {
     "t": "p",
@@ -95,16 +87,12 @@
     "v": "4. Kaç Kişilik Ekip Geldiği"
    },
    {
-    "t": "li",
-    "v": "1 kişilik temizlikçi: Ortalama süre artar."
-   },
-   {
-    "t": "li",
-    "v": "2–3 kişilik ekip: Daha hızlı, organize ve etkili temizlik sunar."
-   },
-   {
-    "t": "li",
-    "v": "Profesyonel ekip ile yapılan temizlik işlemleri hem zaman kazandırır hem detayları kaçırmaz."
+    "t": "ul",
+    "items": [
+     "<strong data-end=\"1943\" data-start=\"1918\">1 kişilik temizlikçi:</strong> Ortalama süre artar.",
+     "<strong data-end=\"1990\" data-start=\"1969\">2–3 kişilik ekip:</strong> Daha hızlı, organize ve etkili temizlik sunar.",
+     "Profesyonel ekip ile yapılan temizlik işlemleri hem zaman kazandırır hem detayları kaçırmaz."
+    ]
    },
    {
     "t": "p",
@@ -123,20 +111,57 @@
     "v": "🎯 Temizliğin Daha Hızlı ve Etkili Olması İçin Öneriler:"
    },
    {
-    "t": "li",
-    "v": "Temizlik öncesi kişisel eşyaları kaldırın."
+    "t": "ul",
+    "items": [
+     "Temizlik öncesi kişisel eşyaları kaldırın.",
+     "Hizmet almadan önce beklentilerinizi net belirtin.",
+     "Temizlik esnasında odaları belirli sıraya koymak işleri hızlandırır.",
+     "Kolay ulaşılabilir alanları boşaltmak süreci hızlandırır."
+    ]
    },
    {
-    "t": "li",
-    "v": "Hizmet almadan önce beklentilerinizi net belirtin."
+    "t": "ul",
+    "items": [
+     "Tags: DerinTemizlik, EvTemizliği, EvTemizliğiİpuçları, HijyenikEvler, MunzurTemizlik, ProfesyonelTemizlik, TemizlikHizmeti, TemizlikNeKadarSürer, TemizlikRehberi"
+    ]
    },
    {
-    "t": "li",
-    "v": "Temizlik esnasında odaları belirli sıraya koymak işleri hızlandırır."
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
    },
    {
-    "t": "li",
-    "v": "Kolay ulaşılabilir alanları boşaltmak süreci hızlandırır."
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
    }
   ]
  },
@@ -148,8 +173,18 @@
   "category": "Temizlik",
   "blocks": [
    {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
     "t": "p",
-    "v": "Eviniz sizin yaşam alanınız, huzurunuz ve enerjinizin aynasıdır. Ancak zamanla günlük koşuşturmaca arasında temizlik işleri ertelenir, eşyalar birikir, yüzeyler tozlanır ve o eski ferahlık kaybolur. İşte tam bu noktada devreye derin temizlik ve ev organizasyonu girer. “The Deep Cleaning and Organizing” kavramı, yalnızca bir temizlik hizmeti değil; aynı zamanda yaşam alanınıza yeni bir düzen, nefes ve motivasyon kazandırmak anlamına gelir."
+    "v": "Eviniz sizin yaşam alanınız, huzurunuz ve enerjinizin aynasıdır. Ancak zamanla günlük koşuşturmaca arasında <strong data-end=\"513\" data-start=\"501\">temizlik</strong> işleri ertelenir, eşyalar birikir, yüzeyler tozlanır ve o eski ferahlık kaybolur. İşte tam bu noktada devreye <strong data-end=\"662\" data-start=\"624\">derin temizlik ve ev organizasyonu</strong> girer. “The Deep Cleaning and Organizing” kavramı, yalnızca bir temizlik hizmeti değil; aynı zamanda yaşam alanınıza yeni bir düzen, nefes ve motivasyon kazandırmak anlamına gelir."
    },
    {
     "t": "h3",
@@ -157,7 +192,7 @@
    },
    {
     "t": "p",
-    "v": "Derin temizlik, yüzeylerin ötesine geçerek ulaşılması zor alanlarda biriken toz, kir ve bakterilerin profesyonelce temizlenmesidir. Kanepe arkasından halı altına, mutfak dolaplarının içinden banyo derz aralarına kadar her alan detaylı bir şekilde ele alınır. Özellikle mevsim geçişlerinde, evinizi yenilemek ve sağlıklı bir ortam yaratmak için derin temizlik olmazsa olmazdır."
+    "v": "<strong data-end=\"890\" data-start=\"872\">Derin temizlik</strong>, yüzeylerin ötesine geçerek ulaşılması zor alanlarda biriken toz, kir ve bakterilerin profesyonelce temizlenmesidir. Kanepe arkasından halı altına, mutfak dolaplarının içinden banyo derz aralarına kadar her alan detaylı bir şekilde ele alınır. Özellikle mevsim geçişlerinde, evinizi yenilemek ve sağlıklı bir ortam yaratmak için derin temizlik olmazsa olmazdır."
    },
    {
     "t": "p",
@@ -169,23 +204,19 @@
    },
    {
     "t": "p",
-    "v": "Temiz bir evin etkisi ancak düzenli bir evle tamamlanır. Eşyaların nerede olduğunu bilmek, her sabah güne hazırlanırken zaman kazanmak, gereksiz yığınlardan kurtulmak ruh halinizi pozitif yönde etkiler. Ev organizasyonu bu noktada devreye girer:"
+    "v": "Temiz bir evin etkisi ancak düzenli bir evle tamamlanır. Eşyaların nerede olduğunu bilmek, her sabah güne hazırlanırken zaman kazanmak, gereksiz yığınlardan kurtulmak ruh halinizi pozitif yönde etkiler. <strong data-end=\"1678\" data-start=\"1658\">Ev organizasyonu</strong> bu noktada devreye girer:"
    },
    {
-    "t": "li",
-    "v": "Gereksiz eşyalar ayrıştırılır"
-   },
-   {
-    "t": "li",
-    "v": "Depolama alanları daha verimli kullanılır"
-   },
-   {
-    "t": "li",
-    "v": "Minimal ve işlevsel alanlar yaratılır"
+    "t": "ul",
+    "items": [
+     "Gereksiz eşyalar ayrıştırılır",
+     "Depolama alanları daha verimli kullanılır",
+     "Minimal ve işlevsel alanlar yaratılır"
+    ]
    },
    {
     "t": "p",
-    "v": "Profesyonel temizlik hizmeti alırken organizasyon desteği almak, evi baştan sona yeniden yapılandırmak gibidir. Yeni bir yaşam enerjisi kazanmak istiyorsanız bu hizmet tam size göre!"
+    "v": "<strong data-end=\"1860\" data-start=\"1828\">Profesyonel temizlik hizmeti</strong> alırken organizasyon desteği almak, evi baştan sona yeniden yapılandırmak gibidir. Yeni bir yaşam enerjisi kazanmak istiyorsanız bu hizmet tam size göre!"
    },
    {
     "t": "h3",
@@ -193,11 +224,11 @@
    },
    {
     "t": "p",
-    "v": "📌 Alanında uzman ekip📌 Doğaya ve sağlığa dost temizlik ürünleri📌 Kişiye özel temizlik ve organizasyon planlaması📌 Hijyen garantisi ve müşteri memnuniyeti odaklı hizmet"
+    "v": "📌 Alanında uzman ekip<br data-end=\"2068\" data-start=\"2065\"/>📌 Doğaya ve sağlığa dost temizlik ürünleri<br data-end=\"2114\" data-start=\"2111\"/>📌 Kişiye özel temizlik ve organizasyon planlaması<br data-end=\"2167\" data-start=\"2164\"/>📌 Hijyen garantisi ve müşteri memnuniyeti odaklı hizmet"
    },
    {
     "t": "p",
-    "v": "İster sadece koltuk temizliği ister tam kapsamlı ev temizliği, ister yeni eve taşınmadan önce detaylı temizlik, ihtiyacınıza göre özelleştirilmiş çözümler sunuyoruz. Üstelik dilerseniz temizlik malzemelerini biz getiriyor, dilerseniz sizin ürünlerinizi kullanıyoruz."
+    "v": "İster sadece <strong data-end=\"2258\" data-start=\"2238\">koltuk temizliği</strong> ister tam kapsamlı <strong data-end=\"2294\" data-start=\"2278\">ev temizliği</strong>, ister yeni eve taşınmadan önce <strong data-end=\"2347\" data-start=\"2327\">detaylı temizlik</strong>, ihtiyacınıza göre özelleştirilmiş çözümler sunuyoruz. Üstelik dilerseniz temizlik malzemelerini biz getiriyor, dilerseniz sizin ürünlerinizi kullanıyoruz."
    },
    {
     "t": "h3",
@@ -214,6 +245,50 @@
    {
     "t": "h5",
     "v": "🧽 Temizlik deyince akla gelen ilk isim olmak için her gün daha fazla evin kapısını çalıyoruz. Siz de hemen şimdi randevunuzu oluşturun!"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: Adalar temizlik şirketi, anadolu yakası en iyi temizlik şirketi, anadolu yakası temizlik firmaları, anadolu yakası temizlik firması, anadolu yakası temizlik şirketleri, apartman temizlik şirketi, armut ev temizlik, Arnavutköy Temizlik Şirketi, Ataşehir Temizlik Şirketi, avcılar ev temizliği, avcılar temizlik, Avcılar Temizlik Şirketi, avrupa yakası temizlik şirketleri, bağcılar ev temizliği, Bağcılar Temizlik Şirketi, Bahçelievler Temizlik Şirketi, bahçeşehir temizlik şirketi, Bakırköy Temizlik Şirketi, Başakşehir Temizlik Şirketi, Bayrampaşa Temizlik Şirketi, Beşiktaş Temizlik Şirketi, beykoz temizlik sirketi, Beykoz Temizlik Şirketi, beylikdüzü temizlik, Beylikdüzü Temizlik Şirketi, beylikdüzü temizlik şirketleri, Beyoğlu Temizlik Şirketi, boş ev temizliği, boş ev temizliği fiyatları, Büyükçekmece Temizlik Şirketi, cam silme şirketi, cam silme şirketleri, cam temizleme şirketi, cam temizlik şirketi, Çatalca Temizlik Şirketi, Çayırova Temizlik Şirketi, Çekmeköy Temizlik Şirketi, Darıca Temizlik Şirketi, detaylı ev temizliği, dış cephe cam temizliği, dış cephe temizlik, dış cephe temizlik firmaları, en iyi ev temizliği şirketleri, en iyi ev temizlik şirketi, en iyi ev temizlik şirketleri, en iyi temizlik şirketleri, Esenler Temizlik Şirketi, esenyurt ev temizliği, esenyurt temizlik, Esenyurt Temizlik Şirketi, esenyurt temizlik sirketi, esenyurt temizlik sirketleri, ev temizleme şirketi, ev temizligi, Ev Temizliği, ev temizligi bayan, ev temizligi fiyati, ev temizliği fiyatı, ev temizliği fiyatları, ev temizliği hizmeti, ev temizliği istanbul, ev temizliği kadın, ev temizliği şirketi, ev temizliği yapan kadın, ev temizliğine kadın, ev temizlik firmalari, ev temizlik firmaları, ev temizlik fiyatları istanbul, ev temizlik hizmeti, ev temizlik işleri, ev temizlik şirketi, ev temizlik şirketleri, ev temizlik sirketleri, ev temizlikleri, evlere temizlik, EvTemizliği, Eyüp sultan Temizlik Şirketi, Fatih Temizlik Şirketi, florya temizlik şirketi, Gaziosmanpaşa Temizlik Şirketi, Gebze Temizlik Şirketi, güngören ev temizliği, Güngören Temizlik Şirketi, gunluk ev temizligi, günlük ev temizliği, günlük ev temizliği pendik, Hijyen, İnşaat öncesi temizlik, insaat sonrasi ev temizligi, inşaat sonrası ev temizliği, İnşaat sonrası temizlik, inşaat temizliği, inşaat temizliği fiyat, istanbul anadolu yakası temizlik şirketleri, istanbul da en iyi temizlik şirketi, istanbul ev temizliği, istanbul ev temizliği fiyatları, istanbul ev temizlik şirketleri, istanbul temizlik, istanbul temizlik firmaları, istanbul temizlik firmaları fiyatları, istanbul temizlik firması, istanbul Temizlik Şirketi, istanbul temizlik sirketleri, istanbul temizlik şirketleri, istanbul temizlik şirketleri fiyat listesi, İşyeri temizlik şirketi, İşyeri temizlik şirketleri, kaba inşaat temizliği fiyatları, kadıköy ev temizliği, Kadıköy Temizlik Şirketi, Kağıthane Temizlik Şirketi, kağıthane temizlik şirketleri, Kartal Temizlik Şirketi, Koltuk Temizliği, KoltukTemizliği, Küçükçekmece Temizlik Şirketi, kurtköy temizlik şirketi, Maltepe Ev Temizliği, Maltepe Temizlik Şirketi, maltepe temizlik sirketi, Marka Temizlik Şirketi, maslak temizlik şirketi, merdiven temizlik şirketleri, Munzur Temizlik Şirketi, MunzurTemizlik, ofis temizligi, ofis temizliği, ofis temizliği fiyatları, ofis temizlik şirketi, Okmeydanı Temizlik Şirketi, Pendik Temizlik Şirketi, pratik ev temizligi, profesyonel cam temizliği, profesyonel ev temizligi, profesyonel ev temizliği, Profesyonel Temizlik Şirketi, ProfesyonelTemizlik, sancaktepe ev temizliği, Sancaktepe Temizlik Şirketi, sarıyer ev temizliği, Sarıyer Temizlik Şirketi, Şile Temizlik Şirketi, şirinevler temizlik şirketi, şişli Temizlik Şirketi, su baskını temizliği, Sultanbeyli Temizlik Şirketi, Sultangazi Temizlik Şirketi, Taşınma önce temizlik, Taşınma sonrası temizlik, Temizlik, temizlik ev temizliği, temizlik evde, temizlik firmalari, temizlik firması istanbul, Temizlik Hizmeti, temizlik şirket, temizlik şirket fiyatları, Temizlik Şirketi, temizlik sirketi, temizlik şirketi anadolu yakası, temizlik şirketi beylikdüzü, temizlik şirketi ev temizliği, temizlik şirketi istanbul, temizlik sirketi istanbul, temizlik şirketi istanbul anadolu yakası, temizlik şirketi istanbul avrupa yakası, temizlik şirketi pendik, temizlik şirketleri, temizlik şirketleri anadolu yakası, temizlik şirketleri fiyatları, temizlik şirketleri istanbul, temizlikçi istanbul, TemizlikHizmeti, TemizlikŞirketi, Tuzla Temizlik, tuzla temizlik firmaları, tuzla temizlik sirketi, Tuzla Temizlik Şirketi, Ümraniye Temizlik Şirketi, Üsküdar Temizlik Şirketi, Villa temizliği, Villa temizlik şirketi, yeni ev temizligi, yenibosna temizlik şirketi, Zeytinburnu Temizlik Şirketi"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "🧼 Eksiksiz Daire Temizliği Rehberi: Pırıl Pırıl Bir Yaşam Alanı İçin Adım Adım Kılavuz"
    }
   ]
  },
@@ -225,12 +300,22 @@
   "category": "Temizlik",
   "blocks": [
    {
-    "t": "p",
-    "v": "Evde geçirilen zaman arttıkça, yaşam alanlarımızın hijyeni de her zamankinden daha önemli hâle geldi. Özellikle halılar, hem görünüm hem de hijyen açısından düzenli bakım gerektirir. Ancak burada dikkat edilmesi gereken çok önemli bir nokta var: Halı temizliğinde kullanılan ürünlerin doğaya ve sağlığımıza etkisi."
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "🌿 Doğa Dostu Halı Temizliği: En Kapsamlı Rehber"
    },
    {
     "t": "p",
-    "v": "Klasik halı temizleyiciler genellikle kimyasal içerikli olup hem çevreye zarar verir hem de çocuklar ve evcil hayvanlar için risk oluşturabilir. Neyse ki, doğa dostu (eco-friendly) halı temizliği ile hem eviniz tertemiz olur hem de doğaya katkıda bulunmuş olursunuz. İşte halılarınızı kimyasal kullanmadan etkili şekilde temizlemenin yolları!"
+    "v": "Evde geçirilen zaman arttıkça, yaşam alanlarımızın hijyeni de her zamankinden daha önemli hâle geldi. Özellikle halılar, hem görünüm hem de hijyen açısından düzenli bakım gerektirir. Ancak burada dikkat edilmesi gereken çok önemli bir nokta var: <strong data-end=\"647\" data-start=\"575\">Halı temizliğinde kullanılan ürünlerin doğaya ve sağlığımıza etkisi.</strong>"
+   },
+   {
+    "t": "p",
+    "v": "Klasik halı temizleyiciler genellikle kimyasal içerikli olup hem çevreye zarar verir hem de çocuklar ve evcil hayvanlar için risk oluşturabilir. Neyse ki, <strong data-end=\"848\" data-start=\"804\">doğa dostu (eco-friendly) halı temizliği</strong> ile hem eviniz tertemiz olur hem de doğaya katkıda bulunmuş olursunuz. İşte halılarınızı kimyasal kullanmadan etkili şekilde temizlemenin yolları!"
    },
    {
     "t": "h3",
@@ -241,24 +326,17 @@
     "v": "Kimyasal temizlik maddeleri yalnızca yüzeyi temizler gibi görünür ama aslında:"
    },
    {
-    "t": "li",
-    "v": "Halı liflerinde kalıntı bırakır,"
-   },
-   {
-    "t": "li",
-    "v": "Evcil hayvanlar ve çocuklar için tehlikelidir,"
-   },
-   {
-    "t": "li",
-    "v": "Havaya zararlı gazlar salar,"
-   },
-   {
-    "t": "li",
-    "v": "Su kaynaklarına karışarak çevre kirliliğine yol açar."
+    "t": "ul",
+    "items": [
+     "Halı liflerinde kalıntı bırakır,",
+     "Evcil hayvanlar ve çocuklar için tehlikelidir,",
+     "Havaya zararlı gazlar salar,",
+     "Su kaynaklarına karışarak çevre kirliliğine yol açar."
+    ]
    },
    {
     "t": "p",
-    "v": "Doğa dostu halı temizliği ise hem etkili hem de güvenlidir. Bu yöntemlerde doğal malzemeler, geri dönüştürülebilir ambalajlar ve biyolojik olarak çözünebilen maddeler kullanılır."
+    "v": "<strong data-end=\"1330\" data-start=\"1301\">Doğa dostu halı temizliği</strong> ise hem etkili hem de güvenlidir. Bu yöntemlerde doğal malzemeler, geri dönüştürülebilir ambalajlar ve biyolojik olarak çözünebilen maddeler kullanılır."
    },
    {
     "t": "h3",
@@ -285,16 +363,12 @@
     "v": "📌 Uygulama:"
    },
    {
-    "t": "li",
-    "v": "Halının tamamına karbonat serpin."
-   },
-   {
-    "t": "li",
-    "v": "En az 30 dakika, mümkünse 1 gece bekletin."
-   },
-   {
-    "t": "li",
-    "v": "Ardından süpürgeyle iyice vakumlayın."
+    "t": "ul",
+    "items": [
+     "Halının tamamına karbonat serpin.",
+     "En az 30 dakika, mümkünse 1 gece bekletin.",
+     "Ardından süpürgeyle iyice vakumlayın."
+    ]
    },
    {
     "t": "h5",
@@ -306,19 +380,15 @@
    },
    {
     "t": "p",
-    "v": "📌 Sirke Bazlı Halı Temizleyici Sprey"
+    "v": "📌 <strong data-end=\"2162\" data-start=\"2124\">Sirke Bazlı Halı Temizleyici Sprey</strong>"
    },
    {
-    "t": "li",
-    "v": "1 su bardağı beyaz sirke"
-   },
-   {
-    "t": "li",
-    "v": "1 su bardağı su"
-   },
-   {
-    "t": "li",
-    "v": "5–10 damla lavanta yağı→ Bu karışımı sprey şişeye koyup lekeli bölgelere uygulayabilirsiniz."
+    "t": "ul",
+    "items": [
+     "1 su bardağı beyaz sirke",
+     "1 su bardağı su",
+     "5–10 damla lavanta yağı<br data-end=\"2242\" data-start=\"2239\"/>→ Bu karışımı sprey şişeye koyup lekeli bölgelere uygulayabilirsiniz."
+    ]
    },
    {
     "t": "p",
@@ -333,24 +403,17 @@
     "v": "Buharlı temizlik cihazları, sadece su kullanarak yüksek ısı ile bakteri ve mikropları yok eder. Bu yöntem:"
    },
    {
-    "t": "li",
-    "v": "Kimyasal içermez,"
-   },
-   {
-    "t": "li",
-    "v": "Derinlemesine temizlik sağlar,"
-   },
-   {
-    "t": "li",
-    "v": "Halı ömrünü uzatır,"
-   },
-   {
-    "t": "li",
-    "v": "Alerji riskini azaltır."
+    "t": "ul",
+    "items": [
+     "Kimyasal içermez,",
+     "Derinlemesine temizlik sağlar,",
+     "Halı ömrünü uzatır,",
+     "Alerji riskini azaltır."
+    ]
    },
    {
     "t": "p",
-    "v": "Munzur Temizlik olarak, çevre dostu buharlı halı temizliği hizmeti sunarak hem doğaya hem evinize değer katıyoruz."
+    "v": "<strong data-end=\"2687\" data-start=\"2669\">Munzur Temizlik</strong> olarak, çevre dostu buharlı halı temizliği hizmeti sunarak hem doğaya hem evinize değer katıyoruz."
    },
    {
     "t": "h3",
@@ -358,7 +421,7 @@
    },
    {
     "t": "p",
-    "v": "❌ Ağartıcı kullanmak❌ Çok fazla suyla ıslatmak❌ Lekenin üzerine deterjan döküp bırakmak❌ Güneş görmeden ıslak bırakmak❌ Halının kumaşına uygun olmayan fırçalarla temizlemek"
+    "v": "❌ Ağartıcı kullanmak<br data-end=\"2862\" data-start=\"2859\"/>❌ Çok fazla suyla ıslatmak<br data-end=\"2891\" data-start=\"2888\"/>❌ Lekenin üzerine deterjan döküp bırakmak<br data-end=\"2935\" data-start=\"2932\"/>❌ Güneş görmeden ıslak bırakmak<br data-end=\"2969\" data-start=\"2966\"/>❌ Halının kumaşına uygun olmayan fırçalarla temizlemek"
    },
    {
     "t": "p",
@@ -367,6 +430,50 @@
    {
     "t": "p",
     "v": "Munzur Temizlik olarak, halı temizliğinde sağlıklı ve sürdürülebilir çözümler sunuyoruz. Hem ev ortamınızı hijyenik hale getiriyor hem de çevreyi koruyoruz. Profesyonel ekibimiz, talep doğrultusunda kimyasal içermeyen, bitkisel içerikli ürünler kullanarak halılarınızı özenle temizliyor.Evinizi tertemiz yaparken doğayı da korumak sizin elinizde! 💚"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: BitkiselTemizlik, DoğaDostuTemizlik, DoğalHalıTemizliği, HalıTemizliği, HijyenikEvler, KarbonatlaTemizlik, KimyasalsızTemizlik, MunzurTemizlik, SirkeileTemizlik, SürdürülebilirTemizlik"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
    }
   ]
  },
@@ -378,8 +485,18 @@
   "category": "Temizlik",
   "blocks": [
    {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
     "t": "p",
-    "v": "Günümüzde sadece evimizi değil, doğayı da temiz tutmak artık bir tercih değil, zorunluluk haline geldi. Geleneksel temizlik ürünlerinde kullanılan zararlı kimyasallar, hem soluduğumuz havaya hem de su kaynaklarına büyük zarar veriyor. Bu nedenle birçok insan, sağlığını ve çevreyi korumak adına doğa dostu temizlik ürünleri kullanmaya yöneliyor. Hem etkili temizlik sunan hem de gezegenimizin geleceğini koruyan bu ürünler, artık yeni nesil temizlik anlayışının temelini oluşturuyor."
+    "v": "Günümüzde sadece evimizi değil, doğayı da temiz tutmak artık bir tercih değil, zorunluluk haline geldi. Geleneksel temizlik ürünlerinde kullanılan zararlı kimyasallar, hem soluduğumuz havaya hem de su kaynaklarına büyük zarar veriyor. Bu nedenle birçok insan, sağlığını ve çevreyi korumak adına <strong data-end=\"638\" data-start=\"606\">doğa dostu temizlik ürünleri</strong> kullanmaya yöneliyor. Hem etkili temizlik sunan hem de gezegenimizin geleceğini koruyan bu ürünler, artık yeni nesil temizlik anlayışının temelini oluşturuyor."
    },
    {
     "t": "h3",
@@ -391,7 +508,7 @@
    },
    {
     "t": "p",
-    "v": "Avantajları:"
+    "v": "<strong data-end=\"1281\" data-start=\"1265\">Avantajları:</strong>"
    },
    {
     "t": "p",
@@ -422,24 +539,14 @@
     "v": "🧴 Popüler Doğa Dostu Temizlik Ürünleri Nelerdir?"
    },
    {
-    "t": "li",
-    "v": "Doğal Çok Amaçlı Temizleyiciler: Sirke bazlı formüllerle cam, tezgâh ve mobilyalarda etkili hijyen sağlar."
-   },
-   {
-    "t": "li",
-    "v": "Bitkisel Bulaşık Deterjanları: Kimyasal köpük yerine doğal sabun özleriyle çalışır."
-   },
-   {
-    "t": "li",
-    "v": "Ekolojik Çamaşır Deterjanları: SLS ve fosfat içermeyen formülleriyle kıyafetleri yıpratmadan temizler."
-   },
-   {
-    "t": "li",
-    "v": "Karbonat ve Limon Karışımı: Hem koku giderici hem de doğal parlatıcıdır."
-   },
-   {
-    "t": "li",
-    "v": "Bambu Temizlik Bezleri: Mikroplastik bırakmaz, antibakteriyel özelliklidir ve uzun ömürlüdür."
+    "t": "ul",
+    "items": [
+     "<strong data-end=\"1658\" data-start=\"1622\">Doğal Çok Amaçlı Temizleyiciler:</strong> Sirke bazlı formüllerle cam, tezgâh ve mobilyalarda etkili hijyen sağlar.",
+     "<strong data-end=\"1772\" data-start=\"1738\">Bitkisel Bulaşık Deterjanları:</strong> Kimyasal köpük yerine doğal sabun özleriyle çalışır.",
+     "<strong data-end=\"1865\" data-start=\"1831\">Ekolojik Çamaşır Deterjanları:</strong> SLS ve fosfat içermeyen formülleriyle kıyafetleri yıpratmadan temizler.",
+     "<strong data-end=\"1974\" data-start=\"1943\">Karbonat ve Limon Karışımı:</strong> Hem koku giderici hem de doğal parlatıcıdır.",
+     "<strong data-end=\"2052\" data-start=\"2025\">Bambu Temizlik Bezleri:</strong> Mikroplastik bırakmaz, antibakteriyel özelliklidir ve uzun ömürlüdür."
+    ]
    },
    {
     "t": "p",
@@ -448,6 +555,50 @@
    {
     "t": "h5",
     "v": "🧽 Temizlik deyince akla gelen ilk isim olmak için her gün daha fazla evin kapısını çalıyoruz. Siz de hemen şimdi randevunuzu oluşturun!"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: ÇevreDostuÜrünler, DoğaDostuTemizlik, EkolojikDeterjan, KimyasalsızTemizlik, MunzurTemizlik, OrganikTemizlik, SağlıklıYaşam, SürdürülebilirTemizlik, TemizlikteFarkYarat, YeşilTemizlik"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "🧼 Eksiksiz Daire Temizliği Rehberi: Pırıl Pırıl Bir Yaşam Alanı İçin Adım Adım Kılavuz"
    }
   ]
  },
@@ -459,12 +610,22 @@
   "category": "Temizlik",
   "blocks": [
    {
-    "t": "p",
-    "v": "Temiz ve düzenli bir daire, sadece göz alıcı bir görüntü değil; aynı zamanda ruh sağlığınız, verimliliğiniz ve yaşam kaliteniz için de olmazsa olmazdır. Ancak dairenizi gerçekten kusursuz bir temizlik düzeyine ulaştırmak için klasik süpür-sil rutininden daha fazlasına ihtiyaç vardır. Bu kapsamlı temizlik rehberiyle, hem hijyen hem düzen anlamında evinizin havasını tamamen değiştirebilirsiniz."
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "🧼 Eksiksiz Daire Temizliği Rehberi: Pırıl Pırıl Bir Yaşam Alanı İçin Adım Adım Kılavuz"
    },
    {
     "t": "p",
-    "v": "İşte adım adım eksiksiz daire temizliği rehberi!"
+    "v": "Temiz ve düzenli bir daire, sadece göz alıcı bir görüntü değil; aynı zamanda ruh sağlığınız, verimliliğiniz ve yaşam kaliteniz için de olmazsa olmazdır. Ancak dairenizi gerçekten <strong data-end=\"579\" data-start=\"554\">kusursuz bir temizlik</strong> düzeyine ulaştırmak için klasik süpür-sil rutininden daha fazlasına ihtiyaç vardır. Bu kapsamlı temizlik rehberiyle, hem hijyen hem düzen anlamında evinizin havasını tamamen değiştirebilirsiniz."
+   },
+   {
+    "t": "p",
+    "v": "İşte adım adım <strong data-end=\"827\" data-start=\"791\">eksiksiz daire temizliği rehberi</strong>!"
    },
    {
     "t": "h3",
@@ -472,23 +633,19 @@
    },
    {
     "t": "p",
-    "v": "Başarılı bir temizlik için öncelikle bir planlama yapmalısınız. Gelişigüzel temizlik, çoğu zaman zaman kaybına neden olur. Hangi odadan başlayacağınızı, hangi malzemeleri kullanacağınızı belirleyin."
+    "v": "Başarılı bir temizlik için öncelikle bir <strong data-end=\"931\" data-start=\"919\">planlama</strong> yapmalısınız. Gelişigüzel temizlik, çoğu zaman zaman kaybına neden olur. Hangi odadan başlayacağınızı, hangi malzemeleri kullanacağınızı belirleyin."
    },
    {
     "t": "p",
     "v": "📌 İpuçları:"
    },
    {
-    "t": "li",
-    "v": "Odaları öncelik sırasına göre sıralayın."
-   },
-   {
-    "t": "li",
-    "v": "Kullandığınız temizlik ürünlerini kolay ulaşabileceğiniz şekilde organize edin."
-   },
-   {
-    "t": "li",
-    "v": "Her bölge için ayrı temizlik bezi ya da sünger kullanın (örneğin mutfak ve banyo için ayrı)."
+    "t": "ul",
+    "items": [
+     "Odaları öncelik sırasına göre sıralayın.",
+     "Kullandığınız temizlik ürünlerini kolay ulaşabileceğiniz şekilde organize edin.",
+     "Her bölge için ayrı temizlik bezi ya da sünger kullanın (örneğin mutfak ve banyo için ayrı)."
+    ]
    },
    {
     "t": "h3",
@@ -503,24 +660,14 @@
     "v": "✅ Yapılacaklar:"
    },
    {
-    "t": "li",
-    "v": "Dolapların içi ve dışı silinmeli"
-   },
-   {
-    "t": "li",
-    "v": "Ocak, fırın ve mikrodalga temizlenmeli"
-   },
-   {
-    "t": "li",
-    "v": "Tezgâh dezenfekte edilmeli"
-   },
-   {
-    "t": "li",
-    "v": "Buzdolabının içi boşaltılıp temizlenmeli"
-   },
-   {
-    "t": "li",
-    "v": "Zemin detaylı olarak süpürülüp silinmeli"
+    "t": "ul",
+    "items": [
+     "Dolapların içi ve dışı silinmeli",
+     "Ocak, fırın ve mikrodalga temizlenmeli",
+     "Tezgâh dezenfekte edilmeli",
+     "Buzdolabının içi boşaltılıp temizlenmeli",
+     "Zemin detaylı olarak süpürülüp silinmeli"
+    ]
    },
    {
     "t": "h3",
@@ -528,31 +675,21 @@
    },
    {
     "t": "p",
-    "v": "Bakterilerin ve kötü kokuların yoğunlaştığı bu alanlar, doğru temizlik ürünleriyle temizlenmeli. Kireç çözücü ve dezenfektanlar burada olmazsa olmaz."
+    "v": "Bakterilerin ve kötü kokuların yoğunlaştığı bu alanlar, <strong data-end=\"1937\" data-start=\"1907\">doğru temizlik ürünleriyle</strong> temizlenmeli. Kireç çözücü ve dezenfektanlar burada olmazsa olmaz."
    },
    {
     "t": "p",
     "v": "✅ Yapılacaklar:"
    },
    {
-    "t": "li",
-    "v": "Lavabo ve klozet temizliği"
-   },
-   {
-    "t": "li",
-    "v": "Duşakabin, cam, fayans ve derz araları"
-   },
-   {
-    "t": "li",
-    "v": "Ayna ve musluk parlatma"
-   },
-   {
-    "t": "li",
-    "v": "Havalandırma menfezlerinin temizliği"
-   },
-   {
-    "t": "li",
-    "v": "Çöp kovalarının yıkanması"
+    "t": "ul",
+    "items": [
+     "Lavabo ve klozet temizliği",
+     "Duşakabin, cam, fayans ve derz araları",
+     "Ayna ve musluk parlatma",
+     "Havalandırma menfezlerinin temizliği",
+     "Çöp kovalarının yıkanması"
+    ]
    },
    {
     "t": "h3",
@@ -567,24 +704,14 @@
     "v": "✅ Yapılacaklar:"
    },
    {
-    "t": "li",
-    "v": "Koltukların süpürülmesi veya silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "TV ünitesi, masa, sehpaların tozlarının alınması"
-   },
-   {
-    "t": "li",
-    "v": "Lambaların, prizlerin, süpürgeliklerin temizlenmesi"
-   },
-   {
-    "t": "li",
-    "v": "Halıların vakumlanması"
-   },
-   {
-    "t": "li",
-    "v": "Perdelerin yıkanması veya silinmesi"
+    "t": "ul",
+    "items": [
+     "Koltukların süpürülmesi veya silinmesi",
+     "TV ünitesi, masa, sehpaların tozlarının alınması",
+     "Lambaların, prizlerin, süpürgeliklerin temizlenmesi",
+     "Halıların vakumlanması",
+     "Perdelerin yıkanması veya silinmesi"
+    ]
    },
    {
     "t": "h3",
@@ -599,24 +726,14 @@
     "v": "✅ Yapılacaklar:"
    },
    {
-    "t": "li",
-    "v": "Yatak ve yastıkların havalandırılması"
-   },
-   {
-    "t": "li",
-    "v": "Yatak altı süpürülmesi"
-   },
-   {
-    "t": "li",
-    "v": "Dolap içi düzenleme ve silme"
-   },
-   {
-    "t": "li",
-    "v": "Ayna ve camların silinmesi"
-   },
-   {
-    "t": "li",
-    "v": "Tüm yüzeylerin tozlardan arındırılması"
+    "t": "ul",
+    "items": [
+     "Yatak ve yastıkların havalandırılması",
+     "Yatak altı süpürülmesi",
+     "Dolap içi düzenleme ve silme",
+     "Ayna ve camların silinmesi",
+     "Tüm yüzeylerin tozlardan arındırılması"
+    ]
    },
    {
     "t": "h3",
@@ -637,6 +754,50 @@
    {
     "t": "p",
     "v": "Yukarıdaki adımlar zahmetli görünüyor olabilir. Ancak siz yorulmayın diye biz varız! Munzur Temizlik olarak; İstanbul ve Kocaeli genelinde, taşınma öncesi/sonrası, detaylı temizlik, günlük temizlik ve ofis temizliği gibi her ihtiyaca uygun profesyonel temizlik hizmetleri sunuyoruz.Uzman ekibimiz, çevre dostu ürün seçenekleri ve müşteri memnuniyeti odaklı hizmet anlayışımızla yaşam alanınızı kusursuz hale getiriyoruz. Siz sadece rahatlayın, biz evi pırıl pırıl yapalım. 🧽✨"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: DaireTemizliği, DetaylıTemizlik, EvTemizliği, KapsamlıTemizlik, MunzurTemizlik, ProfesyonelTemizlik, Temizlikİpuçları, TemizlikRehberi"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
    }
   ]
  },
@@ -648,12 +809,22 @@
   "category": "Temizlik",
   "blocks": [
    {
-    "t": "p",
-    "v": "Koltuklar evin en çok kullanılan eşyalarıdır; otururken, uzanırken, yemek yerken ya da evcil hayvanlarımızla vakit geçirirken sürekli temas hâlindeyiz. Hal böyle olunca zamanla koltuk kumaşında ter, yemek kokusu, nem, evcil hayvan tüyleri veya sigara gibi dış etkenlerden kaynaklı kötü kokular oluşabilir."
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "🛋️ Kötü Kokan Koltuk Nasıl Temizlenir? Etkili ve Kalıcı Çözümler"
    },
    {
     "t": "p",
-    "v": "Peki, kötü kokan bir koltuk nasıl temizlenir ve bu kokular nasıl kalıcı olarak giderilir? İşte adım adım etkili bir koltuk temizleme rehberi!"
+    "v": "Koltuklar evin en çok kullanılan eşyalarıdır; otururken, uzanırken, yemek yerken ya da evcil hayvanlarımızla vakit geçirirken sürekli temas hâlindeyiz. Hal böyle olunca zamanla koltuk kumaşında ter, yemek kokusu, nem, evcil hayvan tüyleri veya sigara gibi dış etkenlerden kaynaklı <strong data-end=\"627\" data-start=\"611\">kötü kokular</strong> oluşabilir."
+   },
+   {
+    "t": "p",
+    "v": "Peki, <strong data-end=\"689\" data-start=\"647\">kötü kokan bir koltuk nasıl temizlenir</strong> ve bu kokular nasıl kalıcı olarak giderilir? İşte adım adım etkili bir koltuk temizleme rehberi!"
    },
    {
     "t": "h3",
@@ -664,20 +835,13 @@
     "v": "Her koltuk kumaşı aynı değildir. Temizliğe başlamadan önce koltuğunuzun etiketinde bulunan temizlik talimatlarını kontrol edin. Genellikle şu kodlar bulunur:"
    },
    {
-    "t": "li",
-    "v": "W: Su bazlı temizlik yapılabilir."
-   },
-   {
-    "t": "li",
-    "v": "S: Yalnızca kuru temizleme yapılabilir."
-   },
-   {
-    "t": "li",
-    "v": "WS: Su veya solvent bazlı ürünlerle temizlenebilir."
-   },
-   {
-    "t": "li",
-    "v": "X: Sadece elektrikli süpürge kullanılmalı, sıvı temasından kaçınılmalı."
+    "t": "ul",
+    "items": [
+     "<strong data-end=\"995\" data-start=\"989\">W:</strong> Su bazlı temizlik yapılabilir.",
+     "<strong data-end=\"1037\" data-start=\"1031\">S:</strong> Yalnızca kuru temizleme yapılabilir.",
+     "<strong data-end=\"1086\" data-start=\"1079\">WS:</strong> Su veya solvent bazlı ürünlerle temizlenebilir.",
+     "<strong data-end=\"1145\" data-start=\"1139\">X:</strong> Sadece elektrikli süpürge kullanılmalı, sıvı temasından kaçınılmalı."
+    ]
    },
    {
     "t": "p",
@@ -692,16 +856,12 @@
     "v": "İlk adım, koltuk yüzeyinde biriken toz, kırıntı ve tüyleri temizlemektir."
    },
    {
-    "t": "li",
-    "v": "Elektrikli süpürge ile başlık kullanarak tüm yüzeyi süpürün."
-   },
-   {
-    "t": "li",
-    "v": "Aralara sıkışmış kırıntıları dikkatlice alın."
-   },
-   {
-    "t": "li",
-    "v": "Eğer evcil hayvanınız varsa tüy toplama rulosu veya eldiven kullanın."
+    "t": "ul",
+    "items": [
+     "Elektrikli süpürge ile başlık kullanarak tüm yüzeyi süpürün.",
+     "Aralara sıkışmış kırıntıları dikkatlice alın.",
+     "Eğer evcil hayvanınız varsa tüy toplama rulosu veya eldiven kullanın."
+    ]
    },
    {
     "t": "p",
@@ -713,23 +873,19 @@
    },
    {
     "t": "p",
-    "v": "Karbonat, evdeki en güçlü doğal koku gidericilerden biridir."
+    "v": "<strong data-end=\"1718\" data-start=\"1706\">Karbonat</strong>, evdeki en güçlü doğal koku gidericilerden biridir."
    },
    {
     "t": "p",
-    "v": "📌 Uygulama:"
+    "v": "📌 <strong data-end=\"1788\" data-start=\"1775\">Uygulama:</strong>"
    },
    {
-    "t": "li",
-    "v": "Tüm koltuk yüzeyine bolca karbonat serpin."
-   },
-   {
-    "t": "li",
-    "v": "Karbonatı en az 2–3 saat (mümkünse gece boyunca) koltukta bekletin."
-   },
-   {
-    "t": "li",
-    "v": "Ardından elektrikli süpürge ile tamamen temizleyin."
+    "t": "ul",
+    "items": [
+     "Tüm koltuk yüzeyine bolca karbonat serpin.",
+     "Karbonatı en az 2–3 saat (mümkünse gece boyunca) koltukta bekletin.",
+     "Ardından elektrikli süpürge ile tamamen temizleyin."
+    ]
    },
    {
     "t": "p",
@@ -741,31 +897,21 @@
    },
    {
     "t": "p",
-    "v": "Sirke, doğal bir dezenfektan ve güçlü bir koku nötrleyicidir."
+    "v": "<strong data-end=\"2158\" data-start=\"2149\">Sirke</strong>, doğal bir dezenfektan ve güçlü bir koku nötrleyicidir."
    },
    {
     "t": "p",
-    "v": "📌 Sirke Spreyi Tarifi:"
+    "v": "📌 <strong data-end=\"2243\" data-start=\"2219\">Sirke Spreyi Tarifi:</strong>"
    },
    {
-    "t": "li",
-    "v": "1 su bardağı beyaz sirke"
-   },
-   {
-    "t": "li",
-    "v": "1 su bardağı su"
-   },
-   {
-    "t": "li",
-    "v": "Birkaç damla limon yağı veya doğal limon suyu"
-   },
-   {
-    "t": "li",
-    "v": "Tümünü bir sprey şişesine koyun ve hafifçe koltuğa püskürtün (çok fazla ıslatmadan)."
-   },
-   {
-    "t": "li",
-    "v": "Kuruması için koltuğu havalandırın."
+    "t": "ul",
+    "items": [
+     "1 su bardağı beyaz sirke",
+     "1 su bardağı su",
+     "Birkaç damla limon yağı veya doğal limon suyu",
+     "Tümünü bir sprey şişesine koyun ve hafifçe koltuğa püskürtün (çok fazla ıslatmadan).",
+     "Kuruması için koltuğu havalandırın."
+    ]
    },
    {
     "t": "p",
@@ -780,20 +926,16 @@
     "v": "Eğer koltuğunuz su bazlı temizlik için uygunsa, buharlı temizlik cihazları harikadır."
    },
    {
-    "t": "li",
-    "v": "Derinlemesine temizlik sağlar."
-   },
-   {
-    "t": "li",
-    "v": "Kokuya neden olan bakterileri ve mikroorganizmaları yok eder."
-   },
-   {
-    "t": "li",
-    "v": "Kalıcı temizlik ve tazelik sunar."
+    "t": "ul",
+    "items": [
+     "Derinlemesine temizlik sağlar.",
+     "Kokuya neden olan bakterileri ve mikroorganizmaları yok eder.",
+     "Kalıcı temizlik ve tazelik sunar."
+    ]
    },
    {
     "t": "p",
-    "v": "Ancak bu işlemi profesyonel ekipman olmadan yapmak zor olabilir, bu yüzden burada profesyonel temizlik hizmeti devreye girebilir."
+    "v": "Ancak bu işlemi profesyonel ekipman olmadan yapmak zor olabilir, bu yüzden burada <strong data-end=\"2911\" data-start=\"2879\">profesyonel temizlik hizmeti</strong> devreye girebilir."
    },
    {
     "t": "h3",
@@ -801,31 +943,68 @@
    },
    {
     "t": "p",
-    "v": "Koku çok derine işlediyse veya kumaş hassassa, Munzur Temizlik gibi uzman bir ekipten destek almanız en doğru çözüm olur. Endüstriyel vakumlu makineler, özel solüsyonlar ve koku giderici uygulamalarla koltuğunuz ilk günkü tazeliğine kavuşur."
+    "v": "Koku çok derine işlediyse veya kumaş hassassa, <strong data-end=\"3075\" data-start=\"3019\">Munzur Temizlik gibi uzman bir ekipten destek almanız</strong> en doğru çözüm olur. Endüstriyel vakumlu makineler, özel solüsyonlar ve koku giderici uygulamalarla koltuğunuz ilk günkü tazeliğine kavuşur."
    },
    {
     "t": "h3",
     "v": "🎯 Ekstra İpuçları"
    },
    {
-    "t": "li",
-    "v": "Koltuğun üzerine haftada bir karbonat serpmek, kokuları önler."
-   },
-   {
-    "t": "li",
-    "v": "Oda spreyi yerine doğal lavanta torbaları kullanılabilir."
-   },
-   {
-    "t": "li",
-    "v": "Koltuğu doğrudan güneş ışığına koyarak havalandırmak, kokuların giderilmesine yardımcı olur."
-   },
-   {
-    "t": "li",
-    "v": "Düzenli elektrikli süpürge kullanımı tüy, toz ve partikülleri azaltır."
+    "t": "ul",
+    "items": [
+     "Koltuğun üzerine haftada bir karbonat serpmek, kokuları önler.",
+     "Oda spreyi yerine doğal lavanta torbaları kullanılabilir.",
+     "Koltuğu doğrudan güneş ışığına koyarak havalandırmak, kokuların giderilmesine yardımcı olur.",
+     "Düzenli elektrikli süpürge kullanımı tüy, toz ve partikülleri azaltır."
+    ]
    },
    {
     "t": "p",
     "v": "Sonuç: Kötü Kokulara Elveda! Kötü kokan koltuklar, yaşam alanınızın kalitesini doğrudan etkiler. Yukarıdaki yöntemleri düzenli olarak uygularsanız hem hijyenik hem de ferah kokan bir oturma alanına sahip olabilirsiniz. Eğer kendi başınıza çözüm bulamıyorsanız, Munzur Temizlik uzman ekibiyle daima yanınızda!"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: DoğalTemizlik, Evİpuçları, EvTemizliği, KarbonatlaTemizlik, KokuGiderici, KoltuktaHijyen, KoltukTemizliği, KötüKokuGiderme, MunzurTemizlik, SirkeileTemizlik"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
    }
   ]
  },
@@ -837,12 +1016,22 @@
   "category": "Temizlik",
   "blocks": [
    {
-    "t": "p",
-    "v": "Yeni bir eve taşınmak, hayatın en heyecan verici ve aynı zamanda en stresli dönemlerinden biridir. Eşyalarınızı toplamak, yeni adresinizde yapılacaklar listesi oluşturmak, nakliye sürecini planlamak derken, çoğu zaman en önemli detaylardan biri gözden kaçabiliyor: Taşınmadan önce detaylı ev temizliği!"
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
    },
    {
     "t": "p",
-    "v": "Yeni bir başlangıca adım attığınız bu dönemde, yeni evinizin gerçekten temiz olduğundan emin olmak yalnızca hijyen açısından değil, aynı zamanda huzurlu bir yaşam alanı oluşturmak açısından da son derece önemlidir. İşte tam da bu noktada Munzur Temizlik olarak sunduğumuz taşınma öncesi ev temizliği hizmeti, sizin için her şeyi çok daha kolay ve profesyonel hale getiriyor."
+    "v": "Yeni bir eve taşınmak, hayatın en heyecan verici ve aynı zamanda en stresli dönemlerinden biridir. Eşyalarınızı toplamak, yeni adresinizde yapılacaklar listesi oluşturmak, nakliye sürecini planlamak derken, çoğu zaman en önemli detaylardan biri gözden kaçabiliyor: <strong data-end=\"615\" data-start=\"575\">Taşınmadan önce detaylı ev temizliği</strong>!"
+   },
+   {
+    "t": "p",
+    "v": "Yeni bir başlangıca adım attığınız bu dönemde, yeni evinizin gerçekten temiz olduğundan emin olmak yalnızca hijyen açısından değil, aynı zamanda huzurlu bir yaşam alanı oluşturmak açısından da son derece önemlidir. İşte tam da bu noktada <strong data-end=\"928\" data-start=\"856\">Munzur Temizlik olarak sunduğumuz taşınma öncesi ev temizliği hizmeti</strong>, sizin için her şeyi çok daha kolay ve profesyonel hale getiriyor."
    },
    {
     "t": "h3",
@@ -854,7 +1043,7 @@
    },
    {
     "t": "p",
-    "v": "Taşınma öncesi temizlik avantajları:"
+    "v": "<strong data-end=\"1536\" data-start=\"1496\">Taşınma öncesi temizlik avantajları:</strong>"
    },
    {
     "t": "p",
@@ -886,11 +1075,11 @@
    },
    {
     "t": "p",
-    "v": "Munzur Temizlik olarak sunduğumuz taşınmadan önce detaylı ev temizliği hizmetimizde, her alanı büyük bir özenle ele alıyoruz. Bu sayede yeni evinizde sağlıklı ve ferah bir başlangıç yapmanız için her şeyi hazırlıyoruz."
+    "v": "Munzur Temizlik olarak sunduğumuz <strong data-end=\"2045\" data-start=\"2005\">taşınmadan önce detaylı ev temizliği</strong> hizmetimizde, her alanı büyük bir özenle ele alıyoruz. Bu sayede yeni evinizde sağlıklı ve ferah bir başlangıç yapmanız için her şeyi hazırlıyoruz."
    },
    {
     "t": "p",
-    "v": "Hizmet Detaylarımız:"
+    "v": "<strong data-end=\"2219\" data-start=\"2195\">Hizmet Detaylarımız:</strong>"
    },
    {
     "t": "p",
@@ -910,7 +1099,7 @@
    },
    {
     "t": "p",
-    "v": "🚽 Banyo & tuvaletlerde kireç ve bakteri giderici temizlik"
+    "v": "🚽 Banyo &amp; tuvaletlerde kireç ve bakteri giderici temizlik"
    },
    {
     "t": "p",
@@ -926,31 +1115,21 @@
    },
    {
     "t": "p",
-    "v": "İsteğe bağlı olarak ev sahipleri, kendi temizlik malzemelerini de temin edebilir ya da tamamen bizden hizmet alabilir."
+    "v": "<strong>İsteğe bağlı olarak ev sahipleri, kendi temizlik malzemelerini de temin edebilir ya da tamamen bizden hizmet alabilir.</strong>"
    },
    {
     "t": "h3",
     "v": "👷 Kimler İçin Uygun?"
    },
    {
-    "t": "li",
-    "v": "Yeni ev satın alanlar veya kiralayanlar"
-   },
-   {
-    "t": "li",
-    "v": "Öğrenci evine taşınacaklar"
-   },
-   {
-    "t": "li",
-    "v": "Ailesiyle ilk defa taşınanlar"
-   },
-   {
-    "t": "li",
-    "v": "Yaşlı bireyler ve yoğun iş temposuna sahip kişiler"
-   },
-   {
-    "t": "li",
-    "v": "Temizlik konusunda hassas bireyler"
+    "t": "ul",
+    "items": [
+     "Yeni ev satın alanlar veya kiralayanlar",
+     "Öğrenci evine taşınacaklar",
+     "Ailesiyle ilk defa taşınanlar",
+     "Yaşlı bireyler ve yoğun iş temposuna sahip kişiler",
+     "Temizlik konusunda hassas bireyler"
+    ]
    },
    {
     "t": "h3",
@@ -995,6 +1174,50 @@
    {
     "t": "p",
     "v": "Yeni hayatınıza tertemiz bir adım atmak için, taşınmadan önce evinizin tüm köşesini uzman ekibimize emanet edin. Size sadece keyifle yerleşmek kalsın!"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: DetaylıEvTemizliği, EvTemizliğiHizmeti, GüvenilirTemizlik, HijyenikYaşam, MunzurTemizlik, ProfesyonelTemizlik, TaşınmadanÖnceTemizlik, TaşınmaÖncesiTemizlik, YeniEvTemizliği, YeniHayatYeniTemizlik"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "🧼 Eksiksiz Daire Temizliği Rehberi: Pırıl Pırıl Bir Yaşam Alanı İçin Adım Adım Kılavuz"
    }
   ]
  },
@@ -1006,12 +1229,22 @@
   "category": "Temizlik",
   "blocks": [
    {
-    "t": "p",
-    "v": "Ev, yalnızca yaşadığımız bir yer değil; aynı zamanda ruhsal ve fiziksel sağlığımızı doğrudan etkileyen bir yaşam alanıdır. Günün yorgunluğunu attığımız, dinlendiğimiz, sevdiklerimizle zaman geçirdiğimiz bu özel alanda hijyenin önemi göz ardı edilemez.Peki, temiz ve sağlıklı bir evin hayatımıza gerçekten ne gibi faydaları var?"
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h1",
+    "v": "🏡 Temiz ve Sağlıklı Bir Evin Faydaları Nelerdir?"
    },
    {
     "t": "p",
-    "v": "İşte temizlik yalnızca görünüşle ilgili değil; sağlık, mutluluk ve verimlilikle de doğrudan ilgilidir!"
+    "v": "Ev, yalnızca yaşadığımız bir yer değil; aynı zamanda ruhsal ve fiziksel sağlığımızı doğrudan etkileyen bir yaşam alanıdır. Günün yorgunluğunu attığımız, dinlendiğimiz, sevdiklerimizle zaman geçirdiğimiz bu özel alanda hijyenin önemi göz ardı edilemez.<br data-end=\"632\" data-start=\"629\"/>Peki, <strong data-end=\"668\" data-start=\"638\">temiz ve sağlıklı bir evin</strong> hayatımıza gerçekten ne gibi faydaları var?"
+   },
+   {
+    "t": "p",
+    "v": "İşte temizlik yalnızca görünüşle ilgili değil; <strong data-end=\"797\" data-start=\"761\">sağlık, mutluluk ve verimlilikle</strong> de doğrudan ilgilidir!"
    },
    {
     "t": "h3",
@@ -1023,23 +1256,16 @@
    },
    {
     "t": "p",
-    "v": "🧴 Temiz bir ev;"
+    "v": "🧴 <strong data-end=\"1058\" data-start=\"1041\">Temiz bir ev;</strong>"
    },
    {
-    "t": "li",
-    "v": "Astım ve alerji riskini azaltır"
-   },
-   {
-    "t": "li",
-    "v": "Mikrop ve virüslerin yayılmasını önler"
-   },
-   {
-    "t": "li",
-    "v": "Gıda zehirlenmelerini engeller"
-   },
-   {
-    "t": "li",
-    "v": "Evcil hayvanların hijyenine katkı sağlar"
+    "t": "ul",
+    "items": [
+     "Astım ve alerji riskini azaltır",
+     "Mikrop ve virüslerin yayılmasını önler",
+     "Gıda zehirlenmelerini engeller",
+     "Evcil hayvanların hijyenine katkı sağlar"
+    ]
    },
    {
     "t": "h3",
@@ -1054,12 +1280,11 @@
     "v": "🧠 Yapılan araştırmalar gösteriyor ki:"
    },
    {
-    "t": "li",
-    "v": "Temiz evlerde yaşayan bireyler daha az depresyon ve anksiyete yaşıyor"
-   },
-   {
-    "t": "li",
-    "v": "Düzenli alanlar, yaratıcılığı ve motivasyonu artırıyor"
+    "t": "ul",
+    "items": [
+     "Temiz evlerde yaşayan bireyler <strong data-end=\"1505\" data-start=\"1484\">daha az depresyon</strong> ve <strong data-end=\"1522\" data-start=\"1509\">anksiyete</strong> yaşıyor",
+     "Düzenli alanlar, <strong data-end=\"1593\" data-start=\"1552\">yaratıcılığı ve motivasyonu artırıyor</strong>"
+    ]
    },
    {
     "t": "h3",
@@ -1070,16 +1295,12 @@
     "v": "Temiz ve düzenli bir ortamda çalışmak veya zaman geçirmek, konsantrasyonu olumlu etkiler. Özellikle evden çalışanlar için temiz bir masa, net bir zihin demektir."
    },
    {
-    "t": "li",
-    "v": "Daha hızlı karar alırsınız"
-   },
-   {
-    "t": "li",
-    "v": "Zaman kaybı azalır (kayıp eşyalar, dağınıklık vs.)"
-   },
-   {
-    "t": "li",
-    "v": "Günlük görevleri tamamlamak kolaylaşır"
+    "t": "ul",
+    "items": [
+     "Daha hızlı karar alırsınız",
+     "Zaman kaybı azalır (kayıp eşyalar, dağınıklık vs.)",
+     "Günlük görevleri tamamlamak kolaylaşır"
+    ]
    },
    {
     "t": "h3",
@@ -1087,23 +1308,19 @@
    },
    {
     "t": "p",
-    "v": "Evde çocuklar ya da yaşlılar varsa, temizlik sadece estetik değil, aynı zamanda güvenlik anlamına gelir.Kaygan zeminler, mikrop barındıran oyuncaklar ya da hijyenik olmayan banyolar tehlike oluşturabilir."
+    "v": "Evde çocuklar ya da yaşlılar varsa, temizlik sadece estetik değil, aynı zamanda <strong data-end=\"2080\" data-start=\"2068\">güvenlik</strong> anlamına gelir.<br data-end=\"2099\" data-start=\"2096\"/>Kaygan zeminler, mikrop barındıran oyuncaklar ya da hijyenik olmayan banyolar tehlike oluşturabilir."
    },
    {
     "t": "p",
-    "v": "👶 Düzenli temizlik ile:"
+    "v": "👶 <strong data-end=\"2229\" data-start=\"2204\">Düzenli temizlik ile:</strong>"
    },
    {
-    "t": "li",
-    "v": "Kazaların önüne geçilir"
-   },
-   {
-    "t": "li",
-    "v": "Çocuklar güvenle oyun oynar"
-   },
-   {
-    "t": "li",
-    "v": "Yaşlılar için düşme riski azalır"
+    "t": "ul",
+    "items": [
+     "Kazaların önüne geçilir",
+     "Çocuklar güvenle oyun oynar",
+     "Yaşlılar için düşme riski azalır"
+    ]
    },
    {
     "t": "h3",
@@ -1114,20 +1331,60 @@
     "v": "Evinizin temiz olması, sadece size değil; evinize gelen misafirlere de pozitif bir enerji yansıtır. Hoş kokan, düzenli bir ev; yaşam kalitenizi gözle görülür şekilde artırır."
    },
    {
-    "t": "li",
-    "v": "Konuklarınız kendini rahat hisseder"
-   },
-   {
-    "t": "li",
-    "v": "Siz evde daha çok vakit geçirmek istersiniz"
-   },
-   {
-    "t": "li",
-    "v": "Aile bireyleriyle daha sağlıklı ilişkiler gelişir"
+    "t": "ul",
+    "items": [
+     "Konuklarınız kendini rahat hisseder",
+     "Siz evde daha çok vakit geçirmek istersiniz",
+     "Aile bireyleriyle daha sağlıklı ilişkiler gelişir"
+    ]
    },
    {
     "t": "p",
     "v": "Temiz ve hijyenik bir yaşam alanı herkesin hakkı. Ancak günlük hayatın koşturmacasında derinlemesine temizlik yapmak her zaman kolay olmuyor. Munzur Temizlik olarak; alanında uzman personelimizle, çevre dostu ürünler kullanarak evlerinizi sağlıklı, ferah ve huzurlu mekânlara dönüştürüyoruz.Siz sadece arkanıza yaslanın, biz hijyenle ilgilenelim!"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Tags: DüzenliEvDüzenliZihin, Evİpuçları, EvTemizliği, HijyenikYaşam, MunzurTemizlik, ProfesyonelTemizlik, SağlıklıEv, TemizlikleMutluluk, TemizYaşam"
+    ]
+   },
+   {
+    "t": "h5",
+    "v": "✍️ Siz Ne Düşünüyorsunuz?"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Daha Fazla Püf Noktası"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "Temizlik"
+    ]
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
    }
   ]
  }
