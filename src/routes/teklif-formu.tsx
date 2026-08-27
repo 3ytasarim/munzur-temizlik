@@ -1,10 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
-import { CheckCircle2 } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PageHero } from "@/components/Sections";
-import { quoteServices, site } from "@/data/site";
+import { QuoteWizard } from "@/components/QuoteWizard";
+import { site } from "@/data/site";
 
 export const Route = createFileRoute("/teklif-formu")({
   head: () => ({
