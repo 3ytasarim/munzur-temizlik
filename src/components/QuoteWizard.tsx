@@ -161,9 +161,9 @@ function Progress({ step }: { step: number }) {
           <p className="font-display text-[0.78rem] uppercase tracking-[0.14em] text-foreground/45">
             Adım {step} / 3
           </p>
-          <h3 className="mt-1 font-display text-lg font-medium">{stepMeta[step - 1].title}</h3>
+          <h3 className="mt-1 font-display text-lg font-medium">{meta.title}</h3>
         </div>
-        <p className="hidden text-sm text-foreground/55 sm:block">{stepMeta[step - 1].desc}</p>
+        <p className="hidden text-sm text-foreground/55 sm:block">{meta.desc}</p>
       </div>
       <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-muted">
         <div
