@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Blocks, type Block } from "@/components/Blocks";
+import { Blocks } from "@/components/Blocks";
 import { CtaBand, PageHero, Testimonials } from "@/components/Sections";
 import { images, site, stats } from "@/data/site";
 import { getPage } from "@/data/content";
-import pagesUnused from "@/data/pages.json";
-void pagesUnused;
 
 const page = getPage("hakkimizda");
+
+
 
 
 export const Route = createFileRoute("/hakkimizda/")({
