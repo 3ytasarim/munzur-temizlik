@@ -10,33 +10,195 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as SlugRouteImport } from './routes/$slug'
+import { Route as IletisimRouteImport } from './routes/iletisim'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
+import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
+import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
+import { Route as HizmetBolgeleriIndexRouteImport } from './routes/hizmet-bolgeleri.index'
+import { Route as HizmetBolgeleriSlugRouteImport } from './routes/hizmet-bolgeleri.$slug'
+import { Route as HizmetlerimizIndexRouteImport } from './routes/hizmetlerimiz.index'
+import { Route as HizmetlerimizSlugRouteImport } from './routes/hizmetlerimiz.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SlugRoute = SlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IletisimRoute = IletisimRouteImport.update({
+  id: '/iletisim',
+  path: '/iletisim',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TeklifFormuRoute = TeklifFormuRouteImport.update({
+  id: '/teklif-formu',
+  path: '/teklif-formu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HakkimizdaIndexRoute = HakkimizdaIndexRouteImport.update({
+  id: '/hakkimizda/',
+  path: '/hakkimizda/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HakkimizdaSikcaSorulanSorularRoute =
+  HakkimizdaSikcaSorulanSorularRouteImport.update({
+    id: '/hakkimizda/sikca-sorulan-sorular',
+    path: '/hakkimizda/sikca-sorulan-sorular',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const HakkimizdaTemizlikSureciRoute =
+  HakkimizdaTemizlikSureciRouteImport.update({
+    id: '/hakkimizda/temizlik-sureci',
+    path: '/hakkimizda/temizlik-sureci',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const HizmetBolgeleriIndexRoute = HizmetBolgeleriIndexRouteImport.update({
+  id: '/hizmet-bolgeleri/',
+  path: '/hizmet-bolgeleri/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HizmetBolgeleriSlugRoute = HizmetBolgeleriSlugRouteImport.update({
+  id: '/hizmet-bolgeleri/$slug',
+  path: '/hizmet-bolgeleri/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HizmetlerimizIndexRoute = HizmetlerimizIndexRouteImport.update({
+  id: '/hizmetlerimiz/',
+  path: '/hizmetlerimiz/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HizmetlerimizSlugRoute = HizmetlerimizSlugRouteImport.update({
+  id: '/hizmetlerimiz/$slug',
+  path: '/hizmetlerimiz/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$slug': typeof SlugRoute
+  '/iletisim': typeof IletisimRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
+  '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
+  '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
+  '/blog/': typeof BlogIndexRoute
+  '/hakkimizda/': typeof HakkimizdaIndexRoute
+  '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
+  '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$slug': typeof SlugRoute
+  '/iletisim': typeof IletisimRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
+  '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
+  '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
+  '/blog': typeof BlogIndexRoute
+  '/hakkimizda': typeof HakkimizdaIndexRoute
+  '/hizmet-bolgeleri': typeof HizmetBolgeleriIndexRoute
+  '/hizmetlerimiz': typeof HizmetlerimizIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$slug': typeof SlugRoute
+  '/iletisim': typeof IletisimRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/teklif-formu': typeof TeklifFormuRoute
+  '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
+  '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
+  '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
+  '/blog/': typeof BlogIndexRoute
+  '/hakkimizda/': typeof HakkimizdaIndexRoute
+  '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
+  '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/$slug'
+    | '/iletisim'
+    | '/sitemap.xml'
+    | '/teklif-formu'
+    | '/hakkimizda/sikca-sorulan-sorular'
+    | '/hakkimizda/temizlik-sureci'
+    | '/hizmet-bolgeleri/$slug'
+    | '/hizmetlerimiz/$slug'
+    | '/blog/'
+    | '/hakkimizda/'
+    | '/hizmet-bolgeleri/'
+    | '/hizmetlerimiz/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/$slug'
+    | '/iletisim'
+    | '/sitemap.xml'
+    | '/teklif-formu'
+    | '/hakkimizda/sikca-sorulan-sorular'
+    | '/hakkimizda/temizlik-sureci'
+    | '/hizmet-bolgeleri/$slug'
+    | '/hizmetlerimiz/$slug'
+    | '/blog'
+    | '/hakkimizda'
+    | '/hizmet-bolgeleri'
+    | '/hizmetlerimiz'
+  id:
+    | '__root__'
+    | '/'
+    | '/$slug'
+    | '/iletisim'
+    | '/sitemap.xml'
+    | '/teklif-formu'
+    | '/hakkimizda/sikca-sorulan-sorular'
+    | '/hakkimizda/temizlik-sureci'
+    | '/hizmet-bolgeleri/$slug'
+    | '/hizmetlerimiz/$slug'
+    | '/blog/'
+    | '/hakkimizda/'
+    | '/hizmet-bolgeleri/'
+    | '/hizmetlerimiz/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SlugRoute: typeof SlugRoute
+  IletisimRoute: typeof IletisimRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  TeklifFormuRoute: typeof TeklifFormuRoute
+  HakkimizdaSikcaSorulanSorularRoute: typeof HakkimizdaSikcaSorulanSorularRoute
+  HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
+  HizmetBolgeleriSlugRoute: typeof HizmetBolgeleriSlugRoute
+  HizmetlerimizSlugRoute: typeof HizmetlerimizSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
+  HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
+  HizmetBolgeleriIndexRoute: typeof HizmetBolgeleriIndexRoute
+  HizmetlerimizIndexRoute: typeof HizmetlerimizIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +210,107 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$slug': {
+      id: '/$slug'
+      path: '/$slug'
+      fullPath: '/$slug'
+      preLoaderRoute: typeof SlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/iletisim': {
+      id: '/iletisim'
+      path: '/iletisim'
+      fullPath: '/iletisim'
+      preLoaderRoute: typeof IletisimRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/teklif-formu': {
+      id: '/teklif-formu'
+      path: '/teklif-formu'
+      fullPath: '/teklif-formu'
+      preLoaderRoute: typeof TeklifFormuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hakkimizda/': {
+      id: '/hakkimizda/'
+      path: '/hakkimizda'
+      fullPath: '/hakkimizda/'
+      preLoaderRoute: typeof HakkimizdaIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hakkimizda/sikca-sorulan-sorular': {
+      id: '/hakkimizda/sikca-sorulan-sorular'
+      path: '/hakkimizda/sikca-sorulan-sorular'
+      fullPath: '/hakkimizda/sikca-sorulan-sorular'
+      preLoaderRoute: typeof HakkimizdaSikcaSorulanSorularRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hakkimizda/temizlik-sureci': {
+      id: '/hakkimizda/temizlik-sureci'
+      path: '/hakkimizda/temizlik-sureci'
+      fullPath: '/hakkimizda/temizlik-sureci'
+      preLoaderRoute: typeof HakkimizdaTemizlikSureciRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hizmet-bolgeleri/': {
+      id: '/hizmet-bolgeleri/'
+      path: '/hizmet-bolgeleri'
+      fullPath: '/hizmet-bolgeleri/'
+      preLoaderRoute: typeof HizmetBolgeleriIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hizmet-bolgeleri/$slug': {
+      id: '/hizmet-bolgeleri/$slug'
+      path: '/hizmet-bolgeleri/$slug'
+      fullPath: '/hizmet-bolgeleri/$slug'
+      preLoaderRoute: typeof HizmetBolgeleriSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hizmetlerimiz/': {
+      id: '/hizmetlerimiz/'
+      path: '/hizmetlerimiz'
+      fullPath: '/hizmetlerimiz/'
+      preLoaderRoute: typeof HizmetlerimizIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hizmetlerimiz/$slug': {
+      id: '/hizmetlerimiz/$slug'
+      path: '/hizmetlerimiz/$slug'
+      fullPath: '/hizmetlerimiz/$slug'
+      preLoaderRoute: typeof HizmetlerimizSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SlugRoute: SlugRoute,
+  IletisimRoute: IletisimRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
+  TeklifFormuRoute: TeklifFormuRoute,
+  HakkimizdaSikcaSorulanSorularRoute: HakkimizdaSikcaSorulanSorularRoute,
+  HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
+  HizmetBolgeleriSlugRoute: HizmetBolgeleriSlugRoute,
+  HizmetlerimizSlugRoute: HizmetlerimizSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
+  HakkimizdaIndexRoute: HakkimizdaIndexRoute,
+  HizmetBolgeleriIndexRoute: HizmetBolgeleriIndexRoute,
+  HizmetlerimizIndexRoute: HizmetlerimizIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
