@@ -19,9 +19,10 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/95 backdrop-blur">
-      <div className="container-nav flex h-16 items-center justify-between gap-3 md:h-20 md:gap-4">
+      <div className="container-nav flex h-[4.5rem] items-center justify-between gap-3 md:h-20 md:gap-4">
+
         <Link to="/" className="flex shrink-0 items-center" aria-label="Munzur Temizlik ana sayfa">
-          <img src={images.logo} alt="Munzur Temizlik logo" className="h-8 w-auto md:h-11" />
+          <img src={images.logo} alt="Munzur Temizlik logo" className="h-10 w-auto md:h-11" />
         </Link>
 
 
@@ -50,7 +51,8 @@ export function Header() {
           <div className="group relative">
             <Link
               to="/hizmet-bolgeleri"
-              className="flex items-center gap-1 rounded-full px-4 py-2 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:text-primary"
+              className="flex items-center gap-1 whitespace-nowrap rounded-full px-4 py-2 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:text-primary"
+
               activeProps={{ className: "text-primary" }}
             >
               Hizmet Bölgeleri
@@ -89,7 +91,7 @@ export function Header() {
         <div className="flex items-center gap-2 md:gap-3">
           <a
             href={site.phoneHref}
-            className="hidden items-center gap-2.5 rounded-full border border-border bg-background py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:border-secondary xl:flex"
+            className="hidden items-center gap-2.5 whitespace-nowrap rounded-full border border-border bg-background py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:border-secondary xl:flex"
           >
             <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
               <Phone className="h-4 w-4" />
@@ -113,7 +115,7 @@ export function Header() {
           <button
             type="button"
             onClick={openQuoteModal}
-            className="btn-yellow hidden sm:inline-flex"
+            className="btn-yellow hidden whitespace-nowrap sm:inline-flex"
           >
             Teklif Al
           </button>
