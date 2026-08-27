@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { CtaBand, Testimonials } from "@/components/Sections";
 import { districts, getDistrict } from "@/data/content";
 import { images, serviceMeta, site } from "@/data/site";
+import { openQuoteModal } from "@/lib/quote-modal";
 
 export const Route = createFileRoute("/hizmet-bolgeleri/$slug")({
   loader: ({ params }) => {
@@ -61,9 +62,9 @@ function DistrictPage() {
               <h1 className="text-3xl md:text-5xl">{district.h2 || district.name}</h1>
               <p className="mt-5 max-w-xl text-[1.05rem] leading-relaxed">{district.intro}</p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <Link to="/teklif-formu" className="btn-yellow">
+                <button type="button" onClick={openQuoteModal} className="btn-yellow">
                   Ücretsiz Teklif Al
-                </Link>
+                </button>
                 <a href={site.phoneHref} className="btn-outline-dark">
                   {site.phone}
                 </a>

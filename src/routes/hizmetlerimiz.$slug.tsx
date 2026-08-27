@@ -5,6 +5,7 @@ import { Blocks } from "@/components/Blocks";
 import { CtaBand, Testimonials } from "@/components/Sections";
 import { getService } from "@/data/content";
 import { serviceMeta, site } from "@/data/site";
+import { openQuoteModal } from "@/lib/quote-modal";
 
 export const Route = createFileRoute("/hizmetlerimiz/$slug")({
   loader: ({ params }) => {
@@ -66,9 +67,9 @@ function ServiceDetail() {
               <p className="eyebrow mb-3">Hizmetlerimiz</p>
               <h1 className="text-3xl md:text-5xl">{service.name}</h1>
               <div className="mt-8 flex flex-wrap gap-3">
-                <Link to="/teklif-formu" className="btn-yellow">
+                <button type="button" onClick={openQuoteModal} className="btn-yellow">
                   Ücretsiz Teklif Al
-                </Link>
+                </button>
                 <a href={site.phoneHref} className="btn-outline-dark">
                   {site.phone}
                 </a>
@@ -101,9 +102,9 @@ function ServiceDetail() {
                 </li>
               ))}
             </ul>
-            <Link to="/teklif-formu" className="btn-green mt-6 w-full">
+            <button type="button" onClick={openQuoteModal} className="btn-green mt-6 w-full">
               Teklif Al
-            </Link>
+            </button>
           </aside>
         </div>
 

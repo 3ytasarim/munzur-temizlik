@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ChevronDown, Menu, Phone, Search, X } from "lucide-react";
 import { images, serviceMeta, site } from "@/data/site";
 import districtsData from "@/data/districts.json";
+import { openQuoteModal } from "@/lib/quote-modal";
 
 const sides: { key: string; label: string }[] = [
   { key: "avrupa", label: "Avrupa Yakası" },
@@ -101,9 +102,13 @@ export function Header() {
           >
             <Search className="h-4 w-4" />
           </button>
-          <Link to="/teklif-formu" className="btn-yellow hidden sm:inline-flex">
+          <button
+            type="button"
+            onClick={openQuoteModal}
+            className="btn-yellow hidden sm:inline-flex"
+          >
             Teklif Al
-          </Link>
+          </button>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -185,13 +190,16 @@ export function Header() {
             <MobileLink to="/iletisim" onClick={() => setOpen(false)}>
               İletişim
             </MobileLink>
-            <Link
-              to="/teklif-formu"
-              onClick={() => setOpen(false)}
+            <button
+              type="button"
+              onClick={() => {
+                setOpen(false);
+                openQuoteModal();
+              }}
               className="btn-yellow mt-3 w-full"
             >
               Teklif Al
-            </Link>
+            </button>
           </div>
         </div>
       )}
