@@ -99,6 +99,22 @@ function ContactPage() {
         </section>
 
         <ContactFormSection />
+
+        <section className="container-site pb-14 md:pb-20">
+          <div className="overflow-hidden rounded-[1.8rem]">
+            <iframe
+              title={`${site.name} konum haritası`}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1614.9903286624588!2d29.299454671259465!3d40.81726949336306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadd104b2f3711%3A0x692843b240e3998c!2sTuzlaport!5e0!3m2!1str!2str!4v1787852379460!5m2!1str!2str"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              className="h-[360px] w-full md:h-[450px]"
+            />
+          </div>
+        </section>
       </main>
       <Footer />
     </>
