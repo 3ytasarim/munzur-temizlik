@@ -1,11 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CalendarDays, Mail, MapPin, PhoneCall } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { CtaBand } from "@/components/Sections";
 import { ContactFormSection } from "@/components/ContactForm";
 import { getPage } from "@/data/content";
 import { images, site } from "@/data/site";
+import iconMail from "@/assets/images/icon-mail.svg";
+import iconPhone from "@/assets/images/icon-phone.svg";
+import iconPin from "@/assets/images/icon-pin.svg";
+import iconCalendar from "@/assets/images/icon-calendar.svg";
+
 
 
 const page = getPage("iletisim");
