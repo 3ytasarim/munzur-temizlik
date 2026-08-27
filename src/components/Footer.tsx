@@ -128,6 +128,14 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {site.name}. Tüm hakları saklıdır.
           </p>
+          <a
+            href="https://www.3ytasarim.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="design-credit font-medium"
+          >
+            Design by: 3Y Tasarim & Yazılım Hizmetleri
+          </a>
           <div className="flex gap-6">
             <Link to="/hakkimizda" className="hover:text-primary">
               Hakkımızda
