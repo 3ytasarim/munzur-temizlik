@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
 import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
 import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
@@ -27,6 +28,11 @@ const IndexRoute = IndexRouteImport.update({
 const TeklifFormuRoute = TeklifFormuRouteImport.update({
   id: '/teklif-formu',
   path: '/teklif-formu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const HakkimizdaIndexRoute = HakkimizdaIndexRouteImport.update({
@@ -74,6 +80,7 @@ export interface FileRoutesByFullPath {
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
+  '/blog/': typeof BlogIndexRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
@@ -85,6 +92,7 @@ export interface FileRoutesByTo {
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
+  '/blog': typeof BlogIndexRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz': typeof HizmetlerimizIndexRoute
@@ -97,6 +105,7 @@ export interface FileRoutesById {
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
   '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
+  '/blog/': typeof BlogIndexRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
@@ -110,6 +119,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/temizlik-sureci'
     | '/hizmet-bolgeleri/$slug'
     | '/hizmetlerimiz/$slug'
+    | '/blog/'
     | '/hakkimizda/'
     | '/hizmet-bolgeleri/'
     | '/hizmetlerimiz/'
@@ -121,6 +131,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/temizlik-sureci'
     | '/hizmet-bolgeleri/$slug'
     | '/hizmetlerimiz/$slug'
+    | '/blog'
     | '/hakkimizda'
     | '/hizmet-bolgeleri'
     | '/hizmetlerimiz'
@@ -132,6 +143,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/temizlik-sureci'
     | '/hizmet-bolgeleri/$slug'
     | '/hizmetlerimiz/$slug'
+    | '/blog/'
     | '/hakkimizda/'
     | '/hizmet-bolgeleri/'
     | '/hizmetlerimiz/'
@@ -144,6 +156,7 @@ export interface RootRouteChildren {
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
   HizmetBolgeleriSlugRoute: typeof HizmetBolgeleriSlugRoute
   HizmetlerimizSlugRoute: typeof HizmetlerimizSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
   HizmetBolgeleriIndexRoute: typeof HizmetBolgeleriIndexRoute
   HizmetlerimizIndexRoute: typeof HizmetlerimizIndexRoute
@@ -163,6 +176,13 @@ declare module '@tanstack/react-router' {
       path: '/teklif-formu'
       fullPath: '/teklif-formu'
       preLoaderRoute: typeof TeklifFormuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/hakkimizda/': {
@@ -224,6 +244,7 @@ const rootRouteChildren: RootRouteChildren = {
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
   HizmetBolgeleriSlugRoute: HizmetBolgeleriSlugRoute,
   HizmetlerimizSlugRoute: HizmetlerimizSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
   HizmetBolgeleriIndexRoute: HizmetBolgeleriIndexRoute,
   HizmetlerimizIndexRoute: HizmetlerimizIndexRoute,
