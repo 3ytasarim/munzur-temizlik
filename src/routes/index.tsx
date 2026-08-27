@@ -553,7 +553,7 @@ function HomeQuoteSection() {
               src={images.leaf1}
               alt=""
               aria-hidden="true"
-              className="pointer-events-none absolute -bottom-6 -right-6 w-40 opacity-80"
+              className="pointer-events-none absolute -bottom-6 -right-6 hidden w-40 opacity-80 sm:block"
             />
             <div className="relative flex items-start gap-4">
               <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
