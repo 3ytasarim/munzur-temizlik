@@ -1,0 +1,956 @@
+{
+ "hakkimizda": {
+  "title": "Hakkımızda - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h1",
+    "v": "Hakkımızda"
+   },
+   {
+    "t": "h2",
+    "v": "Misyonumuz"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik olarak misyonumuz; bireysel ve kurumsal müşterilerimize hijyenik, sağlıklı ve sürdürülebilir temizlik çözümleri sunarak yaşam alanlarını ferah, güvenli ve konforlu hale getirmektir. Alanında uzman ekibimizle, en yüksek temizlik standartlarını en uygun fiyatlarla sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Güvenilir Temizlik Ekibi"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik, işini bilen, güvenilir ve titiz çalışanlardan oluşan bir ekibe sahiptir. Eviniz, ofisiniz ya da iş yeriniz emin ellerde."
+   },
+   {
+    "t": "h4",
+    "v": "Çevre Dostu Temizlik Ürünleri"
+   },
+   {
+    "t": "p",
+    "v": "Çevreye duyarlı temizlik anlayışımızla doğa dostu ürünler kullanarak hem sağlığınızı hem de gezegenimizi koruyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Kurumsal Temizlikte Uzmanlık"
+   },
+   {
+    "t": "p",
+    "v": "Kurumsal alanlarda temizlik fark yaratır. Munzur Temizlik olarak ofislerden fabrikalara kadar geniş çaplı çözümler sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Müşteri Memnuniyeti Odaklı Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Her işin sonunda sizin memnuniyetiniz bizim başarımızdır. Munzur Temizlik, güler yüzlü hizmet ve titiz işçiliği ile yanınızda."
+   },
+   {
+    "t": "h2",
+    "v": "Temizlikte Şeffaflık ve Güven"
+   },
+   {
+    "t": "h4",
+    "v": "Güvenle Başladık"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik olarak ilk günden beri tüm müşterilerimize karşı şeffaf ve güvenilir bir hizmet sunduk. Amacımız, temizlik hizmeti alırken insanların içlerinin rahat olmasıydı – hâlâ da öyle."
+   },
+   {
+    "t": "h4",
+    "v": "Saygı Kültürümüzü Oluşturduk"
+   },
+   {
+    "t": "p",
+    "v": "Müşterilerimizin yaşam alanlarına, eşyalarına ve zamanına saygı gösteriyoruz. Temizlik sadece fiziksel değil; aynı zamanda insani bir temastır. Saygı, işimizin temelidir."
+   },
+   {
+    "t": "h4",
+    "v": "Profesyonel Ekiple Güçlendik"
+   },
+   {
+    "t": "p",
+    "v": "Ekibimizi özenle seçtik, düzenli eğitimlerle yetkinliklerini artırdık. Profesyonel temizlik hizmeti, deneyimle birleştiğinde kusursuz sonuçlar doğurur. Her üyemiz işinde uzmandır."
+   },
+   {
+    "t": "h4",
+    "v": "Sürdürülebilir Gelecek İçin Çalışıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "Ekolojik temizlik ürünleriyle çevreyi koruyor, karbon ayak izimizi azaltıyoruz. Munzur Temizlik sadece bugün değil, yarın için de temizlik yapar."
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "hakkimizda__temizlik-sureci": {
+  "title": "Temizlik Sürecimiz - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "p",
+    "v": "Munzur Temizlik olarak, hayatınız ne kadar yoğun olursa olsun temiz ve huzurlu bir eve dönmenizi sağlıyoruz.Bizimle temizlik, artık bir yük değil; konforun ta kendisi."
+   },
+   {
+    "t": "h2",
+    "v": "Tüm Alanlara Yönelik Kapsamlı Temizlik Hizmeti"
+   },
+   {
+    "t": "h4",
+    "v": "Banyo Temizliği"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik olarak banyonuzu baştan aşağıya detaylı şekilde temizliyoruz.Köşe bucak temizlikten, zeminlerin silinmesine ve tozların alınmasına kadar her adımda hijyen önceliğimizdir.Lavabo, klozet, duşakabin gibi bakteri barındırabilecek alanlarda özel ürünler kullanılır. Havluluklar, pencere pervazları, dolap kapakları, ışıklar ve priz kenarları dâhil tüm yüzeyler temizlenir ve dezenfekte edilir."
+   },
+   {
+    "t": "li",
+    "v": "Lavabo ve duşların fırçalanması, durulanması"
+   },
+   {
+    "t": "li",
+    "v": "Birikmiş sabun kalıntılarının temizlenmesi"
+   },
+   {
+    "t": "li",
+    "v": "Klozetin iç ve dış yüzeylerinin dezenfekte edilmesi"
+   },
+   {
+    "t": "li",
+    "v": "Aydınlatma üniteleri ve armatürlerin temizliği"
+   },
+   {
+    "t": "h4",
+    "v": "Yatak Odası Temizliği"
+   },
+   {
+    "t": "p",
+    "v": "Yatak odaları dinlenme alanlarımızdır, bu nedenle hijyen ve ferahlık burada büyük önem taşır.Munzur Temizlik olarak yatak odalarınızı detaylı şekilde temizleyerek toz, alerjen ve kir birikimlerini ortadan kaldırıyoruz.Mobilyaların çevresi ve altı, dolap yüzeyleri, priz ve kenar köşelere kadar ulaşarak eksiksiz temizlik sağlıyoruz."
+   },
+   {
+    "t": "li",
+    "v": "Yatakların toplanması ve yatak başlıklarının silinmesi"
+   },
+   {
+    "t": "li",
+    "v": "Komodin, dolap ve şifonyer yüzeylerinin tozunun alınması"
+   },
+   {
+    "t": "li",
+    "v": "Yerlerin süpürülmesi ve silinmesi"
+   },
+   {
+    "t": "li",
+    "v": "Perdelerin, pencere pervazlarının ve priz kenarlarının temizliği"
+   },
+   {
+    "t": "li",
+    "v": "Aydınlatma armatürleri ve lambaların tozunun alınması"
+   },
+   {
+    "t": "h4",
+    "v": "Mutfak Temizliği"
+   },
+   {
+    "t": "p",
+    "v": "Mutfaklar sadece yemek yapılan alanlar değil, aynı zamanda hijyenin en önemli olduğu yerlerdir.Munzur Temizlik olarak mutfağınızda yağ, leke ve bakterilere karşı kapsamlı bir temizlik sağlıyoruz. Tezgâhlardan dolaplara, ocaktan beyaz eşyalara kadar her alan titizlikle temizlenir. Gıda güvenliği açısından kullanılan temizlik ürünlerimiz insan sağlığına uygun ve çevre dostudur."
+   },
+   {
+    "t": "li",
+    "v": "Tezgâh, ocak ve lavabo yüzeylerinin silinmesi ve dezenfekte edilmesi"
+   },
+   {
+    "t": "li",
+    "v": "Mutfak dolaplarının dış yüzeylerinin temizliği"
+   },
+   {
+    "t": "li",
+    "v": "Mikrodalga, fırın dışı ve buzdolabı dış yüzeylerinin silinmesi"
+   },
+   {
+    "t": "li",
+    "v": "Zeminlerin süpürülüp silinmesi"
+   },
+   {
+    "t": "li",
+    "v": "Çöp kutusunun temizliği ve çöpün atılması"
+   },
+   {
+    "t": "li",
+    "v": "Lamba, priz kenarı ve fayans üstü tozlarının alınması"
+   },
+   {
+    "t": "h4",
+    "v": "Salon Temizliği"
+   },
+   {
+    "t": "p",
+    "v": "Ailenizle vakit geçirdiğiniz, misafirlerinizi ağırladığınız salonlarınız da en az mutfağınız kadar hijyenik olmalı.Munzur Temizlik olarak salon ve oturma odalarında biriken toz, kir ve evcil hayvan tüylerine karşı etkili ve detaylı bir temizlik uyguluyoruz.Mobilyaların altı, dekoratif yüzeyler ve ulaşılması zor alanlar dâhil olmak üzere tüm detaylara önem veriyoruz."
+   },
+   {
+    "t": "li",
+    "v": "Koltuk, masa, TV ünitesi gibi yüzeylerin tozunun alınması"
+   },
+   {
+    "t": "li",
+    "v": "Elektronik eşyaların yüzey temizliği (televizyon, uzaktan kumanda, vb.)"
+   },
+   {
+    "t": "li",
+    "v": "Zeminlerin süpürülmesi ve silinmesi"
+   },
+   {
+    "t": "li",
+    "v": "Halıların süpürülmesi (talebe göre)"
+   },
+   {
+    "t": "li",
+    "v": "Priz, perde kornişi ve pencere pervazı tozlarının temizliği"
+   },
+   {
+    "t": "li",
+    "v": "Aydınlatma armatürlerinin silinmesi"
+   },
+   {
+    "t": "h2",
+    "v": "Temiz Bir Alan Hayatınızı Nasıl Etkiler?"
+   },
+   {
+    "t": "p",
+    "v": "Ev temizliği hizmeti almak, zamanınızı size geri kazandırmanın harika bir yoludur. Günün sonunda temiz, düzenli ve ferah kokan bir eve dönmenin verdiği huzurun yanında; temizlik hizmeti sayesinde diğer önemli işlerinize daha fazla odaklanabilirsiniz. Üstelik bununla da kalmaz – ev temizliğinin pek çok fiziksel ve zihinsel faydası da vardır."
+   },
+   {
+    "t": "h2",
+    "v": "Evinizi Her Zaman En İyi Şekilde Korumanın Yolları"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik Öneriyor: Haftalık Temizlik"
+   },
+   {
+    "t": "li",
+    "v": "Yemek masanızı sürekli kurulu tutun. Böylece anahtar, mektup veya evrak gibi eşyaların burada birikmesini önlersiniz."
+   },
+   {
+    "t": "li",
+    "v": "Yoğun kullanılan alanlarda paspas ya da kilim kullanın. Bu sayede dışarıdan gelen kirin evin içine yayılması engellenir."
+   },
+   {
+    "t": "li",
+    "v": "Eşyalarınız için belirli alanlar oluşturun. Askılıklar, kutular ve saklama sepetleriyle evinizi organize edin."
+   },
+   {
+    "t": "li",
+    "v": "Temizlik malzemelerini tek bir yerde tutmak yerine dağıtın. Böylece küçük temizlik işleri daha kolay yapılır."
+   },
+   {
+    "t": "li",
+    "v": "Her gün bir odada küçük bir temizlik yapın. Örneğin bir gün banyodaki aynayı silmek, bir gün mutfak zeminini süpürmek gibi."
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "hakkimizda__sikca-sorulan-sorular": {
+  "title": "S.S.S - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h2",
+    "v": "Sizinle İş Birliği Yapmak İçin Sabırsızlanıyoruz"
+   },
+   {
+    "t": "p",
+    "v": "Evlerinizi sağlıklı ve hijyenik tutmak için sizinle iş birliği yapmaktan mutluluk duyarız. Sıkça Sorulan Sorular (SSS) bölümümüzde yer almayan bir konu hakkında sorunuz varsa, bizimle iletişime geçmekten çekinmeyin."
+   },
+   {
+    "t": "h4",
+    "v": "Hâlâ Sorularınız mı Var?"
+   },
+   {
+    "t": "p",
+    "v": "Evcil hayvanlarınız varsa, temizlik öncesinde bize bilgi vermeniz yeterlidir. Onların konforunu da önemsiyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Tüm çalışanlarımız titizlikle seçilir, güvenlik kontrollerinden geçirilir ve profesyonel eğitim alırlar."
+   },
+   {
+    "t": "p",
+    "v": "Hayır, ancak memnun kaldığınızda gönlünüzden geçen bir bahşiş vermek tamamen size bağlıdır."
+   },
+   {
+    "t": "p",
+    "v": "Bu durumda sizinle iletişime geçerek alternatif bir tarih planlaması yaparız."
+   },
+   {
+    "t": "p",
+    "v": "Evet, ilk temizlik daha kapsamlı olacağı için biraz daha uzun sürebilir."
+   },
+   {
+    "t": "p",
+    "v": "Hayır, ancak ilk temizlikte evde olmanız tercih edilir. Sonraki temizliklerde anahtar teslim sistemiyle çalışabiliriz."
+   },
+   {
+    "t": "p",
+    "v": "Mümkün olduğunca aynı ekip arkadaşlarımızı yönlendirmeye özen gösteriyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Nakit veya banka havalesi ödeme seçenekleri sunmaktayız."
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "hizmetlerimiz": {
+  "title": "Hizmetlerimiz - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h4",
+    "v": "Ev Temizliği"
+   },
+   {
+    "t": "h4",
+    "v": "Ofis Temizliği"
+   },
+   {
+    "t": "h4",
+    "v": "Detaylı Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Taşınma Öncesi & Sonrası Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "İnşaat Sonrası Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik"
+   },
+   {
+    "t": "h2",
+    "v": "Ekstra Hizmetlerle Derinlemesine Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "Standart temizlik hizmetimizin ötesine geçmek ister misiniz? Her ziyaret öncesinde, ihtiyaçlarınıza özel ek hizmetleri seçerek yaşam alanınızı daha da hijyenik ve düzenli hale getirebilirsiniz. Size özel çözümlerle evinizde fark yaratıyoruz."
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Dolu buzdolabı / dondurucu temizliği"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Dolu buzdolabı / dondurucu temizliği"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Mutfak dolaplarının dış yüzey temizliği"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Dış camların silinmesi"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Tekli fırın içi temizliği"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Çiftli fırın içi temizliği"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Bulaşık yıkama hizmeti"
+   },
+   {
+    "t": "h5",
+    "v": "Ek Hizmet"
+   },
+   {
+    "t": "p",
+    "v": "Kıyafet katlama hizmeti"
+   },
+   {
+    "t": "li",
+    "v": "Elektrik süpürgesinin ulaşamadığı koltuk ve mobilya altları"
+   },
+   {
+    "t": "li",
+    "v": "Çamaşır yıkama, çamaşır katlama veya asma işlemleri"
+   },
+   {
+    "t": "li",
+    "v": "Dış camlar veya duvar yüzeyleri"
+   },
+   {
+    "t": "li",
+    "v": "Mutfak dolaplarının içi (porselen dolapları dahil)"
+   },
+   {
+    "t": "li",
+    "v": "Dolap içleri (boşsa süpürülür ve silinir)"
+   },
+   {
+    "t": "li",
+    "v": "Dış mekanlar (yalnızca ön ve arka kapı çevresi temizlenir)"
+   },
+   {
+    "t": "li",
+    "v": "Ağır mobilyaların altı"
+   },
+   {
+    "t": "li",
+    "v": "Oyuncak, kitap, ayakkabı gibi küçük eşyalar"
+   },
+   {
+    "t": "li",
+    "v": "Bulaşıklar (yalnızca bulaşık makinesine yerleştirilir, elde yıkanmaz)"
+   },
+   {
+    "t": "li",
+    "v": "Kitaplar raflardan alınarak temizlenmez"
+   },
+   {
+    "t": "h2",
+    "v": "Neden Bizi Tercih Etmelisiniz?"
+   },
+   {
+    "t": "h5",
+    "v": "Sabit Fiyat Garantisi ve Gizli Ücret Yok"
+   },
+   {
+    "t": "h5",
+    "v": "Düzenli Temizlikler İçin Esnek Zamanlama"
+   },
+   {
+    "t": "h5",
+    "v": "Kadromuz Tamamıyla Kendi Personelimizden Oluşur"
+   },
+   {
+    "t": "h5",
+    "v": "Sigortalı ve Güvenilir Temizlik Uzmanları"
+   },
+   {
+    "t": "h2",
+    "v": "Sıkça Sorulan Sorular"
+   },
+   {
+    "t": "h4",
+    "v": "Temizlik Sürecimiz Hakkında Daha Fazla Bilgi Almak İster Misiniz?"
+   },
+   {
+    "t": "p",
+    "v": "Temizlik süresi, hizmetin türüne ve alanın büyüklüğüne göre değişkenlik gösterir. Genel temizlik genellikle 3–5 saat arası sürerken, detaylı temizliklerde bu süre biraz daha uzayabilir. Randevu sırasında ihtiyaçlarınıza göre net süreyi belirliyoruz."
+   },
+   {
+    "t": "p",
+    "v": "Fiyatlandırmamız evinizin büyüklüğüne ve talep ettiğiniz hizmet türüne göre belirlenir. Şeffaf ve sabit fiyat politikamızla sürpriz maliyetlerle karşılaşmazsınız."
+   },
+   {
+    "t": "p",
+    "v": "Bahşiş vermek tamamen sizin tercihinize bağlıdır. Memnuniyetinizi göstermek isterseniz, gönlünüzden geçen bir tutar verebilirsiniz."
+   },
+   {
+    "t": "p",
+    "v": "Evet, talebinize göre temizlik malzemelerini biz getirebiliriz. Bu hizmet ek ücrete tabidir. Dilerseniz kendi temizlik malzemelerinizi de kullanabiliriz. Size en uygun seçeneği randevu sırasında belirtmeniz yeterlidir."
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "hizmet-bolgeleri": {
+  "title": "Hizmet Bölgeleri - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h2",
+    "v": "İstanbul’da Temizlik Hizmeti Verdiğimiz İlçeler"
+   },
+   {
+    "t": "p",
+    "v": "Siz de bulunduğunuz ilçede hizmet verip vermediğimizi öğrenmek için bizimle iletişime geçebilir veya detaylı bilgi almak için hemen ekibimizle bağlantıya geçebilirsiniz. İstanbul’da hijyen ve konforu bir araya getiren temizlik çözümlerimizle tanışın!"
+   },
+   {
+    "t": "h3",
+    "v": "Size En Yakın İstanbul İlçesini Seçin"
+   },
+   {
+    "t": "h2",
+    "v": "İstanbul’da En Çok Tavsiye Edilen Temizlik Firmalarından Biriyiz"
+   },
+   {
+    "t": "p",
+    "v": "Beklentimin çok üstünde bir hizmetti. Tam zamanında geldiler ve tüm detaylara özen gösterdiler. Evin her köşesi adeta parladı. Ellerinize sağlık!"
+   },
+   {
+    "t": "p",
+    "v": "Ofis temizliği için ilk kez çalıştık ama kesinlikle kalıcı müşterileri olacağız. Hem güler yüzlü ekip hem de tertemiz bir ortam bıraktılar. Teşekkür ederiz Munzur Temizlik!"
+   },
+   {
+    "t": "p",
+    "v": "Taşınma öncesi temizlik için destek aldık, yeni kiracıya evi içimiz rahat bir şekilde teslim ettik. Her şey pırıl pırıldı. Çok memnun kaldık, tekrar görüşeceğiz."
+   },
+   {
+    "t": "p",
+    "v": "Derin temizlik hizmeti aldık, koltuklardan mutfağa kadar harika bir iş çıkardılar. Ekip son derece profesyonel ve titizdi. Munzur Temizlik’e teşekkür ederim."
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "iletisim": {
+  "title": "İletişim - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h4",
+    "v": "Email Adresi"
+   },
+   {
+    "t": "h4",
+    "v": "Bizi Arayın"
+   },
+   {
+    "t": "h4",
+    "v": "Adres"
+   },
+   {
+    "t": "h4",
+    "v": "Çalışma Saatleri"
+   },
+   {
+    "t": "p",
+    "v": "Pzt – Cum:Cumartesi:Pazar:"
+   },
+   {
+    "t": "p",
+    "v": "09.00 – 17.0009.00 – 17.0009.00 – 17.00"
+   },
+   {
+    "t": "h2",
+    "v": "Sorularınız için Bize Ulaşın"
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "teklif-formu": {
+  "title": "Teklif Formu - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h3",
+    "v": "Tüm Temizlik İhtiyaçlarınızda Size Yardımcı Olmaktan Heyecan Duyuyoruz"
+   },
+   {
+    "t": "h3",
+    "v": "Ücretsiz Teklif Alın ve Temizlik Tarihinizi Belirleyin"
+   },
+   {
+    "t": "h2",
+    "v": "Uzmanız. Tecrübeliyiz. Size Özel Çözümler Sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Ücretsiz Teklif & Anında Fiyatlandırma"
+   },
+   {
+    "t": "p",
+    "v": "Online formumuzu doldurarak saniyeler içinde ücretsiz teklif alın, fiyatı anında öğrenin."
+   },
+   {
+    "t": "h4",
+    "v": "Ekipman ve Malzeme Desteği"
+   },
+   {
+    "t": "p",
+    "v": "Temizlik ekipmanı ve malzeme desteği talebinize göre şekillenir. İsterseniz kendi ürünlerinizi kullanabilir, dilerseniz profesyonel temizlik malzemelerini biz temin edebiliriz."
+   },
+   {
+    "t": "h4",
+    "v": "%100 Memnuniyet Garantisi"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik olarak beklentilerinizi karşılamak bizim önceliğimizdir."
+   },
+   {
+    "t": "h4",
+    "v": "Güvenilir ve Denetlenmiş Personel"
+   },
+   {
+    "t": "p",
+    "v": "Personelimiz güvenlik taramasından geçerek işe alınır. Eviniz, iş yeriniz emin ellerde."
+   },
+   {
+    "t": "p",
+    "v": "yıl tecrübe"
+   },
+   {
+    "t": "p",
+    "v": "ev sadece geçen yıl temizlendi"
+   },
+   {
+    "t": "p",
+    "v": "saat müşterilerimizin zamanı bize emanet edildi"
+   },
+   {
+    "t": "p",
+    "v": "müşteri tekrar hizmet aldı"
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "blog": {
+  "title": "Blog - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "🧼 Eksiksiz Daire Temizliği Rehberi: Pırıl Pırıl Bir Yaşam Alanı İçin Adım Adım Kılavuz"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "🛋️ Kötü Kokan Koltuk Nasıl Temizlenir? Etkili ve Kalıcı Çözümler"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "🕒 Bir Daireyi Derinlemesine Temizlemek Ne Kadar Sürer?"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "🌿 Doğa Dostu Halı Temizliği: En Kapsamlı Rehber"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "🏡 Temiz ve Sağlıklı Bir Evin Faydaları Nelerdir?"
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ },
+ "home": {
+  "title": "Anasayfa - İstanbul Profesyonel Temizlik Hizmeti | Munzur Temizlik",
+  "description": "",
+  "blocks": [
+   {
+    "t": "h1",
+    "v": "İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti"
+   },
+   {
+    "t": "p",
+    "v": "Avrupa Yakası’ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz. Deneyimli kadromuz ve zamanında hizmet anlayışımızla İstanbul’un en güvenilir temizlik firmaları arasındayız."
+   },
+   {
+    "t": "li",
+    "v": "Profesyonel"
+   },
+   {
+    "t": "li",
+    "v": "Samimi"
+   },
+   {
+    "t": "li",
+    "v": "Hızlı İletişim"
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik hizmetiniz için hemen fiyat alın, süreci başlatın."
+   },
+   {
+    "t": "p",
+    "v": "Sizin memnuniyetiniz bizim için en büyük önceliktir. Munzur Temizlik olarak tüm hizmetlerimizde yüksek kalite ve müşteri mutluluğu için titizlikle çalışıyoruz."
+   },
+   {
+    "t": "h2",
+    "v": "Nasıl Çalışır?"
+   },
+   {
+    "t": "h3",
+    "v": "Teklif Alın"
+   },
+   {
+    "t": "p",
+    "v": "Ev veya iş yeriniz hakkında bize bilgi verin, size özel temizlik planınızı ve tarihini belirleyelim."
+   },
+   {
+    "t": "h3",
+    "v": "Profesyonel Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "Deneyimli temizlik ekibimiz, detaylı ve hijyenik bir temizlik ile alanınızı yepyeni bir görünüme kavuştursun."
+   },
+   {
+    "t": "h3",
+    "v": "Konforun Keyfini Çıkarın"
+   },
+   {
+    "t": "p",
+    "v": "Siz sadece arkanıza yaslanın; tertemiz, hijyenik ve düzenli alanlarınızın tadını çıkarın."
+   },
+   {
+    "t": "h2",
+    "v": "Parlayan Mekanlar İçin En Doğru Tercih: Munzur Temizlik"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik, İstanbul genelinde profesyonel, güvenilir ve ulaşılabilir temizlik hizmeti sunma vizyonuyla yola çıkmıştır. Deneyimli ekibimiz ve yüksek müşteri memnuniyetimizle, yaşam alanlarınızı kusursuz bir hijyenle buluşturuyoruz."
+   },
+   {
+    "t": "li",
+    "v": "Temizlik süreciyle ilgili sizi her adımda bilgilendiriyoruz."
+   },
+   {
+    "t": "li",
+    "v": "Evinizi kendi evimiz gibi özenle temizliyoruz."
+   },
+   {
+    "t": "h2",
+    "v": "Uzmanız. Tecrübeliyiz. Size Özel Çözümler Sunuyoruz."
+   },
+   {
+    "t": "h4",
+    "v": "Ücretsiz Teklif & Anında Fiyatlandırma"
+   },
+   {
+    "t": "p",
+    "v": "Online formumuzu doldurarak saniyeler içinde ücretsiz teklif alın, fiyatı anında öğrenin."
+   },
+   {
+    "t": "h4",
+    "v": "Ekipman ve Malzeme Desteği"
+   },
+   {
+    "t": "p",
+    "v": "Temizlik ekipmanı ve malzeme desteği talebinize göre şekillenir. İsterseniz kendi ürünlerinizi kullanabilir, dilerseniz profesyonel temizlik malzemelerini biz temin edebiliriz."
+   },
+   {
+    "t": "h4",
+    "v": "%100 Memnuniyet Garantisi"
+   },
+   {
+    "t": "p",
+    "v": "Munzur Temizlik olarak beklentilerinizi karşılamak bizim önceliğimizdir."
+   },
+   {
+    "t": "h4",
+    "v": "Güvenilir ve Denetlenmiş Personel"
+   },
+   {
+    "t": "p",
+    "v": "Personelimiz güvenlik taramasından geçerek işe alınır. Eviniz, iş yeriniz emin ellerde."
+   },
+   {
+    "t": "p",
+    "v": "yıl tecrübe"
+   },
+   {
+    "t": "p",
+    "v": "ev sadece geçen yıl temizlendi"
+   },
+   {
+    "t": "p",
+    "v": "saat müşterilerimizin zamanı bize emanet edildi"
+   },
+   {
+    "t": "p",
+    "v": "müşteri tekrar hizmet aldı"
+   },
+   {
+    "t": "h2",
+    "v": "İstanbul’da Güvenilir Temizlik Hizmeti Arayanlara Özel Çözümler"
+   },
+   {
+    "t": "h4",
+    "v": "Ev Temizliği"
+   },
+   {
+    "t": "h4",
+    "v": "Ofis Temizliği"
+   },
+   {
+    "t": "h4",
+    "v": "Detaylı Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Taşınma Öncesi / Sonrası Temizlik"
+   },
+   {
+    "t": "h2",
+    "v": "İstanbul’da En Çok Tavsiye Edilen Temizlik Firmalarından Biriyiz"
+   },
+   {
+    "t": "p",
+    "v": "Beklentimin çok üstünde bir hizmetti. Tam zamanında geldiler ve tüm detaylara özen gösterdiler. Evin her köşesi adeta parladı. Ellerinize sağlık!"
+   },
+   {
+    "t": "p",
+    "v": "Ofis temizliği için ilk kez çalıştık ama kesinlikle kalıcı müşterileri olacağız. Hem güler yüzlü ekip hem de tertemiz bir ortam bıraktılar. Teşekkür ederiz Munzur Temizlik!"
+   },
+   {
+    "t": "p",
+    "v": "Taşınma öncesi temizlik için destek aldık, yeni kiracıya evi içimiz rahat bir şekilde teslim ettik. Her şey pırıl pırıldı. Çok memnun kaldık, tekrar görüşeceğiz."
+   },
+   {
+    "t": "p",
+    "v": "Derin temizlik hizmeti aldık, koltuklardan mutfağa kadar harika bir iş çıkardılar. Ekip son derece profesyonel ve titizdi. Munzur Temizlik’e teşekkür ederim."
+   },
+   {
+    "t": "h2",
+    "v": "Sıkça Sorulan Sorular"
+   },
+   {
+    "t": "h4",
+    "v": "İstanbul'da temizlik hizmeti mi arıyorsunuz? Hemen bize ulaşın:"
+   },
+   {
+    "t": "p",
+    "v": "Ev veya ofis temizliğinde; zemin temizliği, toz alma, cam silme, mutfak ve banyo hijyeni, çöp toplama ve genel yüzey temizliği standart olarak sunulur. Özel taleplerinizi rezervasyon sırasında belirtebilirsiniz."
+   },
+   {
+    "t": "p",
+    "v": "Fiyatlar; alanın büyüklüğüne, hizmet türüne ve ekipman/malzeme teminine göre şekillenir. Size özel net fiyat için bizimle iletişime geçebilirsiniz."
+   },
+   {
+    "t": "p",
+    "v": "Evet, talebe göre temizlik ürünlerini biz sağlayabiliyoruz. Ancak dilerseniz kendi ürünlerinizi de kullanabilirsiniz. Bu tercih fiyatı etkileyebilir."
+   },
+   {
+    "t": "p",
+    "v": "Haftanın 7 günü, sabah 08:00 ile akşam 20:00 arasında temizlik hizmeti sunuyoruz. Size en uygun zamanı birlikte planlıyoruz."
+   },
+   {
+    "t": "h2",
+    "v": "Temizlik Uzmanlarından Pratik İpuçları"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Derinlemesine Temizlik ve Düzenleme: Evinize Yeni Bir Nefes"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "♻️ Doğa Dostu Temizlik Ürünleri ile Temizliğe Yeni Bir Bakış: Sağlığınızı ve Geleceğimizi Koruyan Çevreci Seçimler"
+   },
+   {
+    "t": "li",
+    "v": "Temizlik"
+   },
+   {
+    "t": "h4",
+    "v": "Taşınmadan Önce Ev Temizliği Hizmetleri: Yeni Evinize Tertemiz Bir Başlangıç Yapın"
+   },
+   {
+    "t": "h2",
+    "v": "Inactive"
+   }
+  ]
+ }
+}
