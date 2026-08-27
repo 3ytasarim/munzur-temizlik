@@ -1,9 +1,10 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { DetailPage } from "@/components/DetailTemplate";
+import { DistrictPage } from "@/components/DistrictTemplate";
 import { getDistrict } from "@/data/content";
-import { images, site } from "@/data/site";
+import { site } from "@/data/site";
+
 
 export const Route = createFileRoute("/hizmet-bolgeleri/$slug")({
   loader: ({ params }) => {
