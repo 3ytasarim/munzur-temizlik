@@ -1,10 +1,12 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { createFileRoute } from "@tanstack/react-router";
+import { CalendarDays, Mail, MapPin, PhoneCall } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { PageHero } from "@/components/Sections";
+import { CtaBand } from "@/components/Sections";
+import { ContactFormSection } from "@/components/ContactForm";
 import { getPage } from "@/data/content";
-import { site } from "@/data/site";
+import { images, site } from "@/data/site";
+
 
 const page = getPage("iletisim");
 const description =
