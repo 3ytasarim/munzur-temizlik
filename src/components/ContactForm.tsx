@@ -43,16 +43,17 @@ export function ContactFormSection() {
 
   return (
     <section className="container-site pb-20 md:pb-28">
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1fr)]">
         <div
           className="rounded-[2rem] p-8 md:p-12"
           style={{ background: "linear-gradient(150deg, #F7E23A 0%, #F2F0AE 45%, #DCEFC0 100%)" }}
         >
-          <p className="eyebrow flex items-center gap-2 text-[0.78rem] uppercase tracking-[0.16em]">
+          <p className="eyebrow flex items-start gap-1 text-[0.78rem] uppercase tracking-[0.16em]">
             İletişim Formu
-            <img src={images.leaf1} alt="" aria-hidden="true" className="h-3.5 w-auto" />
+            <img src={images.leaf2} alt="" aria-hidden="true" className="mt-[-2px] h-3 w-auto" />
           </p>
-          <h2 className="mt-3 text-3xl leading-tight md:text-[2.4rem]">Sorularınız için Bize Ulaşın</h2>
+          <h2 className="mt-3 max-w-sm text-3xl leading-tight md:text-[2.5rem]">Sorularınız için Bize Ulaşın</h2>
+
 
           <form onSubmit={onSubmit} className="mt-8 space-y-5">
             <div className="grid gap-5 sm:grid-cols-2">
