@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Faq, faqJsonLd } from "@/components/Faq";
 import { CtaBand, Testimonials } from "@/components/Sections";
 import { getFaqs, getPage, posts } from "@/data/content";
-import { advantages, howItWorks, images, postImages, serviceMeta, site, stats } from "@/data/site";
+import { advantages, howItWorks, images, postImages, quoteServices, serviceMeta, site, stats } from "@/data/site";
 
 const page = getPage("home");
 const faqs = getFaqs("home");
