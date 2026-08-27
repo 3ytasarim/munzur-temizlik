@@ -307,7 +307,7 @@ function Home() {
                     <Sparkles className="h-5 w-5 text-primary" />
                   </span>
                 </div>
-                <h3 className="mt-5 px-2 text-lg leading-snug">{s.shortName}</h3>
+                <h3 className="mt-5 min-h-14 px-2 text-lg leading-snug">{s.shortName}</h3>
                 <Link
                   to="/hizmetlerimiz/$slug"
                   params={{ slug: s.slug }}
