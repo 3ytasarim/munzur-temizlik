@@ -505,9 +505,9 @@ function HomeQuoteSection() {
             </div>
           ) : (
             <form className="mt-8 grid gap-4 md:grid-cols-2" onSubmit={onSubmit}>
-              <QuoteField label="Adınız Soyadınız" name="hq-name" />
+              <QuoteField label="Adınız Soyadınız" name="hq-name" required />
               <QuoteField label="Email Adresiniz" name="hq-email" type="email" />
-              <QuoteField label="Telefon" name="hq-phone" type="tel" />
+              <QuoteField label="Telefon" name="hq-phone" type="tel" required />
               <QuoteField label="Toplam metrekare" name="hq-size" />
               <div className="md:col-span-2">
                 <label
