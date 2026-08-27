@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SlugRouteImport } from './routes/$slug'
 import { Route as IletisimRouteImport } from './routes/iletisim'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TeklifFormuRouteImport } from './routes/teklif-formu'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
@@ -35,6 +36,11 @@ const SlugRoute = SlugRouteImport.update({
 const IletisimRoute = IletisimRouteImport.update({
   id: '/iletisim',
   path: '/iletisim',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TeklifFormuRoute = TeklifFormuRouteImport.update({
@@ -89,6 +95,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$slug': typeof SlugRoute
   '/iletisim': typeof IletisimRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
@@ -103,6 +110,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$slug': typeof SlugRoute
   '/iletisim': typeof IletisimRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
@@ -118,6 +126,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/$slug': typeof SlugRoute
   '/iletisim': typeof IletisimRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
@@ -134,6 +143,7 @@ export interface FileRouteTypes {
     | '/'
     | '/$slug'
     | '/iletisim'
+    | '/sitemap.xml'
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
@@ -148,6 +158,7 @@ export interface FileRouteTypes {
     | '/'
     | '/$slug'
     | '/iletisim'
+    | '/sitemap.xml'
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
@@ -162,6 +173,7 @@ export interface FileRouteTypes {
     | '/'
     | '/$slug'
     | '/iletisim'
+    | '/sitemap.xml'
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
@@ -177,6 +189,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SlugRoute: typeof SlugRoute
   IletisimRoute: typeof IletisimRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TeklifFormuRoute: typeof TeklifFormuRoute
   HakkimizdaSikcaSorulanSorularRoute: typeof HakkimizdaSikcaSorulanSorularRoute
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
@@ -209,6 +222,13 @@ declare module '@tanstack/react-router' {
       path: '/iletisim'
       fullPath: '/iletisim'
       preLoaderRoute: typeof IletisimRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/teklif-formu': {
@@ -281,6 +301,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SlugRoute: SlugRoute,
   IletisimRoute: IletisimRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TeklifFormuRoute: TeklifFormuRoute,
   HakkimizdaSikcaSorulanSorularRoute: HakkimizdaSikcaSorulanSorularRoute,
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
