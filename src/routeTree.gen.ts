@@ -15,6 +15,7 @@ import { Route as HakkimizdaIndexRouteImport } from './routes/hakkimizda.index'
 import { Route as HakkimizdaSikcaSorulanSorularRouteImport } from './routes/hakkimizda.sikca-sorulan-sorular'
 import { Route as HakkimizdaTemizlikSureciRouteImport } from './routes/hakkimizda.temizlik-sureci'
 import { Route as HizmetBolgeleriIndexRouteImport } from './routes/hizmet-bolgeleri.index'
+import { Route as HizmetBolgeleriSlugRouteImport } from './routes/hizmet-bolgeleri.$slug'
 import { Route as HizmetlerimizIndexRouteImport } from './routes/hizmetlerimiz.index'
 import { Route as HizmetlerimizSlugRouteImport } from './routes/hizmetlerimiz.$slug'
 
@@ -50,6 +51,11 @@ const HizmetBolgeleriIndexRoute = HizmetBolgeleriIndexRouteImport.update({
   path: '/hizmet-bolgeleri/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HizmetBolgeleriSlugRoute = HizmetBolgeleriSlugRouteImport.update({
+  id: '/hizmet-bolgeleri/$slug',
+  path: '/hizmet-bolgeleri/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HizmetlerimizIndexRoute = HizmetlerimizIndexRouteImport.update({
   id: '/hizmetlerimiz/',
   path: '/hizmetlerimiz/',
@@ -66,6 +72,7 @@ export interface FileRoutesByFullPath {
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
@@ -76,6 +83,7 @@ export interface FileRoutesByTo {
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri': typeof HizmetBolgeleriIndexRoute
@@ -87,6 +95,7 @@ export interface FileRoutesById {
   '/teklif-formu': typeof TeklifFormuRoute
   '/hakkimizda/sikca-sorulan-sorular': typeof HakkimizdaSikcaSorulanSorularRoute
   '/hakkimizda/temizlik-sureci': typeof HakkimizdaTemizlikSureciRoute
+  '/hizmet-bolgeleri/$slug': typeof HizmetBolgeleriSlugRoute
   '/hizmetlerimiz/$slug': typeof HizmetlerimizSlugRoute
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
@@ -99,6 +108,7 @@ export interface FileRouteTypes {
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
+    | '/hizmet-bolgeleri/$slug'
     | '/hizmetlerimiz/$slug'
     | '/hakkimizda/'
     | '/hizmet-bolgeleri/'
@@ -109,6 +119,7 @@ export interface FileRouteTypes {
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
+    | '/hizmet-bolgeleri/$slug'
     | '/hizmetlerimiz/$slug'
     | '/hakkimizda'
     | '/hizmet-bolgeleri'
@@ -119,6 +130,7 @@ export interface FileRouteTypes {
     | '/teklif-formu'
     | '/hakkimizda/sikca-sorulan-sorular'
     | '/hakkimizda/temizlik-sureci'
+    | '/hizmet-bolgeleri/$slug'
     | '/hizmetlerimiz/$slug'
     | '/hakkimizda/'
     | '/hizmet-bolgeleri/'
@@ -130,6 +142,7 @@ export interface RootRouteChildren {
   TeklifFormuRoute: typeof TeklifFormuRoute
   HakkimizdaSikcaSorulanSorularRoute: typeof HakkimizdaSikcaSorulanSorularRoute
   HakkimizdaTemizlikSureciRoute: typeof HakkimizdaTemizlikSureciRoute
+  HizmetBolgeleriSlugRoute: typeof HizmetBolgeleriSlugRoute
   HizmetlerimizSlugRoute: typeof HizmetlerimizSlugRoute
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
   HizmetBolgeleriIndexRoute: typeof HizmetBolgeleriIndexRoute
@@ -180,6 +193,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HizmetBolgeleriIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hizmet-bolgeleri/$slug': {
+      id: '/hizmet-bolgeleri/$slug'
+      path: '/hizmet-bolgeleri/$slug'
+      fullPath: '/hizmet-bolgeleri/$slug'
+      preLoaderRoute: typeof HizmetBolgeleriSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/hizmetlerimiz/': {
       id: '/hizmetlerimiz/'
       path: '/hizmetlerimiz'
@@ -202,6 +222,7 @@ const rootRouteChildren: RootRouteChildren = {
   TeklifFormuRoute: TeklifFormuRoute,
   HakkimizdaSikcaSorulanSorularRoute: HakkimizdaSikcaSorulanSorularRoute,
   HakkimizdaTemizlikSureciRoute: HakkimizdaTemizlikSureciRoute,
+  HizmetBolgeleriSlugRoute: HizmetBolgeleriSlugRoute,
   HizmetlerimizSlugRoute: HizmetlerimizSlugRoute,
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
   HizmetBolgeleriIndexRoute: HizmetBolgeleriIndexRoute,
