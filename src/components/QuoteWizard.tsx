@@ -178,6 +178,8 @@ function Progress({ step }: { step: number }) {
 export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   const [step, setStep] = useState(1);
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
   const [f, setF] = useState({
     service: "",
     extras: [] as string[],
