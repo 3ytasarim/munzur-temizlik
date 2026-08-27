@@ -22,7 +22,7 @@ export function Header() {
       <div className="container-nav flex h-[4.5rem] items-center justify-between gap-3 md:h-20 md:gap-4">
 
         <Link to="/" className="flex shrink-0 items-center" aria-label="Munzur Temizlik ana sayfa">
-          <img src={images.logo} alt="Munzur Temizlik logo" className="h-8 w-auto md:h-11" />
+          <img src={images.logo} alt="Munzur Temizlik logo" className="h-10 w-auto md:h-11" />
         </Link>
 
 
