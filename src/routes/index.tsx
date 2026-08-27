@@ -6,12 +6,9 @@ import {
   Check,
   CheckCircle2,
   ChevronRight,
-  HandHeart,
   Phone,
   ShieldCheck,
-  Sofa,
   Sparkles,
-  SprayCan,
   Star,
 } from "lucide-react";
 import { Header } from "@/components/Header";
@@ -73,11 +70,13 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const heroBadges = ["Profesyonel", "Samimi", "Hızlı İletişim"];
-const heroLeafs = [images.leaf3, images.leaf1, images.leaf2];
-const heroAvatars = testimonials.slice(0, 3).map((t) => t.avatar);
-const stepIcons = [CalendarDays, SprayCan, Sofa];
-const advantageIcons = [CalendarDays, SprayCan, HandHeart, ShieldCheck];
+import {
+  advantageIcons,
+  heroAvatars,
+  heroBadges,
+  heroLeafs,
+  stepIcons,
+} from "@/data/home-ui";
 
 function GoogleRating() {
   return (
