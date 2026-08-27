@@ -617,6 +617,7 @@ function QuoteField({
         id={name}
         name={name}
         type={type}
+        required={required}
         className="w-full rounded-2xl border-0 bg-white px-4 py-3 font-display text-sm outline-none focus:ring-2 focus:ring-primary"
       />
     </div>
