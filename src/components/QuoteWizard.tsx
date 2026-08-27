@@ -249,11 +249,23 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   return (
     <form
       className="flex min-h-full flex-col lg:flex-row"
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setSent(true);
+        if (sending) return;
+        setError("");
+        setSending(true);
+        try {
+          const res = await submitQuote({ data: f });
+          if (res.ok) setSent(true);
+          else setError(res.error);
+        } catch {
+          setError("Bağlantı hatası. Lütfen tekrar deneyin.");
+        } finally {
+          setSending(false);
+        }
       }}
     >
+
       {/* Aside */}
       <aside className="relative shrink-0 overflow-hidden bg-primary px-7 py-8 text-primary-foreground lg:w-[300px] lg:px-8 lg:py-10">
         <div className="pointer-events-none absolute -right-14 -top-14 h-40 w-40 rounded-full bg-primary-foreground/10" />
