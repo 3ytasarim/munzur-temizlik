@@ -15,6 +15,8 @@ import {
 import { quoteServices, site } from "@/data/site";
 import { provinces, getDistricts, getNeighborhoods } from "@/data/locations";
 import { closeQuoteModal, useQuoteModalOpen } from "@/lib/quote-modal";
+import { submitQuote } from "@/lib/quote.functions";
+
 
 const extraServices = [
   "Buzdolabı ve derin dondurucu iç temizliği (boş veya dolu)",
