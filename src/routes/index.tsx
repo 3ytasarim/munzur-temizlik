@@ -455,6 +455,29 @@ function Home() {
 
 function HomeQuoteSection() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const submit = useServerFn(submitQuote);
+
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError(null);
+    setSending(true);
+    const fd = new FormData(e.currentTarget);
+    const result = await submit({
+      data: {
+        name: String(fd.get("hq-name") ?? ""),
+        email: String(fd.get("hq-email") ?? ""),
+        phone: String(fd.get("hq-phone") ?? ""),
+        size: String(fd.get("hq-size") ?? ""),
+        service: String(fd.get("hq-service") ?? ""),
+        note: "Kaynak: Anasayfa hızlı teklif formu",
+      },
+    });
+    setSending(false);
+    if (result.ok) setSent(true);
+    else setError(result.error ?? "Bir hata oluştu. Lütfen tekrar deneyin.");
+  }
 
   return (
     <section className="container-site py-14 md:py-20">
