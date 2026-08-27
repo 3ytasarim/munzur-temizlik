@@ -100,11 +100,12 @@ function Home() {
         {/* Hero */}
         <section className="container-site pt-4 md:pt-6">
           <div
-            className="relative overflow-hidden rounded-[37px] bg-cover bg-right bg-no-repeat px-5 py-10 md:px-8 md:py-14"
+            className="relative flex min-h-[520px] items-center overflow-hidden rounded-[37px] bg-cover bg-center bg-no-repeat px-5 py-10 md:min-h-[740px] md:px-[7%] md:py-[7%]"
             style={{ backgroundImage: `url(${images.heroImg})` }}
           >
-            <div className="max-w-xl rounded-[30px] bg-soft p-8 md:p-12">
-              <h1 className="text-[2rem] leading-[1.15] md:text-[2.75rem]">
+            <div className="w-full max-w-[640px] rounded-[30px] bg-soft p-8 md:p-12">
+              <h1 className="text-[2rem] leading-[1.15] md:text-[2.6rem]">
+
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
               <p className="mt-5 text-[1.02rem] leading-relaxed">
