@@ -134,7 +134,7 @@ function PostPage() {
                 <div className="border-t border-border px-5 py-6 text-foreground/75 md:px-7">
                   <p>
                     Bu yazı hakkında görüşlerinizi bizimle paylaşmak ister misiniz? Bize{" "}
-                    <a href={`tel:${site.phoneHref}`} className="text-primary underline">
+                    <a href={site.phoneHref} className="text-primary underline">
                       {site.phone}
                     </a>{" "}
                     numarasından ya da{" "}
