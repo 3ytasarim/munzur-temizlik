@@ -6,12 +6,9 @@ import {
   Check,
   CheckCircle2,
   ChevronRight,
-  HandHeart,
   Phone,
   ShieldCheck,
-  Sofa,
   Sparkles,
-  SprayCan,
   Star,
 } from "lucide-react";
 import { Header } from "@/components/Header";
