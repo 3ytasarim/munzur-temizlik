@@ -524,6 +524,12 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
           )}
         </div>
 
+        {error && (
+          <div className="mx-5 mb-2 rounded-2xl bg-destructive/10 px-4 py-3 text-[0.85rem] text-destructive md:mx-8">
+            {error}
+          </div>
+        )}
+
         {/* Footer actions */}
         <div className="sticky bottom-0 flex items-center justify-between gap-3 border-t border-border/60 bg-background/95 px-5 py-4 backdrop-blur md:px-8">
           {step > 1 ? (
@@ -544,11 +550,12 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
               Devam <ArrowRight className="h-4 w-4" />
             </button>
           ) : (
-            <button type="submit" className="btn-yellow">
-              Formu Gönder <Send className="h-4 w-4" />
+            <button type="submit" className="btn-yellow disabled:opacity-60" disabled={sending}>
+              {sending ? "Gönderiliyor..." : "Formu Gönder"} <Send className="h-4 w-4" />
             </button>
           )}
         </div>
+
       </div>
     </form>
   );
