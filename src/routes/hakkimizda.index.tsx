@@ -8,6 +8,9 @@ import icon2 from "@/assets/images/about-icon-2.svg";
 import icon3 from "@/assets/images/about-icon-3.svg";
 import icon4 from "@/assets/images/about-icon-4.svg";
 import leafSingle from "@/assets/images/leaf-green.svg";
+import aboutCtaBanner from "@/assets/images/Banner.jpg";
+import { ImageCtaBand } from "@/components/NotchBand";
+
 
 const page = getPage("hakkimizda");
 
