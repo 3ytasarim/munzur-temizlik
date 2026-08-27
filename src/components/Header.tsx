@@ -115,7 +115,7 @@ export function Header() {
           <button
             type="button"
             onClick={openQuoteModal}
-            className="btn-yellow hidden sm:inline-flex"
+            className="btn-yellow hidden whitespace-nowrap sm:inline-flex"
           >
             Teklif Al
           </button>
