@@ -598,10 +598,12 @@ function QuoteField({
   label,
   name,
   type = "text",
+  required = false,
 }: {
   label: string;
   name: string;
   type?: string;
+  required?: boolean;
 }) {
   return (
     <div>
