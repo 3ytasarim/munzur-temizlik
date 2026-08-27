@@ -271,7 +271,7 @@ function Home() {
               })}
             </div>
           </div>
-          <div className="-mt-7 flex justify-center">
+          <div className="relative z-10 -mt-7 flex justify-center">
             <Link
               to="/hakkimizda/temizlik-sureci"
               className="rounded-full border-2 border-primary bg-background px-8 py-3.5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:bg-pale"
