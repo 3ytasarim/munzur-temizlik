@@ -24,10 +24,10 @@ export function Header() {
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Ana menü">
-          <NavLink to="/">Ana Sayfa</NavLink>
+          <NavLink to="/">Anasayfa</NavLink>
 
           <Dropdown
-            label="Hakkımızda"
+            label="Kurumsal"
             to="/hakkimizda"
             items={[
               { to: "/hakkimizda", label: "Hakkımızda" },
@@ -80,8 +80,8 @@ export function Header() {
             </div>
           </div>
 
-          <NavLink to="/blog">Blog</NavLink>
           <NavLink to="/iletisim">İletişim</NavLink>
+          <NavLink to="/blog">Blog</NavLink>
         </nav>
 
         <div className="flex items-center gap-3">
@@ -89,9 +89,18 @@ export function Header() {
             href={site.phoneHref}
             className="hidden items-center gap-2 font-display text-[0.95rem] font-medium text-foreground xl:flex"
           >
-            <Phone className="h-4 w-4 text-primary" />
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
+              <Phone className="h-3.5 w-3.5" />
+            </span>
             {site.phone}
           </a>
+          <button
+            type="button"
+            aria-label="Ara"
+            className="hidden h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent lg:inline-flex"
+          >
+            <Search className="h-4 w-4" />
+          </button>
           <Link to="/teklif-formu" className="btn-yellow hidden sm:inline-flex">
             Teklif Al
           </Link>
