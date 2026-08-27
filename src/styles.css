@@ -124,6 +124,38 @@
 }
 
 
+@utility btn-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  background-color: var(--color-foreground);
+  color: var(--color-background);
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.9rem 1.85rem;
+  transition: filter 0.2s ease;
+  &:hover {
+    filter: brightness(1.25);
+  }
+}
+
+@utility cf-input {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 1px solid color-mix(in oklab, var(--color-foreground) 12%, transparent);
+  padding: 0.7rem 0.9rem;
+  font-size: 0.95rem;
+  outline: none;
+  &:focus {
+    border-color: var(--color-primary);
+  }
+}
+
+
 @utility btn-yellow {
   display: inline-flex;
   align-items: center;
