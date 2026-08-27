@@ -51,7 +51,8 @@ export function Header() {
           <div className="group relative">
             <Link
               to="/hizmet-bolgeleri"
-              className="flex items-center gap-1 rounded-full px-4 py-2 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:text-primary"
+              className="flex items-center gap-1 whitespace-nowrap rounded-full px-4 py-2 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:text-primary"
+
               activeProps={{ className: "text-primary" }}
             >
               Hizmet Bölgeleri
