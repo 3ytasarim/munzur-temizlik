@@ -79,7 +79,7 @@ import {
 
 function GoogleRating() {
   return (
-    <div className="flex items-center gap-2 rounded-2xl bg-background px-3 py-2 shadow-md">
+    <div className="flex items-center gap-2 rounded-2xl bg-white px-3 py-2 shadow-md">
       <img src={starSvg} alt="" aria-hidden="true" className="h-8 w-8 shrink-0" />
       <span>
         <span className="flex items-center gap-1">
