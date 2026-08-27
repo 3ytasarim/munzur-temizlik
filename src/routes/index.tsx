@@ -1,15 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
-  ArrowRight,
-  CalendarDays,
   Check,
   CheckCircle2,
   ChevronRight,
   Phone,
-  ShieldCheck,
   Sparkles,
-  Star,
 } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
