@@ -133,17 +133,17 @@ function Home() {
               </ul>
             </div>
 
-            {/* Google rating + avatars, bottom right over the photo */}
-            <div className="absolute bottom-4 right-4 hidden flex-col items-end gap-2 md:flex">
+            {/* Google rating + avatars on a white cut-out patch, bottom right */}
+            <div className="absolute bottom-0 right-0 hidden flex-col items-end gap-2 rounded-tl-[37px] bg-white p-5 pb-6 md:flex">
               <GoogleRating />
-              <div className="flex -space-x-3 rounded-full bg-background p-1 shadow-md">
+              <div className="flex -space-x-3 rounded-full bg-white p-1 shadow-md">
                 {heroAvatars.map((a) => (
                   <img
                     key={a}
                     src={a}
                     alt=""
                     aria-hidden="true"
-                    className="h-10 w-10 rounded-full border-2 border-background object-cover"
+                    className="h-10 w-10 rounded-full border-2 border-white object-cover"
                   />
                 ))}
               </div>
