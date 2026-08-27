@@ -7,7 +7,7 @@ import icon1 from "@/assets/images/about-icon-1.svg";
 import icon2 from "@/assets/images/about-icon-2.svg";
 import icon3 from "@/assets/images/about-icon-3.svg";
 import icon4 from "@/assets/images/about-icon-4.svg";
-import leafSingle from "@/assets/images/leaf-1.svg";
+import leafSingle from "@/assets/images/leaf-green.svg";
 
 const page = getPage("hakkimizda");
 
