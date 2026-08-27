@@ -8,6 +8,9 @@ import icon2 from "@/assets/images/about-icon-2.svg";
 import icon3 from "@/assets/images/about-icon-3.svg";
 import icon4 from "@/assets/images/about-icon-4.svg";
 import leafSingle from "@/assets/images/leaf-green.svg";
+import aboutCtaBanner from "@/assets/images/Banner.jpg";
+import { ImageCtaBand } from "@/components/NotchBand";
+
 
 const page = getPage("hakkimizda");
 
@@ -190,13 +193,15 @@ function AboutPage() {
               ))}
             </ol>
           </div>
-
-          <div className="container-site relative mt-14 text-center">
-            <Link to="/iletisim" className="btn-yellow">
-              Bize Ulaşın
-            </Link>
-          </div>
         </section>
+
+        {/* Alt görsel bandı + kıvrımlı "Bize Ulaşın" butonu */}
+        <ImageCtaBand image={aboutCtaBanner} alt="Munzur Temizlik ekibi" notchColor="#F7FAF3">
+          <Link to="/iletisim" className="btn-yellow">
+            Bize Ulaşın
+          </Link>
+        </ImageCtaBand>
+
       </main>
       <Footer />
     </>
