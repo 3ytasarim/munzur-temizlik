@@ -1,0 +1,76 @@
+{
+ "hakkimizda__sikca-sorulan-sorular": [
+  {
+   "q": "Evcil hayvanlarım hakkında ne yapmalıyım?",
+   "a": "Evcil hayvanlarınız varsa, temizlik öncesinde bize bilgi vermeniz yeterlidir. Onların konforunu da önemsiyoruz."
+  },
+  {
+   "q": "Munzur Temizlik - temizlik için kimi işe alıyor?",
+   "a": "Tüm çalışanlarımız titizlikle seçilir, güvenlik kontrollerinden geçirilir ve profesyonel eğitim alırlar."
+  },
+  {
+   "q": "Temizlik görevlisine bahşiş vermek zorunda mıyım?",
+   "a": "Hayır, ancak memnun kaldığınızda gönlünüzden geçen bir bahşiş vermek tamamen size bağlıdır."
+  },
+  {
+   "q": "Temizlik günü resmî tatile denk gelirse ne olur?",
+   "a": "Bu durumda sizinle iletişime geçerek alternatif bir tarih planlaması yaparız."
+  },
+  {
+   "q": "İlk temizlik daha uzun sürer mi?",
+   "a": "Evet , ilk temizlik daha kapsamlı olacağı için biraz daha uzun sürebilir."
+  },
+  {
+   "q": "Evde olmam gerekiyor mu?",
+   "a": "Hayır, ancak ilk temizlikte evde olmanız tercih edilir. Sonraki temizliklerde anahtar teslim sistemiyle çalışabiliriz."
+  },
+  {
+   "q": "Her seferinde aynı temizlik personeli mi gelir?",
+   "a": "Mümkün olduğunca aynı ekip arkadaşlarımızı yönlendirmeye özen gösteriyoruz."
+  },
+  {
+   "q": "Temizlik ücretini nasıl ödeyebilirim?",
+   "a": "Nakit veya banka havalesi ödeme seçenekleri sunmaktayız."
+  }
+ ],
+ "home": [
+  {
+   "q": "Temizlik hizmetine neler dahildir?",
+   "a": "Ev veya ofis temizliğinde; zemin temizliği, toz alma, cam silme, mutfak ve banyo hijyeni, çöp toplama ve genel yüzey temizliği standart olarak sunulur. Özel taleplerinizi rezervasyon sırasında belirtebilirsiniz."
+  },
+  {
+   "q": "Temizlik ücreti neye göre belirleniyor?",
+   "a": "Fiyatlar; alanın büyüklüğüne, hizmet türüne ve ekipman/malzeme teminine göre şekillenir. Size özel net fiyat için bizimle iletişime geçebilirsiniz."
+  },
+  {
+   "q": "Temizlik malzemelerini siz mi getiriyorsunuz?",
+   "a": "Evet, talebe göre temizlik ürünlerini biz sağlayabiliyoruz. Ancak dilerseniz kendi ürünlerinizi de kullanabilirsiniz. Bu tercih fiyatı etkileyebilir."
+  },
+  {
+   "q": "Hangi saatlerde hizmet veriyorsunuz?",
+   "a": "Haftanın 7 günü, sabah 08:00 ile akşam 20:00 arasında temizlik hizmeti sunuyoruz. Size en uygun zamanı birlikte planlıyoruz."
+  }
+ ],
+ "hizmetlerimiz": [
+  {
+   "q": "Temizlik Kapsamımıza Girmeyen Alanlar Nelerdir ?",
+   "a": "Elektrik süpürgesinin ulaşamadığı koltuk ve mobilya altları Çamaşır yıkama, çamaşır katlama veya asma işlemleri Dış camlar veya duvar yüzeyleri Mutfak dolaplarının içi (porselen dolapları dahil) Dolap içleri (boşsa süpürülür ve silinir) Dış mekanlar (yalnızca ön ve arka kapı çevresi temizlenir) Ağır mobilyaların altı Oyuncak, kitap, ayakkabı gibi küçük eşyalar Bulaşıklar (yalnızca bulaşık makinesine yerleştirilir, elde yıkanmaz) Kitaplar raflardan alınarak temizlenmez"
+  },
+  {
+   "q": "Temizlik süreci ne kadar sürüyor?",
+   "a": "Temizlik süresi, hizmetin türüne ve alanın büyüklüğüne göre değişkenlik gösterir. Genel temizlik genellikle 3–5 saat arası sürerken, detaylı temizliklerde bu süre biraz daha uzayabilir. Randevu sırasında ihtiyaçlarınıza göre net süreyi belirliyoruz."
+  },
+  {
+   "q": "Temizlik hizmetinin ücreti ne kadar?",
+   "a": "Fiyatlandırmamız evinizin büyüklüğüne ve talep ettiğiniz hizmet türüne göre belirlenir. Şeffaf ve sabit fiyat politikamızla sürpriz maliyetlerle karşılaşmazsınız."
+  },
+  {
+   "q": "Temizlik görevlisine bahşiş vermeli miyim?",
+   "a": "Bahşiş vermek tamamen sizin tercihinize bağlıdır. Memnuniyetinizi göstermek isterseniz, gönlünüzden geçen bir tutar verebilirsiniz."
+  },
+  {
+   "q": "Kendi temizlik malzemelerinizi mi getiriyorsunuz?",
+   "a": "Evet, talebinize göre temizlik malzemelerini biz getirebiliriz. Bu hizmet ek ücrete tabidir. Dilerseniz kendi temizlik malzemelerinizi de kullanabiliriz. Size en uygun seçeneği randevu sırasında belirtmeniz yeterlidir."
+  }
+ ]
+}
