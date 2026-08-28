@@ -155,7 +155,7 @@ function Home() {
               <img
                 src={images.heroImg}
                 alt="Munzur Temizlik profesyonel temizlik ekibi"
-                className="h-full w-full object-cover object-[50%_22%]"
+                className="h-full w-full object-cover object-[35%_22%]"
               />
             </div>
             <div className="relative z-10 -mt-12 rounded-[24px] bg-soft p-5 shadow-sm">
