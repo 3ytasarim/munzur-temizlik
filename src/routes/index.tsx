@@ -150,7 +150,7 @@ function Home() {
         {/* Hero */}
         <section className="container-site pt-3 md:pt-6">
           <div
-            className="relative flex items-end overflow-hidden rounded-[28px] bg-[length:130%_auto] bg-[position:right_45%] bg-no-repeat px-3 pb-3 pt-[320px] sm:bg-[length:120%_auto] sm:bg-[position:right_40%] sm:pt-[360px] md:min-h-[740px] md:items-center md:rounded-[37px] md:bg-cover md:bg-center md:px-[7%] md:py-[7%]"
+            className="relative flex items-end overflow-hidden rounded-[28px] bg-[length:140%_auto] bg-[position:right_55%] bg-no-repeat px-3 pb-3 pt-[330px] sm:bg-[length:125%_auto] sm:bg-[position:right_50%] sm:pt-[370px] md:min-h-[740px] md:items-center md:rounded-[37px] md:bg-cover md:bg-center md:px-[7%] md:py-[7%]"
             style={{ backgroundImage: `url(${images.heroImg})` }}
           >
             <div className="w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
