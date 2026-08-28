@@ -148,9 +148,9 @@ function Home() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="container-site pt-3 md:pt-6">
+        <section className="container-site min-h-[700px] pt-3 sm:min-h-[720px] md:min-h-[740px] md:pt-6">
           <div
-            className="relative flex min-h-[700px] items-end overflow-hidden rounded-[28px] bg-cover bg-[position:right_top] bg-no-repeat px-3 pb-3 pt-10 sm:min-h-[720px] md:min-h-[740px] md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
+            className="relative flex h-full items-end overflow-hidden rounded-[28px] bg-cover bg-[position:right_top] bg-no-repeat px-3 pb-3 pt-10 md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
             style={{ backgroundImage: `url(${images.heroImg})` }}
           >
             <img
