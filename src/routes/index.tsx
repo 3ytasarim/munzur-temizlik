@@ -169,7 +169,7 @@ function Home() {
                 temizlik firmaları arasındayız.
               </p>
 
-              <div className="mt-7 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap">
+              <div className="mt-7 flex flex-row flex-wrap items-start gap-3">
                 <Link to="/teklif-formu" className="btn-yellow">
                   Ücretsiz Teklif
                 </Link>
@@ -177,7 +177,7 @@ function Home() {
                   Hizmetlerimiz
                 </Link>
               </div>
-              <ul className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-8">
+              <ul className="mt-7 flex flex-row flex-wrap items-center gap-x-6 gap-y-3">
                 {heroBadges.map((b) => (
                   <li
                     key={b}
