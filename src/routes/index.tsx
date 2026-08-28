@@ -97,7 +97,7 @@ function Home() {
         {/* Hero */}
         <section className="container-site pt-3 md:pt-6">
           <div
-            className="relative flex min-h-[560px] items-end overflow-hidden rounded-[28px] bg-cover bg-[position:right_top] bg-no-repeat px-3 pb-3 pt-[300px] sm:pt-[340px] md:min-h-[740px] md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
+            className="relative flex items-end overflow-hidden rounded-[28px] bg-cover bg-[position:right_top] bg-no-repeat px-3 pb-3 pt-[270px] sm:pt-[320px] md:min-h-[740px] md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
             style={{ backgroundImage: `url(${images.heroImg})` }}
           >
             <div className="w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
@@ -110,7 +110,7 @@ function Home() {
                 temizlik firmaları arasındayız.
               </p>
 
-              <div className="mt-7 flex flex-wrap gap-3">
+              <div className="mt-7 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap">
                 <Link to="/teklif-formu" className="btn-yellow">
                   Ücretsiz Teklif
                 </Link>
@@ -118,7 +118,7 @@ function Home() {
                   Hizmetlerimiz
                 </Link>
               </div>
-              <ul className="mt-7 flex flex-wrap items-center gap-x-8 gap-y-3">
+              <ul className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-8">
                 {heroBadges.map((b) => (
                   <li
                     key={b}
@@ -132,7 +132,7 @@ function Home() {
             </div>
 
             {/* Google rating + avatars on a white cut-out patch, bottom right */}
-            <div className="absolute bottom-0 right-0 hidden flex-col items-end gap-2 rounded-tl-[37px] bg-white p-5 pb-6 md:flex">
+            <div className="absolute bottom-0 right-0 flex flex-col items-end gap-2 rounded-tl-[24px] bg-white p-3 pb-4 md:rounded-tl-[37px] md:p-5 md:pb-6">
               <GoogleRating />
               <div className="flex -space-x-3 rounded-full bg-white p-1 shadow-md">
                 {heroAvatars.map((a) => (
@@ -141,12 +141,13 @@ function Home() {
                     src={a}
                     alt=""
                     aria-hidden="true"
-                    className="h-10 w-10 rounded-full border-2 border-white object-cover"
+                    className="h-9 w-9 rounded-full border-2 border-white object-cover md:h-10 md:w-10"
                   />
                 ))}
               </div>
             </div>
           </div>
+
         </section>
 
         {/* Quote form */}
