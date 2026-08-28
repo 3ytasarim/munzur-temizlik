@@ -380,31 +380,11 @@ function Home() {
         <section className="container-site pb-16 md:pb-24">
           <div className="rounded-[37px] bg-soft px-6 py-16 md:px-14">
             <p className="eyebrow text-center">Temizlik Hizmetlerinde Yorumlar</p>
-            <h2 className="mx-auto mt-3 max-w-2xl text-center text-3xl leading-tight md:text-[2.5rem]">
+            <h2 className="mx-auto mt-3 max-w-2xl text-center text-[1.65rem] leading-tight md:text-[2.5rem]">
               İstanbul’da En Çok Tavsiye Edilen Temizlik Firmalarından Biriyiz
             </h2>
-            <div className="mt-12 grid gap-6 md:grid-cols-2">
-              {testimonials.slice(0, 2).map((t) => (
-                <figure key={t.name} className="rounded-[24px] bg-background p-9">
-                  <span className="font-display text-4xl leading-none text-foreground">“</span>
-                  <blockquote className="mt-5 text-[1.05rem] leading-relaxed">{t.text}</blockquote>
-                  <figcaption className="mt-8 flex items-center gap-3">
-                    <img
-                      src={t.avatar}
-                      alt={t.name}
-                      loading="lazy"
-                      className="h-12 w-12 rounded-full object-cover"
-                    />
-                    <span>
-                      <span className="block font-display text-sm font-medium uppercase tracking-wide text-foreground">
-                        {t.name}
-                      </span>
-                      <span className="block text-sm">{t.role}</span>
-                    </span>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
+            <TestimonialSlider />
+
             <div className="mt-12 flex justify-center">
               <GoogleRating />
             </div>
