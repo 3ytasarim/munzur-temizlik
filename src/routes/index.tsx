@@ -328,10 +328,13 @@ function Home() {
 
         {/* Services */}
         <section className="container-site py-16 md:py-24">
-          <p className="eyebrow mb-3">İstanbul Profesyonel Temizlik Hizmetlerimiz</p>
-          <h2 className="max-w-2xl text-3xl leading-tight md:text-[2.5rem]">
+          <p className="eyebrow mb-3 text-center md:text-left">
+            İstanbul Profesyonel Temizlik Hizmetlerimiz
+          </p>
+          <h2 className="mx-auto max-w-2xl text-center text-[1.65rem] leading-tight md:mx-0 md:text-left md:text-[2.5rem]">
             İstanbul’da Güvenilir Temizlik Hizmeti Arayanlara Özel Çözümler
           </h2>
+
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {serviceMeta.slice(0, 4).map((s) => (
               <div
