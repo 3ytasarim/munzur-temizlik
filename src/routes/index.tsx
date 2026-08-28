@@ -150,13 +150,13 @@ function Home() {
         {/* Hero */}
         <section className="container-site pt-3 md:pt-6">
           <div
-            className="relative flex items-end overflow-hidden rounded-[28px] px-3 pb-3 pt-[340px] sm:pt-[380px] md:min-h-[740px] md:items-center md:rounded-[37px] md:px-[7%] md:py-[7%]"
+            className="relative flex items-end overflow-hidden rounded-[28px] px-3 pb-3 pt-[260px] sm:pt-[300px] md:min-h-[740px] md:items-center md:rounded-[37px] md:px-[7%] md:py-[7%]"
           >
             <img
               src={images.heroImg}
               alt=""
               aria-hidden="true"
-              className="absolute inset-0 h-full w-full scale-90 object-cover object-[right_60%] sm:object-[right_55%] md:scale-100 md:object-center"
+              className="absolute inset-0 h-full w-full scale-110 object-cover object-[right_top] sm:scale-115 md:scale-100 md:object-center"
             />
             <div className="w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
               <h1 className="text-[1.6rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
