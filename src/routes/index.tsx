@@ -159,7 +159,7 @@ function Home() {
               aria-hidden="true"
               className="absolute inset-0 h-full w-full scale-100 object-cover object-right-top sm:scale-105 md:hidden"
             />
-            <div className="w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
+            <div className="relative z-10 w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
               <h1 className="text-[1.6rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
