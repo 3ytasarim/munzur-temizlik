@@ -221,9 +221,10 @@ function Home() {
             <div className="grid items-center gap-12 lg:grid-cols-2">
               <div>
                 <p className="eyebrow mb-3">Biz Kimiz?</p>
-                <h2 className="text-3xl leading-tight md:text-[2.5rem]">
+                <h2 className="text-[1.65rem] leading-tight md:text-[2.5rem]">
                   Parlayan Mekanlar İçin En Doğru Tercih: Munzur Temizlik
                 </h2>
+
                 <p className="mt-6 text-[1.02rem] leading-relaxed">
                   <strong className="font-medium text-foreground">Munzur Temizlik</strong>, İstanbul
                   genelinde profesyonel, güvenilir ve ulaşılabilir temizlik hizmeti sunma vizyonuyla
