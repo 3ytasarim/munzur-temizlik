@@ -159,25 +159,25 @@ function Home() {
               aria-hidden="true"
               className="absolute inset-0 -z-10 h-full w-full object-cover object-top md:hidden"
             />
-            <div className="relative z-10 w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
-              <h1 className="text-[1.6rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
+            <div className="relative z-10 w-full max-w-[640px] rounded-[24px] bg-soft p-5 sm:p-8 md:rounded-[30px] md:p-12">
+              <h1 className="text-[1.35rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
-              <p className="mt-4 text-[0.95rem] leading-relaxed md:mt-5 md:text-[1.02rem]">
+              <p className="mt-4 text-sm leading-relaxed md:mt-5 md:text-[1.02rem]">
                 Avrupa Yakası&apos;ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz.
                 Deneyimli kadromuz ve zamanında hizmet anlayışımızla İstanbul’un en güvenilir
                 temizlik firmaları arasındayız.
               </p>
 
-              <div className="mt-7 flex flex-row flex-wrap items-start gap-3">
-                <Link to="/teklif-formu" className="btn-yellow">
+              <div className="mt-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap">
+                <Link to="/teklif-formu" className="btn-yellow w-full sm:w-auto">
                   Ücretsiz Teklif
                 </Link>
-                <Link to="/hizmetlerimiz" className="btn-outline-dark">
+                <Link to="/hizmetlerimiz" className="btn-outline-dark w-full sm:w-auto">
                   Hizmetlerimiz
                 </Link>
               </div>
-              <ul className="mt-7 flex flex-row flex-wrap items-center gap-x-6 gap-y-3">
+              <ul className="mt-6 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-3">
                 {heroBadges.map((b) => (
                   <li
                     key={b}
