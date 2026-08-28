@@ -149,35 +149,83 @@ function Home() {
       <main>
         {/* Hero */}
         <section className="container-site pt-3 md:pt-6">
-          <div
-            className="relative flex items-end overflow-hidden rounded-[28px] bg-cover bg-[position:right_top] bg-no-repeat px-3 pb-3 pt-10 md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
-            style={{ backgroundImage: `url(${images.heroImg})`, height: '900px' }}
-          >
-            <img
-              src={images.heroImg}
-              alt=""
-              aria-hidden="true"
-              className="absolute inset-0 -z-10 h-full w-full object-cover object-top md:hidden"
-            />
-            <div className="relative z-10 w-full max-w-[640px] rounded-[24px] bg-soft p-5 sm:p-8 md:rounded-[30px] md:p-12">
-              <h1 className="text-[1.35rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
+          {/* Mobile: horizontal image strip with card overlapping from below */}
+          <div className="md:hidden">
+            <div className="h-52 overflow-hidden rounded-[24px]">
+              <img
+                src={images.heroImg}
+                alt="Munzur Temizlik profesyonel temizlik ekibi"
+                className="h-full w-full object-cover object-[50%_22%]"
+              />
+            </div>
+            <div className="relative z-10 -mt-12 rounded-[24px] bg-soft p-5 shadow-sm">
+              <h1 className="text-[1.35rem] leading-[1.18]">
                 İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
               </h1>
-              <p className="mt-4 text-sm leading-relaxed md:mt-5 md:text-[1.02rem]">
+              <p className="mt-4 text-sm leading-relaxed">
                 Avrupa Yakası&apos;ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz.
                 Deneyimli kadromuz ve zamanında hizmet anlayışımızla İstanbul’un en güvenilir
                 temizlik firmaları arasındayız.
               </p>
-
-              <div className="mt-6 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap">
-                <Link to="/teklif-formu" className="btn-yellow w-full sm:w-auto">
+              <div className="mt-6 flex flex-col items-start gap-3">
+                <Link to="/teklif-formu" className="btn-yellow w-full">
                   Ücretsiz Teklif
                 </Link>
-                <Link to="/hizmetlerimiz" className="btn-outline-dark w-full sm:w-auto">
+                <Link to="/hizmetlerimiz" className="btn-outline-dark w-full">
                   Hizmetlerimiz
                 </Link>
               </div>
-              <ul className="mt-6 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-3">
+              <ul className="mt-6 flex flex-col gap-2">
+                {heroBadges.map((b) => (
+                  <li
+                    key={b}
+                    className="flex items-center gap-2 font-display text-sm font-medium text-foreground"
+                  >
+                    <CheckCircle2 className="h-5 w-5 shrink-0 fill-primary text-white" />
+                    {b}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="mt-4 flex items-center justify-between gap-3 rounded-[20px] bg-white p-3 shadow-sm">
+              <GoogleRating />
+              <div className="flex -space-x-3">
+                {heroAvatars.map((a) => (
+                  <img
+                    key={a}
+                    src={a}
+                    alt=""
+                    aria-hidden="true"
+                    className="h-9 w-9 rounded-full border-2 border-white object-cover"
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Desktop: original background-image hero */}
+          <div
+            className="relative hidden items-center overflow-hidden rounded-[37px] bg-cover bg-center bg-no-repeat px-[7%] py-[7%] md:flex md:min-h-[740px]"
+            style={{ backgroundImage: `url(${images.heroImg})` }}
+          >
+            <div className="relative z-10 w-full max-w-[640px] rounded-[30px] bg-soft p-12">
+              <h1 className="text-[2.6rem] leading-[1.18]">
+                İstanbul’un Her Noktasına Profesyonel Temizlik Hizmeti
+              </h1>
+              <p className="mt-5 text-[1.02rem] leading-relaxed">
+                Avrupa Yakası&apos;ndan Anadolu Yakası’na kadar tüm ilçelere hizmet sağlıyoruz.
+                Deneyimli kadromuz ve zamanında hizmet anlayışımızla İstanbul’un en güvenilir
+                temizlik firmaları arasındayız.
+              </p>
+              <div className="mt-7 flex flex-wrap items-start gap-3">
+                <Link to="/teklif-formu" className="btn-yellow">
+                  Ücretsiz Teklif
+                </Link>
+                <Link to="/hizmetlerimiz" className="btn-outline-dark">
+                  Hizmetlerimiz
+                </Link>
+              </div>
+              <ul className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
                 {heroBadges.map((b) => (
                   <li
                     key={b}
@@ -191,7 +239,7 @@ function Home() {
             </div>
 
             {/* Google rating + avatars on a white cut-out patch, bottom right */}
-            <div className="absolute bottom-0 right-0 flex flex-col items-end gap-2 rounded-tl-[24px] bg-white p-3 pb-4 md:rounded-tl-[37px] md:p-5 md:pb-6">
+            <div className="absolute bottom-0 right-0 flex flex-col items-end gap-2 rounded-tl-[37px] bg-white p-5 pb-6">
               <GoogleRating />
               <div className="flex -space-x-3 rounded-full bg-white p-1 shadow-md">
                 {heroAvatars.map((a) => (
@@ -200,7 +248,7 @@ function Home() {
                     src={a}
                     alt=""
                     aria-hidden="true"
-                    className="h-9 w-9 rounded-full border-2 border-white object-cover md:h-10 md:w-10"
+                    className="h-10 w-10 rounded-full border-2 border-white object-cover"
                   />
                 ))}
               </div>
