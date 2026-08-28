@@ -74,7 +74,58 @@ import {
   stepLeafs,
 } from "@/data/home-ui";
 
+function TestimonialSlider() {
+  const [active, setActive] = useState(0);
+  const items = testimonials.slice(0, 4);
+  return (
+    <div className="mt-12">
+      <div
+        onScroll={(e) => {
+          const el = e.currentTarget;
+          setActive(Math.round(el.scrollLeft / el.clientWidth));
+        }}
+        className="-mx-1 flex snap-x snap-mandatory gap-6 overflow-x-auto scroll-smooth px-1 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0"
+      >
+        {items.map((t, i) => (
+          <figure
+            key={t.name}
+            className={`w-full shrink-0 snap-center rounded-[24px] bg-background p-7 md:p-9 ${
+              i > 1 ? "md:hidden" : ""
+            }`}
+          >
+            <span className="font-display text-4xl leading-none text-foreground">“</span>
+            <blockquote className="mt-5 text-[1.05rem] leading-relaxed">{t.text}</blockquote>
+            <figcaption className="mt-8 flex items-center gap-3">
+              <img
+                src={t.avatar}
+                alt={t.name}
+                loading="lazy"
+                className="h-12 w-12 rounded-full object-cover"
+              />
+              <span>
+                <span className="block font-display text-sm font-medium uppercase tracking-wide text-foreground">
+                  {t.name}
+                </span>
+                <span className="block text-sm">{t.role}</span>
+              </span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+      <div className="mt-6 flex justify-center gap-2 md:hidden">
+        {items.map((t, i) => (
+          <span
+            key={t.name}
+            className={`h-2 w-2 rounded-full ${i === active ? "bg-primary" : "bg-border"}`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function GoogleRating() {
+
   return (
     <div className="flex items-center gap-2 rounded-2xl bg-white px-3 py-2 shadow-md">
       <img src={starSvg} alt="" aria-hidden="true" className="h-8 w-8 shrink-0" />
