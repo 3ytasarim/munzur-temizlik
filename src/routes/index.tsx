@@ -157,7 +157,7 @@ function Home() {
         <section className="container-site py-16 md:py-24">
           <p className="eyebrow mb-3 text-center">Munzur Temizlik</p>
           <h2 className="text-center text-3xl md:text-[2.5rem]">Nasıl Çalışır?</h2>
-          <div className="mt-14 flex flex-col items-start gap-10 md:flex-row md:justify-center">
+          <div className="mt-14 flex flex-col items-center gap-10 md:flex-row md:items-start md:justify-center">
             {howItWorks.map((s, i) => (
               <div key={s.title} className="contents">
                 <div className="flex-1 text-center">
@@ -173,19 +173,45 @@ function Home() {
                     />
                   </div>
                   <h3 className="mt-8 text-xl">{s.title}</h3>
-                  <p className="mx-auto mt-3 max-w-xs text-[0.98rem] leading-relaxed">{s.text}</p>
+                  <p className="mx-auto mt-3 max-w-[250px] text-[0.98rem] leading-relaxed md:max-w-xs">
+                    {s.text}
+                  </p>
                 </div>
                 {i < howItWorks.length - 1 && (
-                  <img
-                    src={arrowIll}
-                    alt=""
-                    aria-hidden="true"
-                    className="mt-16 hidden w-32 shrink-0 self-start md:block"
-                  />
+                  <>
+                    {/* mobile: vertical arrow */}
+                    <svg
+                      aria-hidden="true"
+                      viewBox="0 0 12 80"
+                      className="h-20 w-3 shrink-0 text-primary md:hidden"
+                      fill="none"
+                    >
+                      <path
+                        d="M6 0v70"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                      />
+                      <path
+                        d="M1.5 64L6 72l4.5-8"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                    <img
+                      src={arrowIll}
+                      alt=""
+                      aria-hidden="true"
+                      className="mt-16 hidden w-32 shrink-0 self-start md:block"
+                    />
+                  </>
                 )}
               </div>
             ))}
           </div>
+
         </section>
 
 
