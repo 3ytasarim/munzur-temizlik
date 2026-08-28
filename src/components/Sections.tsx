@@ -241,9 +241,9 @@ export function QuoteSection() {
               src={images.leaf1}
               alt=""
               aria-hidden="true"
-              className="pointer-events-none absolute -bottom-6 -right-6 hidden w-40 opacity-80 sm:block"
+              className="pointer-events-none absolute -bottom-4 -right-4 w-32 opacity-80 sm:-bottom-6 sm:-right-6 sm:w-40"
             />
-            <div className="relative flex items-start gap-4">
+            <div className="relative flex flex-col items-start gap-4 sm:flex-row">
               <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
                 <Check className="h-4 w-4" />
               </span>
@@ -257,6 +257,7 @@ export function QuoteSection() {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
