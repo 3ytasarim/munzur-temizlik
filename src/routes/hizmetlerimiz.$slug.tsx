@@ -21,7 +21,7 @@ export const Route = createFileRoute("/hizmetlerimiz/$slug")({
     const { service } = loaderData;
     const description =
       service.description ||
-      service.blocks.find((b) => b.t === "p")?.v?.slice(0, 155) ||
+      service.blocks.find((b) => b.t === "p")?.v?.replace(/<[^>]+>/g, "").slice(0, 155) ||
       `${service.name} hizmeti hakkında detaylı bilgi.`;
     return {
       meta: [
