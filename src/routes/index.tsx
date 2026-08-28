@@ -151,7 +151,7 @@ function Home() {
         <section className="container-site pt-3 md:pt-6">
           <div
             className="relative flex items-end overflow-hidden rounded-[28px] bg-cover bg-[position:right_top] bg-no-repeat px-3 pb-3 pt-10 md:items-center md:rounded-[37px] md:bg-center md:px-[7%] md:py-[7%]"
-            style={{ backgroundImage: `url(${images.heroImg})`, height: '700px' }}
+            style={{ backgroundImage: `url(${images.heroImg})`, height: '760px' }}
           >
             <img
               src={images.heroImg}
