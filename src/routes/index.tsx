@@ -157,7 +157,7 @@ function Home() {
               src={images.heroImg}
               alt=""
               aria-hidden="true"
-              className="absolute inset-0 h-full w-full object-cover object-top md:hidden"
+              className="absolute inset-0 -z-10 h-full w-full object-cover object-top md:hidden"
             />
             <div className="relative z-10 w-full max-w-[640px] rounded-[24px] bg-soft p-6 sm:p-8 md:rounded-[30px] md:p-12">
               <h1 className="text-[1.6rem] leading-[1.18] sm:text-[2rem] md:text-[2.6rem]">
