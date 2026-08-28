@@ -252,9 +252,10 @@ function Home() {
                   src={images.aboutTeam}
                   alt="Munzur Temizlik ekibi"
                   loading="lazy"
-                  className="h-full w-full object-cover"
+                  className="h-[420px] w-full object-cover lg:h-full"
                 />
               </div>
+
             </div>
           </div>
         </section>
