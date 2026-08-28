@@ -45,7 +45,7 @@ function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {serviceMeta.map((s) => {
               const detail = getService(s.slug);
-              const intro = detail?.blocks.find((b) => b.t === "p")?.v ?? "";
+              const intro = (detail?.blocks.find((b) => b.t === "p")?.v ?? "").replace(/<[^>]+>/g, "");
               return (
                 <Link
                   key={s.slug}
