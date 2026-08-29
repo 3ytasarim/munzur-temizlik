@@ -14,9 +14,31 @@ export const Route = createFileRoute("/api/public/quote")({
         }
 
         const data = normalizeQuote(payload);
-        if (!data.name.trim() || !data.phone.trim()) {
+        const requiredValues = [
+          data.service,
+          data.rooms,
+          data.livingRooms,
+          data.bathrooms,
+          data.frequency,
+          data.size,
+          data.date,
+          data.time,
+          data.name,
+          data.phone,
+          data.email,
+          data.address,
+          data.province,
+          data.district,
+          data.neighborhood,
+          data.park,
+          data.flexible,
+          data.entry,
+          data.pets,
+          data.note,
+        ];
+        if (requiredValues.some((value) => !value.trim())) {
           return Response.json(
-            { ok: false, error: "Ad Soyad ve Telefon zorunludur." },
+            { ok: false, error: "Lütfen tüm zorunlu alanları doldurun." },
             { status: 400 },
           );
         }

@@ -33,6 +33,35 @@ const parkOptions = ["Site otoparkı", "Sokak / cadde", "Kapalı otopark", "Park
 const flexOptions = ["Evet, esneğim", "Hayır, belirttiğim tarih", "Kısmen esneğim"];
 const entryOptions = ["Evde olacağım", "Kapıcıdan anahtar", "Komşudan anahtar", "Diğer"];
 
+const requiredFieldsByStep = {
+  1: [
+    ["service", "Hizmetlerimiz"],
+    ["rooms", "Oda Sayısı"],
+    ["livingRooms", "Salon Sayısı"],
+    ["bathrooms", "Banyo"],
+    ["frequency", "Temizlik Sıklığı"],
+    ["size", "Metrekare"],
+    ["date", "Tarih"],
+    ["time", "Saat"],
+  ],
+  2: [
+    ["name", "Adınız Soyadınız"],
+    ["phone", "Telefon"],
+    ["email", "E-posta"],
+    ["address", "Adres Bilgileri"],
+    ["province", "İl"],
+    ["district", "İlçe"],
+    ["neighborhood", "Mahalle"],
+  ],
+  3: [
+    ["park", "Park Bilgisi"],
+    ["flexible", "Tarih ve Saat Esnekliği"],
+    ["entry", "Eve Giriş Bilgisi"],
+    ["pets", "Evcil Hayvan Bilgisi"],
+    ["note", "Ek Bilgi"],
+  ],
+} as const;
+
 const stepMeta = [
   { title: "Rezervasyon", desc: "Hizmet ve ev detayları", icon: ClipboardList },
   { title: "İletişim", desc: "Size nasıl ulaşalım?", icon: Phone },
@@ -209,6 +238,26 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) =>
     setF((prev) => ({ ...prev, [k]: v }));
 
+  const validateStep = (stepToValidate: 1 | 2 | 3) => {
+    const missing = requiredFieldsByStep[stepToValidate]
+      .filter(([key]) => !String(f[key]).trim())
+      .map(([, label]) => label);
+
+    if (missing.length > 0) {
+      setError(`Lütfen zorunlu alanları doldurun: ${missing.join(", ")}.`);
+      return false;
+    }
+
+    setError("");
+    return true;
+  };
+
+  const goToNextStep = () => {
+    if (step !== 1 && step !== 2) return;
+    if (!validateStep(step)) return;
+    setStep(step + 1);
+  };
+
   const toggleExtra = (s: string) =>
     setF((prev) => ({
       ...prev,
@@ -254,11 +303,9 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
       onSubmit={async (e) => {
         e.preventDefault();
         if (sending) return;
-        if (step < 3) {
-          setStep((s) => s + 1);
-          return;
-        }
-        setError("");
+        // Advancing between steps is handled only by the explicit "Devam" button.
+        // This guard prevents an Enter key press or a stale submit event from sending early.
+        if (step !== 3 || !validateStep(3)) return;
         setSending(true);
         try {
           const res = await postQuote(f);
@@ -551,7 +598,7 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
             </span>
           )}
           {step < 3 ? (
-            <button type="button" className="btn-green" onClick={() => setStep(step + 1)}>
+            <button type="button" className="btn-green" onClick={goToNextStep}>
               Devam <ArrowRight className="h-4 w-4" />
             </button>
           ) : (
