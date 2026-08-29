@@ -22,6 +22,7 @@ import { Route as HizmetBolgeleriIndexRouteImport } from './routes/hizmet-bolgel
 import { Route as HizmetBolgeleriSlugRouteImport } from './routes/hizmet-bolgeleri.$slug'
 import { Route as HizmetlerimizIndexRouteImport } from './routes/hizmetlerimiz.index'
 import { Route as HizmetlerimizSlugRouteImport } from './routes/hizmetlerimiz.$slug'
+import { Route as ApiPublicQuoteRouteImport } from './routes/api/public/quote'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -90,6 +91,11 @@ const HizmetlerimizSlugRoute = HizmetlerimizSlugRouteImport.update({
   path: '/hizmetlerimiz/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicQuoteRoute = ApiPublicQuoteRouteImport.update({
+  id: '/api/public/quote',
+  path: '/api/public/quote',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -105,6 +111,7 @@ export interface FileRoutesByFullPath {
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
+  '/api/public/quote': typeof ApiPublicQuoteRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -120,6 +127,7 @@ export interface FileRoutesByTo {
   '/hakkimizda': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz': typeof HizmetlerimizIndexRoute
+  '/api/public/quote': typeof ApiPublicQuoteRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -136,6 +144,7 @@ export interface FileRoutesById {
   '/hakkimizda/': typeof HakkimizdaIndexRoute
   '/hizmet-bolgeleri/': typeof HizmetBolgeleriIndexRoute
   '/hizmetlerimiz/': typeof HizmetlerimizIndexRoute
+  '/api/public/quote': typeof ApiPublicQuoteRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -153,6 +162,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/'
     | '/hizmet-bolgeleri/'
     | '/hizmetlerimiz/'
+    | '/api/public/quote'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -168,6 +178,7 @@ export interface FileRouteTypes {
     | '/hakkimizda'
     | '/hizmet-bolgeleri'
     | '/hizmetlerimiz'
+    | '/api/public/quote'
   id:
     | '__root__'
     | '/'
@@ -183,6 +194,7 @@ export interface FileRouteTypes {
     | '/hakkimizda/'
     | '/hizmet-bolgeleri/'
     | '/hizmetlerimiz/'
+    | '/api/public/quote'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -199,6 +211,7 @@ export interface RootRouteChildren {
   HakkimizdaIndexRoute: typeof HakkimizdaIndexRoute
   HizmetBolgeleriIndexRoute: typeof HizmetBolgeleriIndexRoute
   HizmetlerimizIndexRoute: typeof HizmetlerimizIndexRoute
+  ApiPublicQuoteRoute: typeof ApiPublicQuoteRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -294,6 +307,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HizmetlerimizSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/quote': {
+      id: '/api/public/quote'
+      path: '/api/public/quote'
+      fullPath: '/api/public/quote'
+      preLoaderRoute: typeof ApiPublicQuoteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -311,6 +331,7 @@ const rootRouteChildren: RootRouteChildren = {
   HakkimizdaIndexRoute: HakkimizdaIndexRoute,
   HizmetBolgeleriIndexRoute: HizmetBolgeleriIndexRoute,
   HizmetlerimizIndexRoute: HizmetlerimizIndexRoute,
+  ApiPublicQuoteRoute: ApiPublicQuoteRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

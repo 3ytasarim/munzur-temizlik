@@ -15,7 +15,7 @@ import {
 import { quoteServices, site } from "@/data/site";
 import { provinces, getDistricts, getNeighborhoods } from "@/data/locations";
 import { closeQuoteModal, useQuoteModalOpen } from "@/lib/quote-modal";
-import { submitQuote } from "@/lib/quote.functions";
+import { postQuote } from "@/lib/quote-client";
 
 
 const extraServices = [
@@ -254,18 +254,23 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
       onSubmit={async (e) => {
         e.preventDefault();
         if (sending) return;
+        if (step < 3) {
+          setStep((s) => s + 1);
+          return;
+        }
         setError("");
         setSending(true);
         try {
-          const res = await submitQuote({ data: f });
+          const res = await postQuote(f);
           if (res.ok) setSent(true);
-          else setError(res.error);
+          else setError(res.error ?? "Bir hata oluştu. Lütfen tekrar deneyin.");
         } catch {
           setError("Bağlantı hatası. Lütfen tekrar deneyin.");
         } finally {
           setSending(false);
         }
       }}
+
     >
 
       {/* Aside */}
