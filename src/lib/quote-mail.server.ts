@@ -83,7 +83,7 @@ export function buildQuoteEmail(d: QuoteSubmission) {
         { label: "Banyo Sayısı", value: d.bathrooms },
         { label: "Temizlik Sıklığı", value: d.frequency },
         { label: "Metrekare", value: d.size ? `${d.size} m²` : "" },
-        { label: "Tarih", value: d.date },
+        { label: "Tarih", value: d.date ? formatTrDate(d.date) : "" },
         { label: "Saat", value: d.time },
       ])}
 
