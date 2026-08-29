@@ -93,6 +93,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#F2D701" },
       { name: "msapplication-TileColor", content: "#F2D701" },
+      {
+        property: "og:image",
+        content:
+          "https://id-preview--192a577d-3706-4860-9ccb-864bee3954f3.lovable.app/__l5e/assets-v1/3266a20d-ed77-4c80-860c-fb6203f645a6/munzur-og-image.png",
+      },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      {
+        name: "twitter:image",
+        content:
+          "https://id-preview--192a577d-3706-4860-9ccb-864bee3954f3.lovable.app/__l5e/assets-v1/3266a20d-ed77-4c80-860c-fb6203f645a6/munzur-og-image.png",
+      },
     ],
     links: [
       {
