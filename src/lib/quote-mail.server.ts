@@ -1,4 +1,5 @@
 import type { QuoteSubmission } from "./quote-types";
+import { buildQuotePdf, quotePdfFileName } from "./quote-pdf.server";
 
 const BRAND_GREEN = "#3CA200";
 const BRAND_YELLOW = "#F2D701";
@@ -139,6 +140,7 @@ export async function sendQuoteMail(d: QuoteSubmission) {
   if (!user || !pass) throw new Error("Mail ayarları eksik (GMAIL_USER / GMAIL_APP_PASSWORD).");
 
   const { subject, html, text } = buildQuoteEmail(d);
+  const pdfBytes = await buildQuotePdf(d);
   const nodemailer = (await import("nodemailer")).default;
 
   const transporter = nodemailer.createTransport({
@@ -156,5 +158,12 @@ export async function sendQuoteMail(d: QuoteSubmission) {
     subject,
     text,
     html,
+    attachments: [
+      {
+        filename: quotePdfFileName(d),
+        content: Buffer.from(pdfBytes),
+        contentType: "application/pdf",
+      },
+    ],
   });
 }
