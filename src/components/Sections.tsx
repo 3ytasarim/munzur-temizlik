@@ -1,10 +1,10 @@
 import { Link } from "@tanstack/react-router";
-import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { Check, CheckCircle2 } from "lucide-react";
-import { submitQuote } from "@/lib/quote.functions";
+import { postQuote } from "@/lib/quote-client";
 import { images, quoteServices, site, testimonials } from "@/data/site";
 import { openQuoteModal } from "@/lib/quote-modal";
+
 
 export function PageHero({
   eyebrow,
