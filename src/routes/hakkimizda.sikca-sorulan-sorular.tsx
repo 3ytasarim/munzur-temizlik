@@ -91,9 +91,9 @@ function FaqPage() {
                   </p>
                   <a
                     href={site.phoneHref}
-                    className="mt-5 inline-flex items-center gap-3 rounded-full bg-white py-2 pl-2 pr-6 font-display text-[0.95rem] font-medium"
+                    className="mt-5 inline-flex items-center gap-3 rounded-full bg-secondary py-2 pl-2 pr-6 font-display text-[0.95rem] font-medium text-secondary-foreground"
                   >
-                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#F2D701]">
+                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-secondary-foreground/10">
                       <img src={iconPhone} alt="" aria-hidden="true" className="h-4 w-4" />
                     </span>
                     {site.phone}

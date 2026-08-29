@@ -512,10 +512,10 @@ function Home() {
                 </p>
                 <a
                   href={site.phoneHref}
-                  className="mt-6 inline-flex items-center gap-3 rounded-full bg-background py-2 pl-2 pr-6 font-display text-[0.95rem] font-medium text-foreground"
+                  className="mt-6 inline-flex items-center gap-3 rounded-full bg-secondary py-2 pl-2 pr-6 font-display text-[0.95rem] font-medium text-secondary-foreground"
                 >
-                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-secondary">
-                    <Phone className="h-4 w-4" />
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-secondary-foreground/10">
+                    <Phone className="h-4 w-4 text-secondary-foreground" />
                   </span>
                   {site.phone}
                 </a>

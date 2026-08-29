@@ -54,10 +54,10 @@ export function Sidebar({ image }: { image?: string | undefined }) {
         </h2>
         <a
           href={site.phoneHref}
-          className="mt-6 inline-flex items-center gap-3 rounded-full bg-white px-6 py-3 font-display text-sm font-semibold"
+          className="mt-6 inline-flex items-center gap-3 rounded-full bg-secondary px-6 py-3 font-display text-sm font-semibold text-secondary-foreground"
         >
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-cta">
-            <Phone className="h-4 w-4 text-foreground" />
+          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-secondary-foreground/10">
+            <Phone className="h-4 w-4 text-secondary-foreground" />
           </span>
           {site.phone}
         </a>
