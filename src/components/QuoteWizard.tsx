@@ -315,24 +315,10 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   return (
     <form
       className="flex min-h-full flex-col lg:flex-row"
-      onSubmit={async (e) => {
-        e.preventDefault();
-        if (sending) return;
-        // Advancing between steps is handled only by the explicit "Devam" button.
-        // This guard prevents an Enter key press or a stale submit event from sending early.
-        if (step !== 3 || !validateStep(3)) return;
-        setSending(true);
-        try {
-          const res = await postQuote(f);
-          if (res.ok) setSent(true);
-          else setError(res.error ?? "Bir hata oluştu. Lütfen tekrar deneyin.");
-        } catch {
-          setError("Bağlantı hatası. Lütfen tekrar deneyin.");
-        } finally {
-          setSending(false);
-        }
-      }}
-
+      // Submission happens only via the step-3 "Formu Gönder" button (submitForm).
+      // We never rely on native form submit: mobile keyboards ("go"/Enter) can fire
+      // it early while the user is still filling earlier steps.
+      onSubmit={(e) => e.preventDefault()}
     >
 
       {/* Aside */}
