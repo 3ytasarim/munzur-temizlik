@@ -91,9 +91,9 @@ export function Header() {
         <div className="flex items-center gap-2 md:gap-3">
           <a
             href={site.phoneHref}
-            className="hidden items-center gap-2.5 whitespace-nowrap rounded-full border border-border bg-background py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-foreground transition-colors hover:border-secondary xl:flex"
+            className="hidden items-center gap-2.5 whitespace-nowrap rounded-full bg-secondary py-1.5 pl-1.5 pr-5 font-display text-[0.95rem] font-medium text-secondary-foreground transition-colors hover:bg-secondary/90 xl:flex"
           >
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
+            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-secondary-foreground/10 text-secondary-foreground">
               <Phone className="h-4 w-4" />
             </span>
             {site.phone}
@@ -108,7 +108,7 @@ export function Header() {
           <a
             href={site.phoneHref}
             aria-label="Bizi arayın"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-accent xl:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-secondary text-secondary-foreground transition-colors hover:bg-secondary/90 xl:hidden"
           >
             <Phone className="h-4 w-4" />
           </a>

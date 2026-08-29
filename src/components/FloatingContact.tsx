@@ -10,7 +10,7 @@ export function FloatingContact() {
       <a
         href={site.phoneHref}
         aria-label="Telefon ile arayın"
-        className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-[0_10px_24px_-8px_rgba(16,24,40,0.5)] transition-transform hover:scale-105"
+        className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-secondary text-secondary-foreground shadow-[0_10px_24px_-8px_rgba(16,24,40,0.5)] transition-transform hover:scale-105"
       >
         <Phone className="h-6 w-6" />
       </a>
