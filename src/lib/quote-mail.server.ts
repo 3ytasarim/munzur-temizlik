@@ -34,8 +34,27 @@ function section(title: string, rows: Row[]) {
   </td></tr>`;
 }
 
+function formatTrDate(v: string) {
+  // Form date input gives YYYY-MM-DD; convert to TR format DD.MM.YYYY
+  const [y, m, d] = v.split("-");
+  if (y && m && d) return `${d}.${m}.${y}`;
+  return v;
+}
+
+function formatTrDateTime(date: Date) {
+  const s = new Intl.DateTimeFormat("tr-TR", {
+    timeZone: "Europe/Istanbul",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+  return s;
+}
+
 export function buildQuoteEmail(d: QuoteSubmission) {
-  const now = new Date().toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
+  const now = formatTrDateTime(new Date());
 
   const html = `<!doctype html>
 <html lang="tr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/></head>
@@ -64,7 +83,7 @@ export function buildQuoteEmail(d: QuoteSubmission) {
         { label: "Banyo Sayısı", value: d.bathrooms },
         { label: "Temizlik Sıklığı", value: d.frequency },
         { label: "Metrekare", value: d.size ? `${d.size} m²` : "" },
-        { label: "Tarih", value: d.date },
+        { label: "Tarih", value: d.date ? formatTrDate(d.date) : "" },
         { label: "Saat", value: d.time },
       ])}
 
@@ -100,7 +119,7 @@ export function buildQuoteEmail(d: QuoteSubmission) {
     `Oda/Salon/Banyo: ${d.rooms} / ${d.livingRooms} / ${d.bathrooms}`,
     `Sıklık: ${d.frequency}`,
     `Metrekare: ${d.size}`,
-    `Tarih/Saat: ${d.date} ${d.time}`,
+    `Tarih/Saat: ${d.date ? formatTrDate(d.date) : ""} ${d.time}`,
     `Park: ${d.park}`,
     `Esneklik: ${d.flexible}`,
     `Giriş: ${d.entry}`,
