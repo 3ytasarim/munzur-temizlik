@@ -15,7 +15,7 @@ import {
 import { quoteServices, site } from "@/data/site";
 import { provinces, getDistricts, getNeighborhoods } from "@/data/locations";
 import { closeQuoteModal, useQuoteModalOpen } from "@/lib/quote-modal";
-import { submitQuote } from "@/lib/quote.functions";
+import { postQuote } from "@/lib/quote-client";
 
 
 const extraServices = [
