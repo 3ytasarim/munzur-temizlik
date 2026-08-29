@@ -119,7 +119,7 @@ export function buildQuoteEmail(d: QuoteSubmission) {
     `Oda/Salon/Banyo: ${d.rooms} / ${d.livingRooms} / ${d.bathrooms}`,
     `Sıklık: ${d.frequency}`,
     `Metrekare: ${d.size}`,
-    `Tarih/Saat: ${d.date} ${d.time}`,
+    `Tarih/Saat: ${d.date ? formatTrDate(d.date) : ""} ${d.time}`,
     `Park: ${d.park}`,
     `Esneklik: ${d.flexible}`,
     `Giriş: ${d.entry}`,
