@@ -34,7 +34,7 @@ export function PageHero({
             <button type="button" onClick={openQuoteModal} className="btn-yellow">
               Ücretsiz Teklif Al
             </button>
-            <a href={site.phoneHref} className="btn-outline-dark">
+            <a href={site.phoneHref} className="btn-yellow">
               {site.phone}
             </a>
           </div>
