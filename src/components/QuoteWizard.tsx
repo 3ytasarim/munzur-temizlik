@@ -603,7 +603,12 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
               Devam <ArrowRight className="h-4 w-4" />
             </button>
           ) : (
-            <button type="submit" className="btn-yellow disabled:opacity-60" disabled={sending}>
+            <button
+              type="button"
+              className="btn-yellow disabled:opacity-60"
+              disabled={sending}
+              onClick={submitForm}
+            >
               {sending ? "Gönderiliyor..." : "Formu Gönder"} <Send className="h-4 w-4" />
             </button>
           )}
