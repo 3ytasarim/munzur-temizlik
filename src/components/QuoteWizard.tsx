@@ -258,6 +258,21 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
     setStep(step + 1);
   };
 
+  const submitForm = async () => {
+    if (sending || step !== 3) return;
+    if (!validateStep(3)) return;
+    setSending(true);
+    try {
+      const res = await postQuote(f);
+      if (res.ok) setSent(true);
+      else setError(res.error ?? "Bir hata oluştu. Lütfen tekrar deneyin.");
+    } catch {
+      setError("Bağlantı hatası. Lütfen tekrar deneyin.");
+    } finally {
+      setSending(false);
+    }
+  };
+
   const toggleExtra = (s: string) =>
     setF((prev) => ({
       ...prev,
@@ -300,24 +315,10 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
   return (
     <form
       className="flex min-h-full flex-col lg:flex-row"
-      onSubmit={async (e) => {
-        e.preventDefault();
-        if (sending) return;
-        // Advancing between steps is handled only by the explicit "Devam" button.
-        // This guard prevents an Enter key press or a stale submit event from sending early.
-        if (step !== 3 || !validateStep(3)) return;
-        setSending(true);
-        try {
-          const res = await postQuote(f);
-          if (res.ok) setSent(true);
-          else setError(res.error ?? "Bir hata oluştu. Lütfen tekrar deneyin.");
-        } catch {
-          setError("Bağlantı hatası. Lütfen tekrar deneyin.");
-        } finally {
-          setSending(false);
-        }
-      }}
-
+      // Submission happens only via the step-3 "Formu Gönder" button (submitForm).
+      // We never rely on native form submit: mobile keyboards ("go"/Enter) can fire
+      // it early while the user is still filling earlier steps.
+      onSubmit={(e) => e.preventDefault()}
     >
 
       {/* Aside */}
@@ -602,7 +603,12 @@ export function QuoteWizard({ onClose }: { onClose?: () => void }) {
               Devam <ArrowRight className="h-4 w-4" />
             </button>
           ) : (
-            <button type="submit" className="btn-yellow disabled:opacity-60" disabled={sending}>
+            <button
+              type="button"
+              className="btn-yellow disabled:opacity-60"
+              disabled={sending}
+              onClick={submitForm}
+            >
               {sending ? "Gönderiliyor..." : "Formu Gönder"} <Send className="h-4 w-4" />
             </button>
           )}
