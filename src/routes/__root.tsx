@@ -96,14 +96,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:image",
         content:
-          "https://id-preview--192a577d-3706-4860-9ccb-864bee3954f3.lovable.app/__l5e/assets-v1/8d2d4b58-836b-4913-b4b4-2238ff493042/munzur-og.png",
+          "https://id-preview--192a577d-3706-4860-9ccb-864bee3954f3.lovable.app/__l5e/assets-v1/d6536019-82fa-4602-b517-90a7d53a53f1/munzur-og.png",
       },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       {
         name: "twitter:image",
         content:
-          "https://id-preview--192a577d-3706-4860-9ccb-864bee3954f3.lovable.app/__l5e/assets-v1/8d2d4b58-836b-4913-b4b4-2238ff493042/munzur-og.png",
+          "https://id-preview--192a577d-3706-4860-9ccb-864bee3954f3.lovable.app/__l5e/assets-v1/d6536019-82fa-4602-b517-90a7d53a53f1/munzur-og.png",
       },
     ],
     links: [
